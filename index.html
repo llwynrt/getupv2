@@ -51,7 +51,7 @@
                 
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="padding-right:0px;">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
                         <a href="#">A Propos</a>
@@ -69,7 +69,7 @@
                         <a href="#">Contact</a>
                     </li>
                     <li id="participer">
-                        <a href="#">Participer<br><span class="lower">à une session GetUP</span></a>
+                        <a href="#">Participer<br /><span class="lower">à une session GetUP</span></a>
                     </li>
                 </ul>
             </div>
@@ -92,12 +92,12 @@
 				<p class="chapeau">Nous vous proposons de cristaliser votre model business, 
 				créer votre site, le tester, identifier le profil de vos premiers clients 
 				et se lancer sur le marché, au bout d'une semaine seulement.</p>
-				<a href="#decouvrir"><button class="blue">Découvrir GetUP</button></a>
+				<div class="button blue"><a href="#decouvrir">Découvrir GetUP</a></div>
 			</div> 
         	<aside class="col-md-3 col-md-offset-1 col-sm-4  text-center">
 				<h3>Session mars : -20% sur les préventes</h3>
-				Profitez d'un tarif Early bird pour toute inscription avant le 31 janvier.<br>
-				<button class="white">J'en profite !</button>
+				Profitez d'un tarif Early bird pour toute inscription avant le 31 janvier.<br />
+				<div class="button white"><a href="#">J'en profite !</a></div>
 			</aside>
 		</section>
 		<!-- /.row -->
@@ -125,7 +125,7 @@
 				        Je réalise mon site web avec les intervenants.
 				  	</li>
 				</ul>
-				<a href="#sessions"><button class="blue">Participer</button></a>
+				<div class="button blue"><a href="#sessions">Participer</a></div>
 			</div>
 		</section>
       	<!-- /.row -->
@@ -139,20 +139,20 @@
 				<div class="row">
 					<div class="col-md-6 session">
 						<img src="images/chateau.jpg" alt="">
-						<div class="liseret">
-							Du 25 au 29 janvier 2016
+						<div class="liseret"><p>
+							Du 25 au 29 janvier 2016</p>
 						</div>
 						<div class="row detail vert">
 							<div class="col-sm-9 col-ms-8 description">
 								<h3>GetUP Green web</h3>
 								<h4>Création de votre site vitrine éco-responsable</h4>
-								Cette session GetUp vous permettra de réaliser votre site web vitrine éco-responsable.
-								Le site sera réalisé en suivant les pratiques d'éco-conception web ("GreenIT").
+								<p>Cette session GetUp vous permettra de réaliser votre site web vitrine éco-responsable.
+								Le site sera réalisé en suivant les pratiques d'éco-conception web ("GreenIT").</p>
 							</div>
 				
 							<div class="col-sm-3 col-ms-4 tarif">
-								<span class="prix">Prix libre</span><br>
-								Les inscriptions suivent la règle des enchères.
+								<p><span class="prix">Prix libre</span><br />
+								Les inscriptions suivent la règle des enchères.</p>
 							</div>
 						</div>
 					</div>
@@ -161,24 +161,24 @@
 					<div class="col-md-6 session">
 						<img src="images/chateau.jpg" alt="">
 						<div class="liseret">
-							Du 7 au 11 mars 2016
+							<p>Du 7 au 11 mars 2016</p>
 						</div>
 						<div class="row detail rouge">
 							<div class="col-sm-9 col-ms-8 description">
 								<h3>GetUP e-commerce</h3>
 								<h4>Création de votre site avec Prestashop</h4>
-								Venez passer une semaine sur le site exceptionnel du château de Briançon pour réaliser votre site e-commerce avec une équipe d'experts
+								<p>Venez passer une semaine sur le site exceptionnel du château de Briançon pour réaliser votre site e-commerce avec une équipe d'experts</p>
 							</div>
 						
 							<div class="col-sm-3 col-ms-4 tarif">
 								
-								Early Bird<br>
-								jusqu'au 31 janvier 2016
+								<p>Early Bird<br />
+								jusqu'au 31 janvier 2016</p>
 							</div>
 						</div>
 					</div>
 				</div>
-				<button class="red">Voir toutes les sessions</button>
+				<div class="button red"><a href="#">Voir toutes les sessions</a></div>
 			</div>
       	</section>
       	<!-- /.row -->
@@ -190,60 +190,64 @@
 		</section>
 		<!-- /.row -->
 
-		<div class="row" id="footer" style="padding-top:40px;">
-			<div class="col-md-3 text-center">
-				<img src="images/logo-getup-v2_sm-inv.png">
+		<div class="row" id="footer">
+			<div class="col-md-3 text-center" id="logo">
+				<img src="images/logo-getup-v2_sm-inv.png" alt="">
 			</div>
-			<div class="col-md-5 text-left">
-				<div class="col-lg-12">
-					<div style="-webkit-columns: 2;-moz-columns: 2;columns: 2;">
+			<div class="col-md-5 text-left" style="color:white;">
+				
+				<div class="row">
+					<div  id="menu" class="col-lg-12">
+						<div>
+							<ul>
+								<li>A propos</li>
+								<li>La méthode</li>
+								<li>Le concept</li>
+								<li>Il parlent de nous</li>
+							</ul>
+							<ul>
+								<li>Sessions</li>
+								<li>E-commerce</li>
+								<li>Site vitrine</li>
+								<li>E-commerce prestige</li>
+							</ul>
+							<ul>
+								<li>Agenda</li>
+							</ul>
+							<ul>
+								<li>Organiser</li>
+								<li>Créer une session</li>
+								<li>Intervenir</li>
+								<li>Suggérer une session</li>
+								<li>Améliorer GetUP</li>
+							</ul>
+							<ul>
+								<li>Contact</li>
+							</ul>
+						</div>
+					</div>
+
+					<div id="reseaux" class="col-lg-12 text-center">
+						Rejoignez-nous 
 						<ul>
-							<li>A propos</li>
-							<li>La méthode</li>
-							<li>Le concept</li>
-							<li>Il parlent de nous</li>
-						</ul>
-						<ul>
-							<li>Sessions</li>
-							<li>E-commerce</li>
-							<li>Site vitrine</li>
-							<li>E-commerce prestige</li>
-						</ul>
-						<ul>
-							<li>Agenda</li>
-						</ul>
-						<ul>
-							<li>Organiser</li>
-							<li>Créer une session</li>
-							<li>Intervenir</li>
-							<li>Suggérer une session</li>
-							<li>Améliorer GetUP</li>
-						</ul>
-						<ul>
-							<li>Contact</li>
+							<li>
+								<a href="https://twitter.com/GetUpBiz">
+									<img src="images/picto_twitter.png" alt="Twitter">
+								</a>
+							</li>
+							<li>
+								<a href="https://www.facebook.com/getupbiz/">
+									<img src="images/picto_facebook.png" alt="Page Facebook">
+								</a>
+							</li>
 						</ul>
 					</div>
 				</div>
-				<div class="col-lg-12 text-center" style="font-weight:bold;text-transform:uppercase;color:white;margin-top:20px;">
-					Rejoignez-nous 
-					<ul style="margin:auto;width:120px;padding:0px">
-						<li style="margin:15px;display:inline-block;">
-							<a href="https://twitter.com/GetUpBiz">
-								<img src="images/picto_twitter.png">
-							</a>
-						</li>
-						<li style="margin:15px;display:inline-block;">
-							<a href="https://www.facebook.com/getupbiz/">
-								<img src="images/picto_facebook.png">
-							</a>
-						</li>
-					</ul>
-				</div>
 			</div>
-			<div class="col-md-4 text-center" style="color:white;">
+			<div class="col-md-4 text-center">
 				<div class="row">
 					<div id="twitter" class="col-md-offset-1 col-md-10 col-sm-offset-2 col-sm-8 col-ms-offset-1 col-ms-10">
-						<h2 style="color:#43B8CA;">Suivez notre aventure !</h2>
+						<h2>Suivez notre aventure !</h2>
 						<a class="twitter-timeline"  href="https://twitter.com/hashtag/GetUpBiz" data-widget-id="641631327851315200" data-chrome="noheader transparent">
 							Tweets sur #GetUpBiz
 						</a>
@@ -262,7 +266,7 @@
 				© GetUP 2016
 			</div>
 			<div class="col-sm-6 col-ms-8 text-center">
-				<ul><li><a href="mentions.html">Mentions Légales</a></li>|<li><a href="plan.html">Plan du site</a></li></ul>
+				<ul><li><a href="mentions.html">Mentions Légales</a></li></ul>
 			</div>
 		</div>
 		<!-- /.row -->
@@ -270,13 +274,27 @@
     </div>
     <!-- /.container -->
 
-    <!-- jQuery Version 1.11.1 -->
-    <script src="js/jquery.js"></script>
-
+  	<!-- CDN jQuery -->
+	<script src="js/jquery.js"></script>
     <!-- Bootstrap Core JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" crossorigin="anonymous">
 	</script>
 	
+	<script>
+	//défilement doux
+		$(function () {
+			$('.button>a').on('click', function(e) {
+				e.preventDefault();
+				var hash = this.hash;
+				$('html, body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 1000, function(){
+					window.location.hash = hash;
+				});
+			});
+		});
+	</script>
+
 </body>
 
 </html>
