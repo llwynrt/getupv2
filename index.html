@@ -7,16 +7,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Marie-Lyse Briffaud">
 
     <title>GetUP - Run your business</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrap_ms.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
+	<link href="css/bootstrap_ms.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/style.css" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="favicon.png" />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -29,9 +31,13 @@
 
 <body>
 	
-	<a id="home" href="#"><img src="images/logo-getup-v2_xs.png" ><h1 style="display:none;">GetUP : Run your business</h1></a>
+	<div class="hidden-ms hidden-xs">
+		<a id="home" href="#"><img src="images/logo-getup-v2_xs.png" alt="logo">
+			<h1 style="display:none;">GetUP : Run your business</h1>
+		</a>
+	</div>
     <!-- Navigation -->
-    <nav class="navbar navbar-default" role="navigation">
+    <nav class="navbar navbar-default">
         <div class="container-fluid">
 
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -45,7 +51,7 @@
                 
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="padding-right:0px;">
                 <ul class="nav navbar-nav">
                     <li>
                         <a href="#">A Propos</a>
@@ -75,13 +81,13 @@
     <!-- Page Content -->
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-lg-12 text-center" id="banniere">
+			<div class="col-lg-12" id="banniere">
 			</div>
 		</div>
 		<!-- /.row -->
        
 		<section class="row">
-    	  	<div class="col-md-8 col-sm-8 " id="presentation">
+    	  	<div class="col-md-8 col-sm-8" id="presentation">
 				<h2>Vous lancez votre entreprise ?</h2>
 				<p class="chapeau">Nous vous proposons de cristaliser votre model business, 
 				créer votre site, le tester, identifier le profil de vos premiers clients 
@@ -114,6 +120,8 @@
 							Je réalise mon cahier des charges avec des outils simples.
 						</div>
 					</div>
+				</div>
+				<div class="row text-left clearfix">
 					<div class="col-sm-6">
 						<div id="design">
 							<h3>Un design personnalisé</h3>
@@ -137,54 +145,44 @@
 				<p class="chapeau">
 				Nous vous proposons de cristaliser votre model business, créer votre site.</p>
 
-				<div class="row" style="margin-top:20px;">
-					<div class="col-lg-6" style="display:table;">
-						<div class="session">
-							<img src="images/chateau.jpg">
-							<div class="detail">
-								<div class="liseret">
-									Du 25 au 29 janvier 2016
-								</div>
-								<div style="display:table-row;height: 100%;">
-									<div class="col-xs-9 col-ms-12 description">
-
-										<h3>GetUP Green web</h3>
-										<h4>Création de votre site vitrine éco-responsable</h4>
-										Cette session GetUp vous permettra de réaliser votre site web vitrine éco-responsable.
-										Le site sera réalisé en suivant les pratiques d'éco-conception web ("GreenIT").
-
-									</div>
-								
-									<div class="col-xs-3 col-ms-12 tarif vert">
-										<span class="prix">Prix libre</span><br>
-										Les inscriptions suivent la règle des enchères.
-									</div>
-								</div>
+				<div class="row">
+					<div class="col-md-6 session">
+						<img src="images/chateau.jpg" alt="">
+						<div class="liseret">
+							Du 25 au 29 janvier 2016
+						</div>
+						<div class="row detail vert">
+							<div class="col-sm-9 col-ms-8 description">
+								<h3>GetUP Green web</h3>
+								<h4>Création de votre site vitrine éco-responsable</h4>
+								Cette session GetUp vous permettra de réaliser votre site web vitrine éco-responsable.
+								Le site sera réalisé en suivant les pratiques d'éco-conception web ("GreenIT").
+							</div>
+				
+							<div class="col-sm-3 col-ms-4 tarif">
+								<span class="prix">Prix libre</span><br>
+								Les inscriptions suivent la règle des enchères.
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-6" style="display:table;">
-						<div class="session">
-							<img src="images/chateau.jpg">
-							<div class="detail">
-								<div class="liseret">
-									Du 7 au 11 mars 2016
-								</div>
-								<div style="display:table-row;height: 100%;">
-									<div class="col-xs-9 description">
 
-										<h3>GetUP e-commerce</h3>
-										<h4>Création de votre site avec Prestashop</h4>
 
-										Venez passer une semaine sur le site exceptionnel du château de Briançon pour réaliser votre site e-commerce avec une équipe d'experts
-									</div>
+					<div class="col-md-6 session">
+						<img src="images/chateau.jpg" alt="">
+						<div class="liseret">
+							Du 7 au 11 mars 2016
+						</div>
+						<div class="row detail rouge">
+							<div class="col-sm-9 col-ms-8 description">
+								<h3>GetUP e-commerce</h3>
+								<h4>Création de votre site avec Prestashop</h4>
+								Venez passer une semaine sur le site exceptionnel du château de Briançon pour réaliser votre site e-commerce avec une équipe d'experts
+							</div>
+						
+							<div class="col-sm-3 col-ms-4 tarif">
 								
-									<div class="col-xs-3 tarif rouge">
-										<span class="prix">8960€</span><br>
-										Early Bird<br>
-										jusqu'au 31 janvier 2016
-									</div>
-								</div>
+								Early Bird<br>
+								jusqu'au 31 janvier 2016
 							</div>
 						</div>
 					</div>
@@ -196,14 +194,14 @@
 
       	<section class="row">
       		<div class="col-lg-12 text-center">
-				Partenaires
+				<h2>Partenaires</h2>
 			</div>
 		</section>
 		<!-- /.row -->
 
 		<div class="row">
 			<div class="col-lg-12 text-center">
-				Pied de page
+				<h2>Pied de page</h2>
 			</div>
 		</div>
 		<!-- /.row -->
@@ -215,8 +213,8 @@
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous">
+	</script>
 </body>
 
 </html>
