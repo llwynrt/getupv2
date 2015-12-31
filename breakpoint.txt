@@ -1,0 +1,5 @@
+› 	xs 	< 480 px
+› 	ms	= 480 px	< 768 pixels	( Smartphone )
+› 	sm	= 768 px & < 992 px	( Tablette )
+› 	md 	= 992 px & < 1200 px 	( Petit écran )
+› 	lg 	= 1200 px 	( Ecran standard )
