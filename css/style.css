@@ -300,3 +300,28 @@ Sessions
 	font-size:1.8em;
 	font-weight:bold;
 }
+
+
+
+#footer{background-color:#173350;}
+#footer ul {text-align:left;}
+#footer li{color:#42B9CB;display:block;text-transform:uppercase;}
+#footer li:first-child{color:white;font-weight:bold;}
+
+@media screen and (max-width:479px){
+#footer ul{padding-left:0px;}
+}
+@media screen and (max-width:991px){
+
+#twitter{margin-bottom:40px;}
+}
+#twitter{background-color:#08192B;border-radius:20px;position:relative;top:-60px;}
+@media screen and (max-width:992px){
+#twitter{position:relative;top:0px;}
+}
+#liens {background-color:#08192B;padding:20px 0px;}
+#liens ul{padding-left:0px;}
+#liens li{display:inline-block;margin:0px 20px;}
+#liens a{color:white;}
+
+#liens div:first-child{color:#495462;text-transform:uppercase;font-weight:bold;}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
 
@@ -12,8 +12,8 @@
     <title>GetUP - Run your business</title>
 
     <!-- Bootstrap Core CSS -->
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
-	<link href="css/bootstrap_ms.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+	<link href="css/bootstrap_ms.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/style.css" rel="stylesheet">
@@ -32,7 +32,7 @@
 <body>
 	
 	<div class="hidden-ms hidden-xs">
-		<a id="home" href="#"><img src="images/logo-getup-v2_xs.png" alt="logo">
+		<a id="home" href="#"><img src="images/logo-getup-v2_xs.png" alt="">
 			<h1 style="display:none;">GetUP : Run your business</h1>
 		</a>
 	</div>
@@ -59,10 +59,10 @@
                     <li>
                         <a href="#">Sessions</a>
                     </li>
-                     <li>
+                    <li>
                         <a href="#">Agenda</a>
                     </li>
-                   <li>
+                   	<li>
                         <a href="#">Organiser</a>
                     </li>
                     <li>
@@ -92,7 +92,7 @@
 				<p class="chapeau">Nous vous proposons de cristaliser votre model business, 
 				créer votre site, le tester, identifier le profil de vos premiers clients 
 				et se lancer sur le marché, au bout d'une semaine seulement.</p>
-				<button class="blue">Découvrir GetUP</button>
+				<a href="#decouvrir"><button class="blue">Découvrir GetUP</button></a>
 			</div> 
         	<aside class="col-md-3 col-md-offset-1 col-sm-4  text-center">
 				<h3>Session mars : -20% sur les préventes</h3>
@@ -102,44 +102,35 @@
 		</section>
 		<!-- /.row -->
 
-      	<section class="row">
+      	<section class="row" id="decouvrir">
       		<div class="col-lg-12 text-center">
 				<h2>Ce que j'obtiens avec GetUP</h2>
 				<p class="chapeau">
 				Nous vous proposons de cristaliser votre model business, créer votre site.</p>
-				<div class="row text-left">
-					<div class="col-sm-6">
-						<div class="carre" id="business">
-							<h3>Un business model canvas</h3>
-							Je réalise avec le groupe mon business model canvas.
-						</div>
-					</div>
-					<div class="col-sm-6">
-						<div class="carre" id="cdc">
-							<h3>Un cahier des charges</h3>
-							Je réalise mon cahier des charges avec des outils simples.
-						</div>
-					</div>
-				</div>
-				<div class="row text-left clearfix">
-					<div class="col-sm-6">
-						<div class="carre" id="design">
-							<h3>Un design personnalisé</h3>
-							Je réalise une charte graphique adaptée à mes besoins.
-						</div>
-					</div>
-					<div class="col-sm-6">
-						<div class="carre" id="mobile">
-							<h3>Un site dynamique</h3>
-							Je réalise mon site web avec les intervenants.
-						</div>
-					</div>
-				</div>
+				<ul class="flex-container">
+				  	<li class="flex-item carre" id="business">
+				    	<h3>Un business model canvas</h3>
+				     	Je réalise avec le groupe mon business model canvas.
+				  	</li>
+				 	<li class="flex-item carre" id="cdc">
+				        <h3>Un cahier des charges</h3>
+				        Je réalise mon cahier des charges avec des outils simples.
+				  	</li>
+				  	<li class="flex-item carre" id="design">
+				        <h3>Un design personnalisé</h3>
+				        Je réalise une charte graphique adaptée à mes besoins.
+				  	</li>
+				  	<li class="flex-item carre" id="mobile"> 
+					    <h3>Un site dynamique</h3>
+				        Je réalise mon site web avec les intervenants.
+				  	</li>
+				</ul>
+				<a href="#sessions"><button class="blue">Participer</button></a>
 			</div>
 		</section>
       	<!-- /.row -->
 
-      	<section class="row">
+      	<section class="row" id="sessions">
       		<div class="col-lg-12 text-center">
 				<h2>Les prochaines sessions GetUP</h2>
 				<p class="chapeau">
@@ -199,9 +190,79 @@
 		</section>
 		<!-- /.row -->
 
-		<div class="row">
-			<div class="col-lg-12 text-center">
-				<h2>Pied de page</h2>
+		<div class="row" id="footer" style="padding-top:40px;">
+			<div class="col-md-3 text-center">
+				<img src="images/logo-getup-v2_sm-inv.png">
+			</div>
+			<div class="col-md-5 text-left">
+				<div class="col-lg-12">
+					<div style="-webkit-columns: 2;-moz-columns: 2;columns: 2;">
+						<ul>
+							<li>A propos</li>
+							<li>La méthode</li>
+							<li>Le concept</li>
+							<li>Il parlent de nous</li>
+						</ul>
+						<ul>
+							<li>Sessions</li>
+							<li>E-commerce</li>
+							<li>Site vitrine</li>
+							<li>E-commerce prestige</li>
+						</ul>
+						<ul>
+							<li>Agenda</li>
+						</ul>
+						<ul>
+							<li>Organiser</li>
+							<li>Créer une session</li>
+							<li>Intervenir</li>
+							<li>Suggérer une session</li>
+							<li>Améliorer GetUP</li>
+						</ul>
+						<ul>
+							<li>Contact</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-12 text-center" style="font-weight:bold;text-transform:uppercase;color:white;margin-top:20px;">
+					Rejoignez-nous 
+					<ul style="margin:auto;width:120px;padding:0px">
+						<li style="margin:15px;display:inline-block;">
+							<a href="https://twitter.com/GetUpBiz">
+								<img src="images/picto_twitter.png">
+							</a>
+						</li>
+						<li style="margin:15px;display:inline-block;">
+							<a href="https://www.facebook.com/getupbiz/">
+								<img src="images/picto_facebook.png">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-4 text-center" style="color:white;">
+				<div class="row">
+					<div id="twitter" class="col-md-offset-1 col-md-10 col-sm-offset-2 col-sm-8 col-ms-offset-1 col-ms-10">
+						<h2 style="color:#43B8CA;">Suivez notre aventure !</h2>
+						<a class="twitter-timeline"  href="https://twitter.com/hashtag/GetUpBiz" data-widget-id="641631327851315200" data-chrome="noheader transparent">
+							Tweets sur #GetUpBiz
+						</a>
+						<script>
+							!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+						</script>
+          
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /.row -->
+
+		<div class="row" id="liens">
+			<div class="col-sm-3 col-ms-2 text-center">
+				© GetUP 2016
+			</div>
+			<div class="col-sm-6 col-ms-8 text-center">
+				<ul><li><a href="mentions.html">Mentions Légales</a></li>|<li><a href="plan.html">Plan du site</a></li></ul>
 			</div>
 		</div>
 		<!-- /.row -->
@@ -213,8 +274,9 @@
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" crossorigin="anonymous">
 	</script>
+	
 </body>
 
 </html>
