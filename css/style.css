@@ -1,0 +1,230 @@
+.container-fluid{margin:0px 20px;}
+
+/************************************************************
+header
+************************************************************/
+nav{
+margin-top:-120px;margin-left:300px;
+}
+
+@media screen and (min-width:1338px) {
+	nav li {
+		margin:0px 20px;
+	}
+}
+
+
+.navbar-default .navbar-nav li a {
+	color:#173350;	
+	text-transform: uppercase;
+	font-weight:bold;
+
+}
+
+.navbar-default .navbar-nav li:nth-child(-n+5){
+margin-top:10px;
+margin-bottom:-10px;
+}
+
+.navbar {
+	margin-bottom: 0px;
+}
+
+#home{
+display:inline-block;height:120px;position:relative;left:100px;z-index:10;background-color:#42b9cb;box-shadow :  1px 1px 12px #555;
+}
+
+#participer {
+background-color:#E8515F;margin-bottom:-2px;
+}
+
+#participer a {
+color:#FFFFFF;text-align:center;
+}
+
+.lower{
+text-transform:lowercase;
+}
+
+#banniere{
+	background: #42b9cb url(../images/logo-getup-v2_sm.png) no-repeat center center;/*bleu clair*/
+	height:300px;
+}
+
+/************************************************************
+
+************************************************************/
+h1,h2,h3 {
+	font-weight:bold;
+
+}
+
+h1,h2,h3{
+	color:#173350;/*bleu*/
+}
+
+.chapeau{ 
+font-size: 1.5em;
+}
+
+section {
+	padding : 20px; 
+}
+
+section:nth-child(2n+3) {
+	background-color: #f0f0f0; /*gris*/
+}
+
+/************************************************************
+
+************************************************************/
+@media screen and (min-width: 786px){
+	aside{
+	position:relative; 
+	top: -75px;
+	}	
+}
+aside {
+	
+	background-color:#F0B140;/*jaune*/
+	border-radius: 20px;
+	padding:10px;
+	color:white;
+}
+
+aside h3 { 
+	color:white;
+}
+
+/************************************************************
+boutons
+************************************************************/
+button {
+	border-radius: 20px;
+	padding: 10px 30px;
+	text-transform: uppercase;
+	background-color:transparent;
+	font-weight:bold;
+	margin:10px;
+	font-size: 1.2em;
+}
+
+.blue {
+	border:2px solid #173350;color:#173350;
+}
+
+.white {
+	border:2px solid white;color:white;
+}
+.red {
+	border:2px solid #E85865;color:#E85865;
+}
+
+/************************************************************
+
+************************************************************/
+
+#business, #cdc, #design, #dynamique {
+	border-radius: 10px;
+	background-color :#FFFFFF;
+	margin :20px 10px;
+	padding:30px;
+	min-height:160px;
+	padding-left:160px;
+	background-color: white;
+	background-repeat:no-repeat;
+	background-position: 30px center;
+	color:#173350;/*bleu*/
+}
+
+@media screen and (max-width: 500px){
+#business, #cdc, #design, #dynamique {
+	padding:30px;
+	padding-top:140px;
+	background-position: center 30px;
+}
+}
+
+
+
+#business{
+	background-image:url(../images/bmc_100.png);
+}
+
+#cdc{
+	background-image:url(../images/cdc_100.png);
+}
+
+#design{
+	background-image:url(../images/design_100.png);
+}
+
+#dynamique{
+	background-image:url(../images/mobile_100.png);
+}
+
+
+.session{
+	border-radius:20px;
+}
+
+.session img{
+	width:100%;
+	border-top-right-radius:20px;
+	border-top-left-radius:20px;
+
+}
+
+.session .detail {
+	position:relative;top:-30px;
+}
+
+.session .liseret{
+	background-color: rgba(0, 0, 0, 0.7);
+	color:white;
+	font-weight:bold;
+	padding:5px 10px;
+	text-align:left;
+}
+
+.session .description {
+	background-color:#f0f0f0;
+	height:100%;
+	display:table-cell;
+	float: none;
+	border-bottom-left-radius:20px;
+	text-align:left;
+	color:#173350;
+	padding:20px;
+	padding-top:10px;
+}
+
+.session .tarif{
+	background-color:#44AB85;
+	height:100%;
+	display:table-cell;
+	float: none;
+	border-bottom-right-radius:20px;
+	color:white;
+	padding-bottom:15px;
+}
+
+@media screen and (max-width: 480px){
+	.session .description, .session .tarif{
+
+	display:block;
+}
+}
+
+.session .vert{
+	background-color:#44AB85;
+}
+
+.session .rouge{
+	background-color:#E85865;
+}
+
+.session .prix{
+	font-size:1.8em;
+	font-weight:bold;
+}

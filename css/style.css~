@@ -1,0 +1,145 @@
+.container-fluid{margin:0px 20px;}
+
+/************************************************************
+header
+************************************************************/
+nav{
+margin-top:-120px;margin-left:300px;
+}
+
+@media screen and (min-width:1338px) {
+	nav li {
+		margin:0px 20px;
+	}
+}
+
+
+.navbar-default .navbar-nav li a {
+	color:#173350;	
+	text-transform: uppercase;
+	font-weight:bold;
+
+}
+
+.navbar-default .navbar-nav li:nth-child(-n+5){
+margin-top:10px;
+margin-bottom:-10px;
+}
+
+.navbar {
+	margin-bottom: 0px;
+}
+
+#home{
+display:inline-block;height:120px;position:relative;left:100px;z-index:10;background-color:#42b9cb;box-shadow :  1px 1px 12px #555;
+}
+
+#participer {
+background-color:#E8515F;margin-bottom:-2px;
+}
+
+#participer a {
+color:#FFFFFF;text-align:center;
+}
+
+.lower{
+text-transform:lowercase;
+}
+
+#banniere{
+	background: #42b9cb url(../images/logo-getup-v2_sm.png) no-repeat center center;
+	height:300px;
+}
+
+/************************************************************
+
+************************************************************/
+h1,h2,h3 {
+	font-weight:bold;
+
+}
+
+h1,h2,h3{
+	color:#173350;
+}
+
+section {
+	padding : 20px; 
+}
+
+section:nth-child(2n+3) {
+	background-color: #f0f0f0; 
+}
+
+/************************************************************
+
+************************************************************/
+aside {
+position:relative; 
+top: -75px;
+background-color:#F0B140;
+border-radius: 20px;
+padding:10px;
+color:white;
+}
+
+aside h3 { 
+	color:white;
+}
+
+/************************************************************
+boutons
+************************************************************/
+button {
+	border-radius: 20px;
+
+	padding: 10px 20px;
+	text-transform: uppercase;
+	background-color:transparent;
+	font-weight:bold;
+	margin:10px;
+}
+
+.blue {
+border:2px solid #173350;color:#173350;
+}
+
+.white {
+border:2px solid white;
+}
+
+/************************************************************
+
+************************************************************/
+#business, #cdc, #design, #dynamique {
+	border-radius: 10px;
+	background-color :#FFFFFF;
+	margin :20px 10px;
+	padding:30px;
+	min-height:160px;
+	padding-left:160px;
+	background-color: white;
+	background-repeat:no-repeat;
+	background-position: 30px center;
+}
+
+#business{
+	background-image:url(../images/bmc_100.png);
+}
+
+#cdc{
+	background-image:url(../images/cdc_100.png);
+}
+
+#design{
+	background-image:url(../images/design_100.png);
+}
+
+#dynamique{
+	background-image:url(../images/mobile_100.png);
+}
+
+
+
+
+
