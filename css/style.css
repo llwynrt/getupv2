@@ -104,7 +104,8 @@ section {
 
 /*on sélectionne 1 élément sur 2 à partir du 3ème*/
 section:nth-child(2n+3) {
-	background-color: #f0f0f0; /*gris*/
+	background-color: #e0e0e0; /*gris*/
+	
 }
 
 /************************************************************
@@ -151,13 +152,30 @@ button {
 .red {
 	border:2px solid #E85865;color:#E85865;
 }
+.green {
+	border:2px solid #44AB85;color:#44AB85;
+}
+.yellow {
+	border:2px solid #F0B140;color:#F0B140;
+}
+
+
 
 /************************************************************
 
 ************************************************************/
 
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding:20px;
+}
+li{
+ }
+
 /*image à gauche du texte pour les grandes tailles*/
-#business, #cdc, #design, #dynamique {
+.carre {
 	border-radius: 10px;
 	background-color :#FFFFFF;
 	margin :20px 10px;
@@ -168,12 +186,20 @@ button {
 	background-repeat:no-repeat;
 	background-position: 30px center;
 	color:#173350;/*bleu*/
+	width:47%;
+  	display:inline-block;
+	
+}
+
+
+@media screen and (max-width: 777px){
+	.carre {width:100%;}
 }
 
 /*image au dessus du texte pour les petites tailles*/
 @media screen and (max-width: 500px){
-	#business, #cdc, #design, #dynamique {
-		padding:30px;
+	.carre {
+		padding:10px;
 		padding-top:140px;
 		background-position: center 30px;
 	}
@@ -192,7 +218,7 @@ button {
 	background-image:url(../images/design_100.png);
 }
 
-#dynamique{
+#mobile{
 	background-image:url(../images/mobile_100.png);
 }
 
