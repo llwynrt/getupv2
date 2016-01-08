@@ -5,7 +5,7 @@
 
 @font-face { 
   font-family: 'Montserrat-bold'; 
-  src: url('../fonts/Montserrat-bold.otf'); 
+  src: url('../fonts/Montserrat-Bold.otf'); 
 }
 
 body{
@@ -48,7 +48,7 @@ header
 .navbar-default .navbar-nav li a {
 	color:#173350;	
 	text-transform: uppercase;
-	font-weight:bold;
+	font-family:'Montserrat-Bold';
 
 }
 
@@ -152,7 +152,8 @@ boutons
 	border-radius: 20px;
 	text-transform: uppercase;
 	background-color:transparent;
-	font-weight:bold;
+	font-family:'Montserrat-Bold';
+
 	margin:10px;
 	font-size: 1.2em;
 	text-align: center;
@@ -298,7 +299,7 @@ Sessions
 .session .liseret{
 	background-color: rgba(0, 0, 0, 0.7);
 	color:white;
-	font-weight:bold;
+	font-family:'Montserrat-Bold';
 	padding:5px 10px;
 	text-align:left;	
 	position:relative;
@@ -356,7 +357,7 @@ Sessions
 
 .session .prix{
 	font-size:1.8em;
-	font-weight:bold;
+	font-family:'Montserrat-Bold';
 }
 
 
@@ -380,7 +381,8 @@ Sessions
 		-webkit-column-count: 2;
   }
 }
-#reseaux {font-weight:bold;text-transform:uppercase;color:white;margin-top:20px;}
+#reseaux {	font-family:'Montserrat-Bold';
+text-transform:uppercase;color:white;margin-top:20px;}
 
 #reseaux ul {margin:auto;width:120px;padding:0px;}
 #reseaux li {margin:15px;display:inline-block;}
