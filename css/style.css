@@ -1,3 +1,17 @@
+@font-face { 
+  font-family: 'Montserrat-light'; 
+  src: url('../fonts/Montserrat-UltraLight.otf'); 
+}
+
+@font-face { 
+  font-family: 'Montserrat-bold'; 
+  src: url('../fonts/Montserrat-bold.otf'); 
+}
+
+body{
+font-family: 'Montserrat-light', serif;color:#565656;
+}
+
 .container-fluid{
 	margin:0px 0px;
 }
@@ -86,7 +100,7 @@ color:#FFFFFF;text-align:center;
 
 ************************************************************/
 h1,h2,h3 {
-	font-weight:bold;
+	font-family: 'Montserrat-bold', serif;
 	color:#173350;/*bleu*/
 
 }
