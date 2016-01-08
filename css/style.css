@@ -49,7 +49,12 @@ header
 	color:#173350;	
 	text-transform: uppercase;
 	font-family:'Montserrat-Bold';
+}
 
+@media screen and (min-width:1200px){
+.navbar-default .navbar-nav li a {
+	letter-spacing: 0.2em;
+	}
 }
 
 /*on sélectionne les 5 premiers items du menu, donc pas le "participer"*/
