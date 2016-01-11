@@ -73,34 +73,5 @@ class Pages extends CI_Controller {
         $this->load->view('templates/footer');
 	}
 	
-	
-	public function edit($page = 'index'){
-	
-		$data['page'] = $page;
-		$data['filePath'] = $_SERVER['DOCUMENT_ROOT'].'/getup/application/views/pages/'.$page.'.php';
-		$data['save'] = false;
-		$data['edit'] = true;
-			
-		//formulaire
-		$this->load->helper('form');
-		$this->load->library('form_validation');
-
-		$this->form_validation->set_rules('code', 'Code', 'required');
-		
-		if ($this->form_validation->run() === FALSE)
-		{			
-			$this->load->view('pages/edit',$data);
-
-		}
-		else
-		{
-			file_put_contents($data['filePath'],$this->input->post('code'));
-			//file_put_contents($data['filePath'],$_POST['code']);
-			echo 'ok';
-			$data['save'] = true;
-			//$this->load->view('pages/edit/'.$page,$data);
-
-		}
-	}
 }
 ?>
