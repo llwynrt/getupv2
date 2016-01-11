@@ -382,27 +382,27 @@ strong {font-family:'Montserrat';font-weight:400;color:black;}
 tableau evenium
 *******************************************************************************************/
 
-	table, td, th {border-color:#ffffff;}
-	th{background-color:#6acedc;}
-	td{background-color:#9de3ed;}
+	table, td, th {border-color:#9ED8E0;}
+	th{background-color:#9DE3ED;font-family:'Montserrat';}
+	td{background-color:#B1E9F1;}
 	
 	/*h1, h2, h3 {color:#199a19;}*/
 	
 	.btn-perso {
   color: #fff;
   background-color: #43B8CA;
-  border-color: #ffffff;
+  border-color: #9ED8E0;
 }
 .btn-perso:focus,
 .btn-perso.focus {
   color: #fff;
   background-color: #25a5b7;
-  border-color: #ffffff;
+  border-color: #9ED8E0;
 }
 .btn-perso:hover {
   color: #fff;
   background-color: #25a5b7;
-  border-color: #ffffff;
+  border-color: #9ED8E0;
 }
 
 #footer{background-color:#173350;padding-top:40px;}
