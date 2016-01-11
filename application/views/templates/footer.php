@@ -83,7 +83,7 @@
     <!-- /.container -->
 
   	<!-- CDN jQuery -->
-	<script src="js/jquery.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
     <!-- Bootstrap Core JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
 	</script>
