@@ -30,6 +30,8 @@ class Pages extends CI_Controller {
 			'questionnaire' 			=> 'Améliorer GetUP',
 			'postuler' 					=> 'Intervenir sur une session',
 			'getup-prestige-mars-inscription' => 'Inscription',
+			'getup-prix-libre' => 'Choisissez le prix de votre site',
+			'contact' => 'Contact',
 		];
 		
 		$data['title'] = $title[$page];
