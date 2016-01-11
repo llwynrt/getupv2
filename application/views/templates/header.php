@@ -66,3 +66,10 @@
         <!-- /.container -->
     </nav>
 
+    <!-- Page Content -->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12" id="banniere">
+			</div>
+		</div>
+		<!-- /.row -->

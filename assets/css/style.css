@@ -2,11 +2,16 @@
   font-family: 'Montserrat-light'; 
   src: url('../fonts/Montserrat-UltraLight.otf'); 
 }
+@font-face { 
+  font-family: 'Montserrat'; 
+  src: url('../fonts/Montserrat-Light.otf'); 
+}
 
 @font-face { 
   font-family: 'Montserrat-bold'; 
   src: url('../fonts/Montserrat-Bold.otf'); 
 }
+
 
 body{
 font-family: 'Montserrat-light', serif;color:#565656;
@@ -114,6 +119,8 @@ h1,h2,h3 {
 	font-size: 1.5em;
 	margin-bottom:20px;
 }
+
+.chapo{font-size:1.5em;text-align:center;}
 
 .lower{
 text-transform:lowercase;
@@ -365,7 +372,38 @@ Sessions
 	font-family:'Montserrat-Bold';
 }
 
+.important{
+	text-align:center;
+	font-size:1.2em;
+}
 
+strong {font-family:'Montserrat';font-weight:400;color:black;}
+/*******************************************************************************************
+tableau evenium
+*******************************************************************************************/
+
+	table, td, th {border-color:#ffffff;}
+	th{background-color:#6acedc;}
+	td{background-color:#9de3ed;}
+	
+	/*h1, h2, h3 {color:#199a19;}*/
+	
+	.btn-perso {
+  color: #fff;
+  background-color: #43B8CA;
+  border-color: #ffffff;
+}
+.btn-perso:focus,
+.btn-perso.focus {
+  color: #fff;
+  background-color: #25a5b7;
+  border-color: #ffffff;
+}
+.btn-perso:hover {
+  color: #fff;
+  background-color: #25a5b7;
+  border-color: #ffffff;
+}
 
 #footer{background-color:#173350;padding-top:40px;}
 #footer ul {text-align:left;}

@@ -1,15 +1,15 @@
 <div class="container-fluid" id="main">
   <div class="row">
     <div class="col-lg-8" id="left">
-<h1>GetUP ecommerce avec Oana Juncu et Les Indiens</h1>
+<h2>GetUP ecommerce avec Oana Juncu et Les Indiens</h2>
 <div class="row">
-	<div class="col-sm-6" id="chapo">
+	<div class="col-sm-6 chapo">
 		 Venez passer une semaine sur le site exceptionnel du <a href="http://www.chateau-de-briancon.com/fr/">château de Briançon</a> 
 		pour réaliser votre site e-commerce avec une équipe d'experts.<br>
 		(l'hébergement en pension complète est compris dans le prix de la session).
 	</div>
 	<div class="col-sm-6">
-		<img class="img-responsive img-circle" src="/assets/img/chateau.jpg" />
+		<img class="img-responsive img-circle" src="assets/img/chateau.jpg" />
 	</div>
 </div>
 <H2>Les intervenants</h2>
@@ -17,7 +17,7 @@
   
     <div class="col-ms-4 col-sm-4 desc">
 		<img class="img-circle img-responsive img-center" 
-			src="/assets/img/oana.jpg" 
+			src="assets/img/oana.jpg" 
 			alt="portrait Oana"
 		/>
 		<span class="nom">Oana Juncu</span><br>
@@ -25,13 +25,13 @@
 		je découvre comment dépenser moins et tester rapidement mon projet.
 	</div>
     <div class="col-ms-4 col-sm-4 desc">
-        <img class="img-circle img-responsive img-center" src="/assets/img/mickael.jpg" alt="">
+        <img class="img-circle img-responsive img-center" src="assets/img/mickael.jpg" alt="">
 		<span class="nom">Mickaël Ruau</span><br>
 		<span class="titre">gestionnaire de projets web :</span><br> 
 		mon cahier des charges sur mesure et mon site.
 	</div>
     <div class="col-ms-4 col-sm-4 desc">
-        <img class="img-circle img-responsive img-center" src="/assets/img/indiens.jpg" alt="">
+        <img class="img-circle img-responsive img-center" src="assets/img/indiens.jpg" alt="">
 		<span class="nom">Les Indiens Angélique et Alice</span><br>
 		<span class="titre">graphistes :</span><br> 
 		une charte graphique adaptée à mes besoins, intégrée dans Prestashop.
@@ -91,7 +91,7 @@ J'ai gagné un temps précieux. Ca n'a pas de prix !</p>
 	</tbody>
 </table>
 
-<div><a href="getup-prestige-mars-inscription.html" class="btn btn-warning btn-block"><span style="font-size:1.5em;">M'inscrire</span></a></div>
+<div><a href="getup-prestige-mars-inscription.html" class="btn btn-perso btn-block"><span style="font-size:1.5em;">M'inscrire</span></a></div>
 	
 <h2>Détails de l'évènement</h2>
 <p>
@@ -132,7 +132,7 @@ Parce que j'ai découvert et mis en oeuvre une <strong>méthode agile (Scrum)</s
 Et surtout : du concret, rapidement.<br>
 J'ai gagné un temps précieux. Et ça, ça n'a pas de prix. </p>
 </div>
-<aside class="col-lg4">
+<div class="col-lg4">
 <h3 class="sidebar-widget-title ev-title spacer-bottom-medium">
 		Où et quand
 		</h3>
@@ -193,6 +193,6 @@ J'ai gagné un temps précieux. Et ça, ça n'a pas de prix. </p>
 		</span>
 		</div>
 	
-</aside>
+</div>
 </div>
 </div>
