@@ -1,104 +1,59 @@
-      
-		<section class="row">
-    	  	<div class="col-md-8 col-sm-8" id="presentation">
-				<h2>Vous lancez votre entreprise ?</h2>
-				<p class="chapeau">Nous vous proposons de cristaliser votre model business, 
-				créer votre site, le tester, identifier le profil de vos premiers clients 
-				et se lancer sur le marché, au bout d'une semaine seulement.</p>
-				<div class="button blue"><a href="#decouvrir">Découvrir GetUP</a></div>
-			</div> 
-        	<aside class="col-md-3 col-md-offset-1 col-sm-4  text-center">
-				<h3>Session mars : -20% sur les préventes</h3>
-				Profitez d'un tarif Early bird pour toute inscription avant le 31 janvier.<br />
-				<div class="button white"><a href="#">J'en profite !</a></div>
-			</aside>
-		</section>
-		<!-- /.row -->
+<div class="container-fluid" id="main">
+  <div class="row">
+    <div class="col-lg-12" id="left">
+      <h1>
+        GetUP le concept.
+      </h1>
+      <p class="important">Vous vous apprêtez à lancer votre entreprise et vous songez à la doter d'un site internet.<br>
+          En seulement une semaine, accompagné par des professionnels du web, repartez avec un site à votre image.</p>
 
-      	<section class="row" id="decouvrir">
-      		<div class="col-lg-12 text-center">
-				<h2>Ce que j'obtiens avec GetUP</h2>
-				<p class="chapeau">
-				Nous vous proposons de cristaliser votre model business, créer votre site.</p>
-				<ul class="flex-container">
-				  	<li class="flex-item carre" id="business">
-				    	<h3>Un business model canvas</h3>
-				     	Je réalise avec le groupe mon business model canvas.
-				  	</li>
-				 	<li class="flex-item carre" id="cdc">
-				        <h3>Un cahier des charges</h3>
-				        Je réalise mon cahier des charges avec des outils simples.
-				  	</li>
-				  	<li class="flex-item carre" id="design">
-				        <h3>Un design personnalisé</h3>
-				        Je réalise une charte graphique adaptée à mes besoins.
-				  	</li>
-				  	<li class="flex-item carre" id="mobile"> 
-					    <h3>Un site dynamique</h3>
-				        Je réalise mon site web avec les intervenants.
-				  	</li>
-				</ul>
-				<div class="button blue"><a href="#sessions">Participer</a></div>
-			</div>
-		</section>
-      	<!-- /.row -->
+          <p>Ce que j'obtiens :</p>
 
-      	<section class="row" id="sessions">
-      		<div class="col-lg-12 text-center">
-				<h2>Les prochaines sessions GetUP</h2>
-				<p class="chapeau">
-				Nous vous proposons de cristaliser votre model business, créer votre site.</p>
-
-				<div class="row">
-					<div class="col-md-6 session">
-						<img src="assets/images/chateau.jpg" alt="">
-						<div class="liseret"><p>
-							Du 25 au 29 janvier 2016</p>
-						</div>
-						<div class="row detail vert">
-							<div class="col-sm-9 col-ms-8 description">
-								<h3>GetUP Green web</h3>
-								<h4>Création de votre site vitrine éco-responsable</h4>
-								<p>Cette session GetUp vous permettra de réaliser votre site web vitrine éco-responsable.
-								Le site sera réalisé en suivant les pratiques d'éco-conception web ("GreenIT").</p>
-							</div>
-				
-							<div class="col-sm-3 col-ms-4 tarif">
-								<p><span class="prix">Prix libre</span><br />
-								Les inscriptions suivent la règle des enchères.</p>
-							</div>
-						</div>
-					</div>
+          <ul>
+            <li>
+              <strong>avec un professionnel du lean startup : l'agilité d'entreprise.</strong><br>
+          Je découvre comment dépenser moins pour tester rapidement mon business model sans me mettre en danger financièrement.<br>
+          Je gagne du temps.<br>
+          Je réalise avec le groupe mon <strong>business model canvas</strong>.
+            </li>
+            <li>
+              <strong>avec un professionnel de la gestion de projet : mon cahier des charges.</strong><br>
+          Comment exprimer mes besoins et, grâce aux <strong>méthodes agiles</strong>, comment éviter les principaux écueils qui font échouer les projets.<br>
+          Je réalise mon cahier des charges avec des outils simples.
+            </li>
+            <li>
+              <strong>avec un professionnel du graphisme : une charte graphique adaptée à mes besoins.</strong><br>
+          Le web designer réalise ma charte graphique incluant un logo simple, mes couleurs et mes typographies.<br>
+          Il m'apprend les <strong>règles de base de la communication graphique</strong>, les erreurs à éviter.
+            </li>
+            <li>
+              <strong>avec un professionnel du développement web : mon site dynamique, accessible et compatible avec les appareils mobiles.</strong><br>
+          Il m'apprend à utiliser le backoffice du système de gestion de contenu et comment <strong>mettre mon site en ligne</strong>. 
+          Je découvre les bases du développement internet avec les langages <strong>HTML et CSS</strong>. 
+          Je suis capable de faire évoluer le contenu et l'apparence de mon site.<br>
+          Je connais les bases du <strong>référencement internet</strong> et de la rédaction de contenu optimisé pour Google.
+            </li>
+          </ul>
+                    <div class="integrate">
+            <iframe src="//fr.slideshare.net/slideshow/embed_code/key/hr7T511B6naQPo"  width="500" height="415" style="margin-bottom:5px; max-width: 100%;" allowfullscreen> 
+            </iframe> 
+          </div>
+          
+          <p class="important">
+          Résultat : mon site web simple est en ligne.<br>
+          <strong>Le prix inclut le nom de domaine et l'hébergement de mon site pour un an. Je n'ai rien d'autre à payer.</strong></p>
 
 
-					<div class="col-md-6 session">
-						<img src="assets/images/chateau.jpg" alt="">
-						<div class="liseret">
-							<p>Du 7 au 11 mars 2016</p>
-						</div>
-						<div class="row detail rouge">
-							<div class="col-sm-9 col-ms-8 description">
-								<h3>GetUP e-commerce</h3>
-								<h4>Création de votre site avec Prestashop</h4>
-								<p>Venez passer une semaine sur le site exceptionnel du château de Briançon pour réaliser votre site e-commerce avec une équipe d'experts</p>
-							</div>
-						
-							<div class="col-sm-3 col-ms-4 tarif">
-								
-								<p>Early Bird<br />
-								jusqu'au 31 janvier 2016</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="button red"><a href="#">Voir toutes les sessions</a></div>
-			</div>
-      	</section>
-      	<!-- /.row -->
+          <p>Je suis autonome : je sais ajouter du contenu et réaliser des modifications simples.<br>
+          En cas de besoin, je peux faire appel à des professionnels parmi les meilleurs du secteur pour m'aider à perfectionner mon site.</p>
 
-      	<section class="row">
-      		<div class="col-lg-12 text-center">
-				<h2>Partenaires</h2>
-			</div>
-		</section>
-		<!-- /.row -->
+          <p>J'ai appris les bases du code informatique. Je comprends les enjeux de la création de site internet et du développement de mon entreprise.</p>
+
+          <p>Parce que j'ai trouvé rassemblés en un même lieu et un même temps, toutes les compétences nécessaires à la réussite de mon projet web.<br>
+          Parce que j'ai découvert et mis en oeuvre une <strong>méthode agile (Scrum).</strong><br>
+          Et surtout : du concret, rapidement.</p>
+          <p class="important"><strong>J'ai gagné un temps précieux. Et ça, ça n'a pas de prix. </strong></p>
+        </div> 
+       
+      </div>
+    </div>

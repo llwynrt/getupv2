@@ -90,9 +90,9 @@
 							</li>
 						</ul>
 					</li>
-                    <li id="participer">
+                    <!--<li id="participer">
                         <a href="#">Participer<br /><span class="lower">à une session GetUP</span></a>
-                    </li>
+                    </li>-->
 
                 </ul>
             </div>

@@ -8,26 +8,25 @@
 					<div  id="menu" class="col-lg-12">
 						<div>
 							<ul>
-								<li>A propos</li>
-								<li>La méthode</li>
-								<li>Le concept</li>
-								<li>Il parlent de nous</li>
+								<li>En savoir plus</li>
+								<li><a href="wiki/">La méthode</a></li>
+								<li><a href="https://medium.com/@mickaelruau">Suivez notre aventure</a></li>
+								<li><a href="liens.html">Ils parlent de nous</a></li>
 							</ul>
 							<ul>
 								<li>Sessions</li>
-								<li>E-commerce</li>
-								<li>Site vitrine</li>
+								<li>Site vitrine à prix libre</li>
 								<li>E-commerce prestige</li>
 							</ul>
 							<ul>
-								<li>Agenda</li>
+								<li><a href="agenda.html">Agenda</a></li>
 							</ul>
 							<ul>
 								<li>Organiser</li>
-								<li>Créer une session</li>
-								<li>Intervenir</li>
-								<li>Suggérer une session</li>
-								<li>Améliorer GetUP</li>
+								<li><a href="creersession.html">Créer une session</a></li>
+								<li><a href="postuler.html">Intervenir</a></li>
+								<li><a href="suggerersession.html">Suggérer une session</a></li>
+								<li><a href="questionnaire.html">Améliorer GetUP</a></li>
 							</ul>
 							<ul>
 								<li>Contact</li>
