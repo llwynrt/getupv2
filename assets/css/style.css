@@ -1,3 +1,19 @@
+.container-fluid {
+  display: table;
+}
+.roweq {
+  display: table-row;
+  height: 100%;
+}
+.coleq {
+  display: table-cell;
+  float: none;
+}
+
+
+
+
+
 @font-face { 
   font-family: 'Montserrat-light'; 
   src: url('../fonts/Montserrat-UltraLight.otf'); 
@@ -257,6 +273,10 @@ boutons
 	width:100%;
 }
 
+#commerce{
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
 
 /*image au dessus du texte pour les petites tailles*/
 @media screen and (max-width: 500px){
@@ -284,6 +304,9 @@ boutons
 	background-image:url(../images/mobile_100.png);
 }
 
+#commerce{background-image:url(../images/commerce_100.png);
+}
+
 /************************************************************
 Sessions
 ************************************************************/
@@ -308,7 +331,7 @@ Sessions
 	height:30px;
 }
 
-.session .detail {
+.detail {
 	position:relative;
 	top:-30px;
 	margin:0px;
@@ -345,7 +368,7 @@ Sessions
 
 }
 
-.session .vert{
+.vert{
 	background-color:#44AB85;
 }
 
