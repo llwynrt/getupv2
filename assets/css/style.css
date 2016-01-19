@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
+
 @font-face { 
   font-family: 'Montserrat-light'; 
   src: url('../fonts/Montserrat-UltraLight.otf'); 
@@ -5,6 +7,15 @@
 @font-face { 
   font-family: 'Montserrat'; 
   src: url('../fonts/Montserrat-Light.otf'); 
+}
+@font-face { 
+  font-family: 'Montserrat-regular'; 
+  src: url('../fonts/Montserrat-Regular.otf'); 
+}
+
+@font-face { 
+  font-family: 'Montserrat-bold'; 
+  src: url('../fonts/Montserrat-Bold.otf'); 
 }
 
 @font-face { 
@@ -34,88 +45,88 @@ header
 	box-shadow : 1px 1px 12px #555;
 }
 
-.navbar{border: 0px solid transparent;}
-.navbar-default{background-color:transparent;}
-.navbar-default .nav-justified li a {
-	color:#173350;	
-	text-transform: uppercase;
-	font-family:'Montserrat-Bold';
-}
-.navbar-default .nav-justified .dropdown-menu li a {
-	color:#173350;
-	text-transform: none;
-	font-family:'Montserrat-light';
-}
-
-@media screen and (min-width:1200px){
-.navbar-default .nav-justified li a {
-	letter-spacing: 0.2em;
-	}
-}
-
-.navbar {
-	margin-bottom: 0px;
-}
-
-/*sous menu déroulant*/
-.dropdown-submenu{
-	position:relative;
-}
-
-.dropdown-submenu>.dropdown-menu{
-	top:0;
-	left:100%;
-	margin-top:-6px;
-	margin-left:-1px;
-	-webkit-border-radius:0 6px 6px 6px;
-	-moz-border-radius:0 6px 6px 6px;
-	border-radius:0 6px 6px 6px;
-}
-
-.dropdown-submenu:hover>.dropdown-menu{
-	display:block;
-}
-
-.dropdown-submenu>a:after{
-	display:block;
-	content:" ";
-	float:right;
-	width:0;
-	height:0;
-	border-color:transparent;
-	border-style:solid;
-	border-width:5px 0 5px 5px;
-	border-left-color:#cccccc;
-	margin-top:5px;
-	margin-right:-10px;
-}
-
-.dropdown-submenu:hover>a:after{
-	border-left-color:#ffffff;
-}
-
-.dropdown-submenu.pull-left{
-	float:none;
-}
-
-.dropdown-submenu.pull-left>.dropdown-menu{
-	left:-100%;
-	margin-left:10px;
-	-webkit-border-radius:6px 0 6px 6px;
-	-moz-border-radius:6px 0 6px 6px;
-	border-radius:6px 0 6px 6px;
-}
-
-
-#bs-example-navbar-collapse-1 {padding-right:0px;}
-
 #participer {
-background-color:#EB515B;margin-bottom:-1px;
+	background-color:#EB515B;margin-bottom:-1px;
 }
 
 #participer a {
-color:#FFFFFF;text-align:center;
+	color:#FFFFFF;text-align:center;
 }
+
+	/************************************************************
+	navbar
+	************************************************************/
+	.navbar{border: 0px solid transparent;}
+	.navbar-default{background-color:transparent;}
+	.navbar-default .nav-justified li a {
+		color:#173350;	
+		text-transform: uppercase;
+		font-family:'Montserrat-Bold';
+	}
+	.navbar-default .nav-justified .dropdown-menu li a {
+		color:#173350;
+		text-transform: none;
+		font-family:'Montserrat-light';
+	}
+
+	@media screen and (min-width:1200px){
+	.navbar-default .nav-justified li a {
+		letter-spacing: 0.2em;
+		}
+	}
+
+	.navbar {
+		margin-bottom: 0px;
+	}
+
+	/*sous menu déroulant*/
+	.dropdown-submenu{
+		position:relative;
+	}
+
+	.dropdown-submenu>.dropdown-menu{
+		top:0;
+		left:100%;
+		margin-top:-6px;
+		margin-left:-1px;
+		border-radius:0 6px 6px 6px;
+	}
+
+	.dropdown-submenu:hover>.dropdown-menu{
+		display:block;
+	}
+
+	.dropdown-submenu>a:after{
+		display:block;
+		content:" ";
+		float:right;
+		width:0;
+		height:0;
+		border-color:transparent;
+		border-style:solid;
+		border-width:5px 0 5px 5px;
+		border-left-color:#cccccc;
+		margin-top:5px;
+		margin-right:-10px;
+	}
+
+	.dropdown-submenu:hover>a:after{
+		border-left-color:#ffffff;
+	}
+
+	.dropdown-submenu.pull-left{
+		float:none;
+	}
+
+	.dropdown-submenu.pull-left>.dropdown-menu{
+		left:-100%;
+		margin-left:10px;
+		border-radius:6px 0 6px 6px;
+	}
+
+
+	#bs-example-navbar-collapse-1 {padding-right:0px;}
+
 
 
 #banniere{
@@ -125,15 +136,17 @@ color:#FFFFFF;text-align:center;
 
 @media screen and (max-width:500px){
 	#banniere{	
-		background: #42b9cb url(../images/logo-getup-v2_xs.png) no-repeat center center;/*bleu clair*/
+		background-image: url(../images/logo-getup-v2_xs.png);
 		height:200px;
 	}
 
 }
 
 @media screen and (min-width:992px){
-	#banniere{position:relative;top:-40px;}
+	#banniere{
+		position:relative;top:-40px;/*logo chevauche la bannière*/
 	}
+}
 
 /************************************************************
 
@@ -144,22 +157,48 @@ h1,h2,h3 {
 
 }
 
+hr {border-top-color:#1d3651;}
+
 .chapeau{ 
 	font-size: 1.5em;
 	margin-bottom:20px;
 }
 
-.chapo{font-size:1.5em;text-align:center;}
+.chapo{
+	font-size:1.5em;
+	text-align:center;
+}
+
+.important{
+	text-align:center;
+	font-size:1.2em;
+}
+
+.nom {font-weight:bold;font-size:1.2em;}
+.titre{font-weight:bold;}
+.desc{text-align:center;}
+
+strong {font-family:'Montserrat';font-weight:400;color:black;}
 
 /*on sélectionne 1 élément sur 2 à partir du 2ème*/
 section:nth-child(2n+2) {
-	background-color: #e0e0e0; /*gris*/
-	
+	background-color: #e0e0e0; /*gris*/	
 }
 
 /************************************************************
-
+aside : early bird
 ************************************************************/
+aside {
+	background-color:#F0B140;/*jaune*/
+	border-radius: 20px;
+	padding:10px;
+	color:white;
+}
+
+aside h3 { 
+	color:white;
+}
+
 /*place le aside à cheval sur la bannière sur les grandes tailles*/
 @media screen and (min-width: 768px){
 	aside{
@@ -171,21 +210,8 @@ section:nth-child(2n+2) {
 
 @media screen and (min-width:992px){
 aside{
-	position:relative; 
 	top: -90px;
-	margin-left:-30px;
 	}	
-}
-
-aside {
-	background-color:#F0B140;/*jaune*/
-	border-radius: 20px;
-	padding:10px;
-	color:white;
-}
-
-aside h3 { 
-	color:white;
 }
 
 /************************************************************
@@ -241,9 +267,8 @@ boutons
 
 /*image à gauche du texte pour les grandes tailles*/
 .carre {
-	border-radius: 10px;
-	background-color :#FFFFFF;
-	margin :20px 10px;
+	border-radius: 20px;
+	margin :20px 0px;
 	padding:30px;
 	min-height:160px;
 	padding-left:160px;
@@ -251,15 +276,8 @@ boutons
 	background-repeat:no-repeat;
 	background-position: 30px center;
 	color:#173350;/*bleu*/
-	margin-left:0px;
-	margin-right:0px;
   	display:inline-block;
 	width:100%;
-}
-
-#commerce{
-	border-top-right-radius: 0px;
-	border-bottom-right-radius: 0px;
 }
 
 /*image au dessus du texte pour les petites tailles*/
@@ -271,6 +289,32 @@ boutons
 	}
 }
 
+.carre-top{	
+	background-position: 30px 30px;
+}
+
+.carre-top h3{margin-top: 0px;margin-bottom:20px;padding-bottom:20px;border-bottom: 1px solid #1d3651;}
+
+.carre-large-h{background-color:#3da67f;margin:0px;margin-bottom:20px;border-radius:20px;}
+.carre-large-col{padding:0px;}
+.carre-large-h .carre-top{margin:0px;}
+
+.titre1{
+	text-transform:uppercase;
+	font-family: 'Montserrat-regular', sans-serif;
+}
+
+.titre2{
+	font-family: 'Roboto', sans-serif;
+	font-size:18px;
+}
+
+.carre ul {padding-left:0px;   list-style-type:none;font-family: 'Roboto', sans-serif;font-size:14px;}
+
+#business .titre1{color: #44b8ca;} /*bleu clair*/
+#design .titre1{color:#e7525f;} /*rouge*/
+#cdc .titre1{color:#efaf42;} /*rouge*/
+#commerce .titre1{color:#3da67f;} /*vert*/
 
 #business{
 	background-image:url(../images/bmc_100.png);
@@ -290,6 +334,23 @@ boutons
 
 #commerce{background-image:url(../images/commerce_100.png);
 }
+
+#commerce{
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+#conclusion{
+	margin:0px;
+	background-color:#3da67f;
+	color:white;
+	border-top-left-radius: 0px;	
+	border-bottom-left-radius: 0px;
+	padding:50px;
+}
+
+#conclusion p:first-child{font-family: 'Roboto'; font-size:18px;}
+#conclusion p:nth-child(2){font-family: 'Roboto'; font-size:21px;font-weight: :bold;}
+
 
 /************************************************************
 Sessions
@@ -319,7 +380,7 @@ Sessions
 	position:relative;
 	top:-30px;
 	margin:0px;
-	border-bottom-left-radius:25px;
+	border-bottom-left-radius:25px;/*arrondi > à 20px sinon on ça dépasse*/
 	border-bottom-right-radius:20px;
 }
 
@@ -340,17 +401,6 @@ Sessions
 
 }
 
-/*sur les petites résolutions des deux div se placent en colonne, il faut donc changer les arrondis*/
-@media screen and (max-width: 479px){
-	.session .description{	
-		border-bottom-left-radius:0px;
-	}
-	.session .tarif{
-		border-bottom-right-radius:20px;
-		border-bottom-left-radius:20px;
-	}
-
-}
 
 .session .vert{
 	background-color:#44AB85;
@@ -365,41 +415,40 @@ Sessions
 	font-family:'Montserrat-Bold';
 }
 
-.important{
-	text-align:center;
-	font-size:1.2em;
+/*sur les petites résolutions des deux div se placent en colonne, il faut donc changer les arrondis*/
+@media screen and (max-width: 479px){
+	.session .description{	
+		border-bottom-left-radius:0px;
+	}
+	.session .tarif{
+		border-bottom-right-radius:20px;
+		border-bottom-left-radius:20px;
+	}
 }
 
-.nom {font-weight:bold;font-size:1.2em;}
-.titre{font-weight:bold;}
-.desc{text-align:center;}
-
-strong {font-family:'Montserrat';font-weight:400;color:black;}
 /*******************************************************************************************
 tableau evenium
 *******************************************************************************************/
 
-	table, td, th {border-color:#9ED8E0;}
-	th{background-color:#9DE3ED;font-family:'Montserrat';}
-	td{background-color:#B1E9F1;}
-	
-	/*h1, h2, h3 {color:#199a19;}*/
-	
-	.btn-perso {
-  color: #fff;
-  background-color: #43B8CA;
-  border-color: #9ED8E0;
+table, td, th {border-color:#9ED8E0;}
+th{background-color:#9DE3ED;font-family:'Montserrat';}
+td{background-color:#B1E9F1;}
+		
+.btn-perso {
+	color: #fff;
+  	background-color: #43B8CA;
+  	border-color: #9ED8E0;
 }
 .btn-perso:focus,
 .btn-perso.focus {
-  color: #fff;
-  background-color: #25a5b7;
-  border-color: #9ED8E0;
+  	color: #fff;
+  	background-color: #25a5b7;
+  	border-color: #9ED8E0;
 }
 .btn-perso:hover {
-  color: #fff;
-  background-color: #25a5b7;
-  border-color: #9ED8E0;
+  	color: #fff;
+  	background-color: #25a5b7;
+  	border-color: #9ED8E0;
 }
 
 #footer{background-color:#173350;padding-top:40px;}
@@ -421,11 +470,14 @@ tableau evenium
 		-webkit-column-count: 2;
   }
 }
-#reseaux {	font-family:'Montserrat-Bold';
-text-transform:uppercase;color:white;margin-top:20px;}
+#reseaux {	
+	font-family:'Montserrat-Bold';
+	text-transform:uppercase;color:white;margin-top:20px;
+}
 
 #reseaux ul {margin:auto;width:120px;padding:0px;}
 #reseaux li {margin:15px;display:inline-block;}
+
 @media screen and (max-width:991px){
 	#twitter{margin-bottom:40px;}
 }
