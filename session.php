@@ -119,18 +119,53 @@
 			</div>
 		</div>
 
-		<div class="row">
+		<div class="row"  style="background-color:#e0e0e0;">
     	  	<div class="col col-md-8">
-    	  		<div class="row" style="background-color:gray;">
-    	  			<div class="col-xs-12">
-    	  				<div style="border-radius:20px;background-color:#1d3651;padding:10px;">
-					<h2 style="color:white;">Détails de la session</h2>
-					<div style="background-color:white;">Vous vous apprêtez à lancer votre entreprise et vous songez à la doter d'un site e-commerce.En seulement une semaine, accompagné par des professionnels du web, repartez avec un site à votre image.</div>
-				</div>
+    	  		<div class="row">
+    	  			<div class="col-xs-12 onglet">
+    	  				<div class="top">
+							<h2>Détails de la session</h2>
+						</div>
+						<div class="fleche-bas">
+						</div>
+    					<div class="bottom bottom-fleche">
+    						Vous vous apprêtez à lancer votre entreprise et vous songez à la doter d'un site e-commerce.En seulement une semaine, accompagné par des professionnels du web, repartez avec un site à votre image.
+    					</div>
+
 					</div>
-    	  			<div class="col-xs-12">
-					planning
+    	  			<div class="col-xs-12 onglet">
+						<div class="top">
+							<h2><a href="javascript:visibilite('planning');">Planning</a></h2>
+						</div>
+    					<div id="planning" class="bottom" style="display:block;">
+    						<p>Lundi 7 Mars</p>
+    						<p>Consolidation du Business Model</p>
+
+							<div class="left">
+								<p>9h30</p>
+							</div>
+	    					<div class="right">
+	    						<p>Pitch projet</p>
+	    					</div>
+
+    					</div>
 					</div>
+
+					<script>
+					    function visibilite(divId)
+					    {
+					        var statut=document.getElementById(divId);
+					        
+					        if(statut.style.display=='block'){
+					        	statut.style.display='none';
+					        }
+					        else{
+					        	statut.style.display='block';
+	
+					        }
+					        
+					    }
+					</script>
     
     	      		<div class="col col-lg-12 text-center">
 						<h2>Les intervenants</h2>

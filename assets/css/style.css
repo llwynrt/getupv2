@@ -352,6 +352,47 @@ boutons
 #conclusion p:nth-child(2){font-family: 'Roboto'; font-size:21px;font-weight: :bold;}
 
 
+
+/************************************************************
+onglets page session
+************************************************************/
+.onglet {
+	margin-top:20px;margin-bottom:20px;
+}
+.onglet .top {
+	border-top-left-radius:20px;border-top-right-radius:20px;background-color:#1d3651;padding:10px;padding-left:20px;
+}
+
+.onglet .top h2 {
+	color:white;
+}
+
+.onglet .fleche-bas {
+	width:0px;border:15px solid transparent;border-top:15px solid #1d3651;position:relative;left:25px;z-index:10;
+}
+
+.onglet .bottom{
+	border-bottom-left-radius:20px;border-bottom-right-radius:20px;padding:20px;padding-top:40px;background-color:white;
+}
+
+.onglet .bottom-fleche{
+	position:relative;top:-30px;
+}
+
+.onglet .left{
+	border-top-left-radius:20px;border-bottom-left-radius:20px;background-color:#D0D4D5;padding:10px;display:inline-block;width:60px;
+
+}
+
+.onglet .right{
+	border-top-right-radius:20px;
+	border-bottom-right-radius:20px;
+	background-color:#EBEFF0;
+	padding:10px;
+	display:inline-block;width: calc(100% - 65px);
+	position: relative;
+	left:-5px;
+}
 /************************************************************
 Sessions
 ************************************************************/
