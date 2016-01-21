@@ -368,15 +368,15 @@ onglets page session
 }
 
 .onglet .fleche-bas {
-	width:0px;border:15px solid transparent;border-top:15px solid #1d3651;position:relative;left:25px;z-index:10;
+	width:0px;border:15px solid transparent;border-top:15px solid #1d3651;z-index:10;position:relative;top:-20px;
+}
+
+.onglet .fleche-inv {
+	border-top-color:white;float:right;position:relative;top:-35px;left:-10px;
 }
 
 .onglet .bottom{
-	border-bottom-left-radius:20px;border-bottom-right-radius:20px;padding:20px;padding-top:40px;background-color:white;
-}
-
-.onglet .bottom-fleche{
-	position:relative;top:-30px;
+	border-bottom-left-radius:20px;border-bottom-right-radius:20px;padding:20px;background-color:white;
 }
 
 .onglet .left{

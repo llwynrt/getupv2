@@ -126,16 +126,17 @@
     	  				<div class="top">
 							<h2>Détails de la session</h2>
 						</div>
-						<div class="fleche-bas">
-						</div>
-    					<div class="bottom bottom-fleche">
+    					<div class="bottom">
+    						<div class="fleche-bas">
+							</div>
     						Vous vous apprêtez à lancer votre entreprise et vous songez à la doter d'un site e-commerce.En seulement une semaine, accompagné par des professionnels du web, repartez avec un site à votre image.
     					</div>
 
 					</div>
     	  			<div class="col-xs-12 onglet">
 						<div class="top">
-							<h2><a href="javascript:visibilite('planning');">Planning</a></h2>
+							<h2>Planning</h2>
+							<a href="javascript:visibilite('planning');"><div class="fleche-bas fleche-inv"></div></a>
 						</div>
     					<div id="planning" class="bottom" style="display:block;">
     						<p>Lundi 7 Mars</p>
@@ -151,62 +152,96 @@
     					</div>
 					</div>
 
-					<script>
-					    function visibilite(divId)
-					    {
-					        var statut=document.getElementById(divId);
-					        
-					        if(statut.style.display=='block'){
-					        	statut.style.display='none';
-					        }
-					        else{
-					        	statut.style.display='block';
-	
-					        }
-					        
-					    }
-					</script>
+					
     
-    	      		<div class="col col-lg-12 text-center">
-						<h2>Les intervenants</h2>
-						<p class="chapeau">
-						Réalisez votre site web avec une équipe d'experts.</p>
+					<div class="col-xs-12 onglet">
+						<div class="top">
+							<h2>Intervenants</h2>
+							<a href="javascript:visibilite('intervenants');"><div class="fleche-bas fleche-inv"></div></a>
+						</div>
+    					<div id="intervenants" class="bottom" style="display:block;">
+    						<div class="row">
+							<div class="col col-sm-4 col-ms-4">
+								<div class="row">
+								<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+									<img class="img-circle img-responsive img-center" src="assets/img/oana.jpg" alt="">
+								</div>
+								<div class="col-lg-12 text-center">
+									Oana Juncu<br>coach en agilité & lean startup
+								</div>
+								</div>
+							</div>
+							<div class="col col-sm-4 col-ms-4">
+								<div class="row">
+								<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+									<img class="img-circle img-responsive img-center" src="assets/img/mickael.jpg" alt="">
+								</div>
+								<div class="col-lg-12 text-center">
+									Mickaël Ruau<br>gestionnaire de projets web
+								</div>
+								</div>
+							</div>
+							<div class="col col-sm-4 col-ms-4">
+								<div class="row">
+								<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+									<img class="img-circle img-responsive img-center" src="assets/img/indiens.jpg" alt="">
+								</div>
+								<div class="col-lg-12 text-center">
+									Alice & Angélique<br>
+									Les Indiens, design graphique
+								</div>
+								</div>
+							</div>
+							</div>
+							<!--</div>-->
+						</div>
 					</div>
-					<div class="col col-sm-4 col-ms-4">
-						<div class="row">
-						<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-							<img class="img-circle img-responsive img-center" src="assets/img/oana.jpg" alt="">
-						</div>
-						<div class="col-lg-12 text-center">
-							Oana Juncu<br>coach en agilité & lean startup
-						</div>
-						</div>
-					</div>
-					<div class="col col-sm-4 col-ms-4">
-						<div class="row">
-						<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-							<img class="img-circle img-responsive img-center" src="assets/img/mickael.jpg" alt="">
-						</div>
-						<div class="col-lg-12 text-center">
-							Mickaël Ruau<br>gestionnaire de projets web
-						</div>
-						</div>
-					</div>
-					<div class="col col-sm-4 col-ms-4">
-						<div class="row">
-						<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-							<img class="img-circle img-responsive img-center" src="assets/img/indiens.jpg" alt="">
-						</div>
-						<div class="col-lg-12 text-center">
-							Alice & Angélique<br>
-							Les Indiens, design graphique
-						</div>
-						</div>
-					</div>
-					<!--</div>-->
 
-					    	  			<div class="col-xs-12">
-					tarifs
+    	  			<div class="col-xs-12 onglet">
+						<div class="top">
+							<h2>Tarifs</h2>
+							<a href="javascript:visibilite('tarifs');"><div class="fleche-bas fleche-inv"></div></a>
+						</div>
+    					<div id="tarifs" class="bottom" style="display:block;">
+    						<div class="row">
+    								<div class="col-xs-4 onglet">
+    									<div class="top" style="background-color:white;border-top:1px solid #D9DCE1;border-left:1px solid #D9DCE1;border-right:1px solid #D9DCE1;">
+    										Entrée
+    										à partir du 1er février 2016
+    										Hébergement en pension complète inclus dans le prix de la session<br>
+    										11 200€
+    									</div>
+    									<div class="bottom" style="background-color:#efaf42;">
+    										<div class="button white"><a href="#">J'en profite !</a></div>
+    									</div>
+
+    								</div>
+    								<div class="col-xs-4 onglet">
+    									<div class="top" style="background-color:white;border-top:1px solid #D9DCE1;border-left:1px solid #D9DCE1;border-right:1px solid #D9DCE1;">
+    										Entrée
+    										à partir du 1er février 2016
+    										Hébergement en pension complète inclus dans le prix de la session<br>
+    										11 200€
+    									</div>
+    									<div class="bottom" style="background-color:#44b8ca;">
+    										<div class="button white"><a href="#">J'en profite !</a></div>
+    									</div>
+
+    								</div>
+    								<div class="col-xs-4 onglet">
+    									<div class="top" style="background-color:white;border-top:1px solid #D9DCE1;border-left:1px solid #D9DCE1;border-right:1px solid #D9DCE1;">
+    										Entrée
+    										à partir du 1er février 2016
+    										Hébergement en pension complète inclus dans le prix de la session<br>
+    										11 200€
+    									</div>
+    									<div class="bottom" style="background-color:#e7525f;">
+    										<div class="button white"><a href="#">J'en profite !</a></div>
+    									</div>
+
+    								</div>
+    						</div>
+    					</div>
 					</div>
 
       		</div>
@@ -309,18 +344,16 @@
 	</script>
 	
 	<script>
-	//défilement doux
-		$(function () {
-			$('.button>a').on('click', function(e) {
-				e.preventDefault();
-				var hash = this.hash;
-				$('html, body').animate({
-					scrollTop: $(this.hash).offset().top
-				}, 1000, function(){
-					window.location.hash = hash;
-				});
-			});
-		});
+    	function visibilite(divId)
+		{
+		    var statut=document.getElementById(divId);
+		    if(statut.style.display=='block'){
+			   	statut.style.display='none';
+			}
+			else{
+			   	statut.style.display='block';
+	        }
+	    }
 	</script>
 
 </body>
