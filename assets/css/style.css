@@ -225,7 +225,7 @@ boutons
 	margin:10px;
 	font-size: 1.2em;
 	text-align: center;
-	width: :250px;
+	/*width: 250px;*/
 	display:inline-block;
 }
 
