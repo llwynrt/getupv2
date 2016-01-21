@@ -193,7 +193,6 @@
 								</div>
 							</div>
 							</div>
-							<!--</div>-->
 						</div>
 					</div>
 
@@ -305,18 +304,17 @@
     						src="https://www.google.com/calendar/embed?showTitle=0&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=k8sog225cbf3afui8h1k72lf58%40group.calendar.google.com&amp;ctz=Europe%2FParis" 
 					    	style=" border-width:0 " width="100%" height="300" frameborder="0" scrolling="no">
 					    </iframe>
+					</div>
 				</div>
-				
 			</div>		
 		</div>
-      	<!-- /.row -->
-      	<section class="row">
+
+      	<div class="row">
       		<div class="col col-lg-12 text-center" style="margin-bottom:50px;">
 				<h2>Partenaires</h2>
 				<img src="assets/images/partenaires/agilumens.png" alt="logo agilumens"><img src="assets/images/partenaires/shaker.png" alt="logo shaker">
 			</div>
-		</section>
-		<!-- /.row -->
+		</div>
 
 		<div class="row" id="footer">
 			<div class="col col-md-4 text-center" id="logo">
@@ -324,8 +322,7 @@
 			</div>
 			<div class="col col-md-4 text-left" style="color:white;">
 				
-				<!--<div class="row">
-					<div  id="menu" class="col col-lg-12">-->
+
 						<div id="menu" >
 							<ul>
 								<li>A propos</li>
@@ -353,7 +350,7 @@
 								<li>Contact</li>
 							</ul>
 						</div>
-					<!--</div>-->
+
 
 					<div id="reseaux" class="text-center">
 						Rejoignez-nous 
@@ -370,7 +367,7 @@
 							</li>
 						</ul>
 					</div>
-				<!--</div>-->
+
 			</div>
 			<div class="col col-md-4 text-center">
 				<div id="twitter">
@@ -384,7 +381,6 @@
 				</div>
 			</div>
 		</div>
-		<!-- /.row -->
 
 		<div class="row" id="liens">
 			<div class="col col-sm-3 col col-ms-2 text-center">
@@ -394,7 +390,7 @@
 				<ul><li><a href="mentions.html">Mentions Légales</a></li></ul>
 			</div>
 		</div>
-		<!-- /.row -->
+
 
     </div>
     <!-- /.container -->

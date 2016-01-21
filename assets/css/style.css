@@ -56,6 +56,7 @@ header
 	/************************************************************
 	navbar
 	************************************************************/
+	.nav{padding-top:10px;}
 	.navbar{border: 0px solid transparent;}
 	.navbar-default{background-color:transparent;}
 	.navbar-default .nav-justified li a {
