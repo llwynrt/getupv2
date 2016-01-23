@@ -29,9 +29,7 @@
 	
 	<style>
 		/*.row{border:1px solid black;margin-left:0px;margin-right:0px;}
-		.col{border:1px solid red;}*/
-
-		
+		.col{border:1px solid red;}*/		
 	</style>
 
 </head>
@@ -101,164 +99,157 @@
     
 	<!-- Page Content -->
 	<section>
-	<div class="container-fluid">       
-		<section class="row">
-    	  	<div class="col col-md-8 col col-sm-8" id="presentation">
-				<h2>Vous lancez votre entreprise ?</h2>
-				<p class="chapeau">Nous vous proposons de cristaliser votre model business, 
-				créer votre site, le tester, identifier le profil de vos premiers clients 
-				et se lancer sur le marché, au bout d'une semaine seulement.</p>
-				<div class="button blue"><a href="#decouvrir">Découvrir GetUP</a></div>
-			</div> 
-        	<div class="col col-md-3 col col-md-offset-1 col col-sm-4 col-ms-12 text-center">
-				<aside>
-					<h3>Session mars : -20% sur les préventes</h3>
-					Profitez d'un tarif Early bird pour toute inscription avant le 31 janvier.<br />
-					<div class="button white"><a href="#">J'en profite !</a></div>
-				</aside>
+		<div class="container-fluid">       
+			<div class="row">
+    	  		<div class="col col-md-8 col col-sm-8" id="presentation">
+					<h2>Vous lancez votre entreprise ?</h2>
+					<p class="chapeau">Nous vous proposons de cristaliser votre model business, 
+					créer votre site, le tester, identifier le profil de vos premiers clients 
+					et se lancer sur le marché, au bout d'une semaine seulement.</p>
+					<div class="button blue"><a href="#decouvrir">Découvrir GetUP</a></div>
+				</div> 
+	        	<div class="col col-md-3 col col-md-offset-1 col col-sm-4 col-ms-12 text-center">
+					<aside>
+						<h3>Session mars : -20% sur les préventes</h3>
+						Profitez d'un tarif Early bird pour toute inscription avant le 31 janvier.<br />
+						<div class="button white"><a href="#">J'en profite !</a></div>
+					</aside>
+				</div>
 			</div>
-		</section>
-		<!-- /.row -->
-</div>
-</section>
-<section>
-	<div class="container-fluid">       
-      	<section class="row">
-      		<div class="col col-lg-12 text-center">
-				<h2>Ce que j'obtiens avec GetUP</h2>
-				<p class="chapeau">
-				Nous vous proposons de cristaliser votre model business, créer votre site.</p></div>
-				<!--<ul class="flex-container">-->
-				  	<div class="col col-md-6">
-						<div class="carre" id="business">
+			<!-- /.row -->
+		</div>
+	</section>
+
+	<section>
+		<div class="container-fluid">       
+	      	<div class="row">
+	      		<div class="col col-lg-12 text-center">
+					<h2>Ce que j'obtiens avec GetUP</h2>
+					<p class="chapeau">
+					Nous vous proposons de cristaliser votre model business, créer votre site.</p>
+				</div>
+				<div class="col col-md-6">
+					<div class="carre" id="business">
 						<h3>Un business model canvas</h3>
 				     	Je réalise avec le groupe mon business model canvas.</div>
-				  	</div>
-				 	<div class="col col-md-6">
-						<div class="carre" id="cdc">
-							<h3>Un cahier des charges</h3>
-							Je réalise mon cahier des charges avec des outils simples.
-						</div>
+				 	</div>
+				<div class="col col-md-6">
+					<div class="carre" id="cdc">
+						<h3>Un cahier des charges</h3>
+						Je réalise mon cahier des charges avec des outils simples.
 					</div>
-				  	<div class="col col-md-6" style="clear:left;">
-						<div class=" carre" id="design">
-							<h3>Un design personnalisé</h3>
-							Je réalise une charte graphique adaptée à mes besoins.
-						</div>
-					</div>
-				  	<div class="col col-md-6">
-						<div class=" carre" id="mobile">
-							<h3>Un site dynamique</h3>
-							Je réalise mon site web avec les intervenants.
-						</div>
-					</div>
-				<!--</ul>-->
-
-		</section>
-      	<!-- /.row -->
-</div>
-</section>
-<section>
-	<div class="container-fluid">  
-      	<section class="row">
-      		<div class="col col-lg-12 text-center">
-				<h2>Les prochaines sessions GetUP</h2>
-				<p class="chapeau">
-				Nous vous proposons de cristaliser votre model business, créer votre site.</p>
-			</div>
-			<div class="col col-md-6 session">
-				<img src="assets/images/Getup_home.jpg" alt="">
-				<div class="liseret"><p>
-					Du 25 au 29 janvier 2016</p>
 				</div>
-				<div class="row detail vert">
-					<div class="col col-sm-9 col col-ms-8 description">
-						<h3>GetUP Green web</h3>
-						<h4>Création de votre site vitrine éco-responsable</h4>
-						<p>Cette session GetUp vous permettra de réaliser votre site web vitrine éco-responsable.
-						Le site sera réalisé en suivant les pratiques d'éco-conception web ("GreenIT").</p>
+				<div class="col col-md-6" style="clear:left;">
+					<div class=" carre" id="design">
+						<h3>Un design personnalisé</h3>
+						Je réalise une charte graphique adaptée à mes besoins.
 					</div>
-		
-					<div class="col col-sm-3 col col-ms-4 tarif">
-						<p><span class="prix">Prix libre</span><br />
-						Les inscriptions suivent la règle des enchères.</p>
+				</div>
+				<div class="col col-md-6">
+					<div class=" carre" id="mobile">
+						<h3>Un site dynamique</h3>
+						Je réalise mon site web avec les intervenants.
 					</div>
 				</div>
 			</div>
-			<div class="col col-md-6 session">
-				<img src="assets/images/chateau.jpg" alt="">
-				<div class="liseret">
-					<p>Du 7 au 11 mars 2016</p>
+      		<!-- /.row -->
+		</div>
+	</section>
+	<section>
+		<div class="container-fluid">  
+	      	<div class="row">
+	      		<div class="col col-lg-12 text-center">
+					<h2>Les prochaines sessions GetUP</h2>
+					<p class="chapeau">
+					Nous vous proposons de cristaliser votre model business, créer votre site.</p>
 				</div>
-				<div class="row detail rouge">
-					<div class="col col-sm-9 col col-ms-8 description">
-						<h3>GetUP e-commerce</h3>
-						<h4>Création de votre site avec Prestashop</h4>
-						<p>Venez passer une semaine sur le site exceptionnel du château de Briançon pour réaliser votre site e-commerce avec une équipe d'experts</p>
+				<div class="col col-md-6 session">
+					<img src="assets/images/Getup_home.jpg" alt="">
+					<div class="liseret"><p>
+						Du 25 au 29 janvier 2016</p>
 					</div>
-				
-					<div class="col col-sm-3 col col-ms-4 tarif">
-						<p>Early Bird<br />
-						jusqu'au 31 janvier 2016</p>
-					</div>
-				</div>
-			</div>
-		</section>
-      	<!-- /.row -->
-</div>
-</section>
-<section>
-	<div class="container-fluid">  
-
-      	<section class="row">
-      		<div class="col col-lg-12 text-center" style="margin-bottom:50px;">
-				<h2>Partenaires</h2>
-				<img src="assets/images/partenaires/agilumens.png" alt="logo agilumens"><img src="assets/images/partenaires/shaker.png" alt="logo shaker">
-			</div>
-		</section>
-		<!-- /.row -->
-</div>
-</section>
-<div id="footer">
-	<div class="container-fluid">  
-
-		<div class="row">
-			<div class="col col-md-4 text-center">
-				<img src="assets/images/logo-getup-v2_sm-inv.png" alt="">
-			</div>
-			<div class="col col-md-4 text-left" style="color:white;">
-				
-				<!--<div class="row">
-					<div  id="menu" class="col col-lg-12">-->
-						<div id="menu" >
-							<ul>
-								<li>A propos</li>
-								<li>La méthode</li>
-								<li>Le concept</li>
-								<li>Il parlent de nous</li>
-							</ul>
-							<ul>
-								<li>Sessions</li>
-								<li>E-commerce</li>
-								<li>Site vitrine</li>
-								<li>E-commerce prestige</li>
-							</ul>
-							<ul>
-								<li>Agenda</li>
-							</ul>
-							<ul>
-								<li>Organiser</li>
-								<li>Créer une session</li>
-								<li>Intervenir</li>
-								<li>Suggérer une session</li>
-								<li>Améliorer GetUP</li>
-							</ul>
-							<ul>
-								<li>Contact</li>
-							</ul>
+					<div class="row detail vert">
+						<div class="col col-sm-9 col col-ms-8 description">
+							<h3>GetUP Green web</h3>
+							<h4>Création de votre site vitrine éco-responsable</h4>
+							<p>Cette session GetUp vous permettra de réaliser votre site web vitrine éco-responsable.
+							Le site sera réalisé en suivant les pratiques d'éco-conception web ("GreenIT").</p>
 						</div>
-					<!--</div>-->
-
+			
+						<div class="col col-sm-3 col col-ms-4 tarif">
+							<p><span class="prix">Prix libre</span><br />
+							Les inscriptions suivent la règle des enchères.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col col-md-6 session">
+					<img src="assets/images/chateau.jpg" alt="">
+					<div class="liseret">
+						<p>Du 7 au 11 mars 2016</p>
+					</div>
+					<div class="row detail rouge">
+						<div class="col col-sm-9 col col-ms-8 description">
+							<h3>GetUP e-commerce</h3>
+							<h4>Création de votre site avec Prestashop</h4>
+							<p>Venez passer une semaine sur le site exceptionnel du château de Briançon pour réaliser votre site e-commerce avec une équipe d'experts</p>
+						</div>
+					
+						<div class="col col-sm-3 col col-ms-4 tarif">
+							<p>Early Bird<br />
+							jusqu'au 31 janvier 2016</p>
+						</div>
+					</div>
+				</div>
+			</div>
+	      	<!-- /.row -->
+		</div>
+	</section>
+	<section>
+		<div class="container-fluid">  
+	      	<div class="row">
+	      		<div class="col col-lg-12 text-center" style="margin-bottom:50px;">
+					<h2>Partenaires</h2>
+					<img src="assets/images/partenaires/agilumens.png" alt="logo agilumens"><img src="assets/images/partenaires/shaker.png" alt="logo shaker">
+				</div>
+			</div>
+			<!-- /.row -->
+		</div>
+	</section>
+	
+	<div id="footer">
+		<div class="container-fluid">  
+			<div class="row">
+				<div class="col col-md-4 text-center">
+					<img src="assets/images/logo-getup-v2_sm-inv.png" alt="">
+				</div>
+				<div class="col col-md-4 text-left" style="color:white;">
+					<div id="menu" >
+						<ul>
+							<li>A propos</li>
+							<li>La méthode</li>
+							<li>Le concept</li>
+							<li>Il parlent de nous</li>
+						</ul>
+						<ul>
+							<li>Sessions</li>
+							<li>E-commerce</li>
+							<li>Site vitrine</li>
+							<li>E-commerce prestige</li>
+						</ul>
+						<ul>
+							<li>Agenda</li>
+						</ul>
+						<ul>
+							<li>Organiser</li>
+							<li>Créer une session</li>
+							<li>Intervenir</li>
+							<li>Suggérer une session</li>
+							<li>Améliorer GetUP</li>
+						</ul>
+						<ul>
+							<li>Contact</li>
+						</ul>
+					</div>
 					<div id="reseaux" class="text-center">
 						Rejoignez-nous 
 						<ul>
@@ -274,45 +265,39 @@
 							</li>
 						</ul>
 					</div>
-				<!--</div>-->
 			</div>
 			<div class="col col-md-4 text-center">
 				<div id="twitter">
-						<h2>Suivez notre aventure !</h2>
-						<a class="twitter-timeline"  href="https://twitter.com/hashtag/GetUpBiz" data-widget-id="641631327851315200" data-chrome="noheader transparent">
-							Tweets sur #GetUpBiz
-						</a>
-						<script>
-							!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-						</script>
+					<h2>Suivez notre aventure !</h2>
+					<a class="twitter-timeline"  href="https://twitter.com/hashtag/GetUpBiz" data-widget-id="641631327851315200" data-chrome="noheader transparent">
+						Tweets sur #GetUpBiz
+					</a>
+					<script>
+						!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+					</script>
 				</div>
 			</div>
 		</div>
-		<!-- /.row -->
-</div></div>
-<div id="liens">
-	<div class="container-fluid">  
-		<div class="row">
-			<div class="col col-sm-3 col col-ms-2 text-center">
-				© GetUP 2016
+	</div>
+
+	<div id="liens">
+		<div class="container-fluid">  
+			<div class="row">
+				<div class="col col-sm-3 col-ms-2 text-center">
+					© GetUP 2016
+				</div>
+				<div class="col col-sm-6 col-ms-8 text-center">
+					<a href="mentions.html">Mentions Légales</a>
+				</div>
 			</div>
-			<div class="col col-sm-6 col col-ms-8 text-center">
-				<ul><li><a href="mentions.html">Mentions Légales</a></li></ul>
-			</div>
+			<!-- /.row -->
 		</div>
-		<!-- /.row -->
-</div></div>
-    </div>
-    <!-- /.container -->
-</div></div>
-  	<!-- CDN jQuery -->
+	</div>
+
+ 	<!-- CDN jQuery -->
 	<script src="assets/js/jquery.js"></script>
     <!-- Bootstrap Core JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
-	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	
-
-
 </body>
-
 </html>
