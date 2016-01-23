@@ -32,6 +32,8 @@ nav .container-fluid{
 	padding:0px 0px;
 }
 
+.container-fluid{max-width: 1200px;}
+
 
 /************************************************************
 header
@@ -184,6 +186,7 @@ strong {font-family:'Montserrat';font-weight:400;color:black;}
 /*on sélectionne 1 élément sur 2 à partir du 2ème*/
 section:nth-child(2n+2) {
 	background-color: #e0e0e0; /*gris*/	
+	width:100%;
 }
 
 /************************************************************
