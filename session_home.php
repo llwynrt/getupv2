@@ -94,7 +94,7 @@
 			</div>
 		</div>
 	</div>
-	
+<div id="main">	
 	<div class="col col-lg-12" id="banniere">
 	</div>
 
@@ -263,17 +263,19 @@
 	      	</div>
 		</div>
 	</section>
-	<section>
+	<section style="padding-bottom:50px;margin-bottom:-50px;">
 		<div class="container-fluid">       	
-	      	<section class="row">
-	      		<div class="col col-lg-12 text-center" style="margin-bottom:50px;">
+	      	<div class="row">
+	      		<div class="col col-lg-12 text-center">
 					<h2>Partenaires</h2>
 					<img src="assets/images/partenaires/agilumens.png" alt="logo agilumens"><img src="assets/images/partenaires/shaker.png" alt="logo shaker">
 				</div>
-			</section>
+			</div>
 			<!-- /.row -->
 		</div>
 	</section>
+</div>
+<div>	
 	<div id="footer">
 		<div class="container-fluid">       	
 			<div class="row">
@@ -359,7 +361,7 @@
 		</div>
     </div>
     <!-- /.container -->
-
+</div>
   	<!-- CDN jQuery -->
 	<script src="assets/js/jquery.js"></script>
     <!-- Bootstrap Core JavaScript -->

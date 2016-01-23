@@ -146,7 +146,7 @@ header
 }
 
 @media screen and (min-width:992px){
-	#banniere{
+	#main{
 		position:relative;top:-40px;/*logo chevauche la bannière*/
 	}
 }
@@ -184,9 +184,8 @@ hr {border-top-color:#1d3651;}
 strong {font-family:'Montserrat';font-weight:400;color:black;}
 
 /*on sélectionne 1 élément sur 2 à partir du 2ème*/
-section:nth-child(2n+2) {
+section:nth-child(2n+1) {
 	background-color: #e0e0e0; /*gris*/	
-	width:100%;
 }
 
 /************************************************************
@@ -210,6 +209,8 @@ aside h3 {
 		top: -50px;
 		margin-left:-30px;
 	}	
+
+
 }
 
 @media screen and (min-width:992px){
@@ -217,6 +218,8 @@ aside{
 	top: -90px;
 	}	
 }
+
+
 
 /************************************************************
 boutons
@@ -527,7 +530,7 @@ td{background-color:#B1E9F1;}
 	#twitter{margin-bottom:40px;}
 }
 
-#twitter{background-color:#08192B;border-radius:20px;position:relative;top:-100px;}
+#twitter{background-color:#08192B;border-radius:20px;position:relative;top:-80px;}
 
 @media screen and (max-width:991px){
 	#twitter{position:relative;top:0px;}
