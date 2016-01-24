@@ -33,8 +33,13 @@ class Pages extends CI_Controller {
 			'getup-prix-libre' => 'Choisissez le prix de votre site',
 			'contact' => 'Contact',
 		];
-		
+	
+		if(isset($title[$page])){
 		$data['title'] = $title[$page];
+		}
+		else {
+			$data['title'] = '';
+		}
 
         $this->load->view('templates/header',$data);
         $this->load->view('pages/'.$page);
