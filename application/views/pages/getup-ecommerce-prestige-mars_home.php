@@ -141,7 +141,7 @@
 				<div class="col-md-12">
 					<div class="row carre-large-h" style="background-color:white;">
 			
-						<div class="col col-sm-6 carre-large-col">
+						<div class="col col-md-5 col-sm-6 carre-large-col">
 							<div class="carre" style="margin:0px;padding-left:20px; padding-top:0px;">
 								<h3>Le château de Briançon</h3>
 								<p style="font-family:'Roboto';font-weight:lighter;font-size:18px;">en Maine et Loire, à 2h30 de Paris</p>
@@ -152,9 +152,11 @@
 
 							</div>
 						</div>
-						<div class="col col-sm-6" style="padding-left:0px;padding:0px;border-top-right-radius:20px;	border-bottom-right-radius:20px;">
-							<div class="carre" style="margin:0px;border-top-left-radius: 0px;border-bottom-left-radius: 0px;padding:0px;">
-								<img src="assets/images/chateau3.jpg" alt="" style="width:100%;border-top-right-radius:20px;border-bottom-right-radius:20px;">
+						<div class="col col-md-7 col-sm-6" style="padding-left:0px;padding:0px;border-top-right-radius:20px;	border-bottom-right-radius:20px;">
+							<div class="carre" style="margin:0px;margin-bottom:-5px;border-top-left-radius: 0px;border-bottom-left-radius: 0px;padding:0px;background:url('assets/images/chateau3.jpg'); background-position: center center;min-height:330px;">
+								<!--<img src="assets/images/chateau3.jpg" 
+									class=" img-responsive img-center" alt="" 
+									style="width:100%;height:100%;border-top-right-radius:20px;border-bottom-right-radius:20px;">-->
 							</div>
 						</div>
 					</div>
