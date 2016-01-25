@@ -15,23 +15,23 @@ class Pages extends CI_Controller {
                 // Whoops, we don't have a page for that!
                 show_404();
         }
-		
+		$data = array();
+
 		$title = [ 
-			'index' 					=> 'CodeCamp pour entrepreneurs',
-			'agenda' 					=> 'Agenda des évènements',
-			'carte' 					=> 'Carte des évènements',
-			'mentions' 					=> 'Mentions légales',
-			'plan' 						=> 'Plan du site',
-			'suggerersession' 			=> 'Suggérer une session',
-			'creersession' 				=> 'Créer une session',
-			'getup-prestashop-decembre' => 'CodeCamp pour entrepreneurs',
+			'index' 						=> 'CodeCamp pour entrepreneurs',
+			'agenda' 						=> 'Agenda des évènements',
+			'carte' 						=> 'Carte des évènements',
+			'mentions' 						=> 'Mentions légales',
+			'plan' 							=> 'Plan du site',
+			'suggerersession' 				=> 'Suggérer une session',
+			'creersession' 					=> 'Créer une session',
 			'getup-ecommerce-prestige-mars' => 'CodeCamp pour entrepreneurs',
-			'getup-vitrine-janvier' 	=> 'CodeCamp pour entrepreneurs',
-			'questionnaire' 			=> 'Améliorer GetUP',
-			'postuler' 					=> 'Intervenir sur une session',
+			'getup-vitrine-janvier' 		=> 'CodeCamp pour entrepreneurs',
+			'questionnaire' 				=> 'Améliorer GetUP',
+			'postuler' 						=> 'Intervenir sur une session',
 			'getup-prestige-mars-inscription' => 'Inscription',
-			'getup-prix-libre' => 'Choisissez le prix de votre site',
-			'contact' => 'Contact',
+			'getup-prix-libre'				=> 'Choisissez le prix de votre site vitrine',
+			'contact'	 					=> 'Contact',
 		];
 	
 		if(isset($title[$page])){
@@ -41,8 +41,23 @@ class Pages extends CI_Controller {
 			$data['title'] = '';
 		}
 
+		/* les pages contenant une seule section ont toutes la même structure, on leur ajoute donc un header et footer supplémentaire, plutôt que de dupliquer du code*/
+		$pageSectionUnique = ['creersession','contact','getup-prix-libre','liens','mentions','postuler','postuler','carte','suggerersession', 'agenda','sondage','questionnaire', 'plan','liens'];
+		
+		$isUnique = false;
+		if (in_array ($page , $pageSectionUnique)){
+			$isUnique = true;
+			$data['css'] = 'styleSectionUnique';
+		}
+
         $this->load->view('templates/header',$data);
+        if($isUnique){
+        	$this->load->view('templates/header_form',$data);
+        }
         $this->load->view('pages/'.$page);
+        if($isUnique){
+        	$this->load->view('templates/footer_form',$data);
+        }
         $this->load->view('templates/footer');
 	}
 	

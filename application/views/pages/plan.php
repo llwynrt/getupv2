@@ -1,7 +1,4 @@
-<div class="container-fluid" id="main">
-	<div class="row">
-		<div class="col-lg-12" id="left">
-			<h1>Plan du site</h1>
+			<h2>Plan du site</h2>
 			<ul>
 				<li><a href="index.html">Accueil</a></li>
 				<li><a href="agenda.html">Agenda des évènements</a></li>
@@ -11,6 +8,3 @@
 				<li><a href="creersession.html">Créer une session GetUP</a></li>
 				<li><a href="postuler.html">Postuler comme intervenant</a></li>
 			</ul>
-		</div> 
-	</div>
-</div>

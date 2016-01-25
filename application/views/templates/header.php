@@ -17,6 +17,13 @@
 
     <!-- Custom CSS -->
     <link href="assets/css/style.css" rel="stylesheet">
+    <?php
+    	if (isset($css)){
+    ?>
+    		    <link href="assets/css/styleSectionUnique.css" rel="stylesheet">
+    <?php
+    	}
+    ?>
 
     <link rel="icon" type="image/png" href="favicon.png" />
 	

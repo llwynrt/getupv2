@@ -276,7 +276,13 @@ boutons
 /************************************************************
 
 ************************************************************/
-
+.cadre{
+	background-color:white;
+	border-radius:20px;
+	padding:20px;
+	margin-bottom:20px;
+	margin-top:20px;
+}
 
 /*image à gauche du texte pour les grandes tailles*/
 .carre {
