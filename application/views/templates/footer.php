@@ -15,7 +15,7 @@
 	<div id="footer">
 		<div class="container-fluid">  
 			<div class="row">
-				<div class="col col-md-3 col-sm-6 text-center">
+				<div class="col col-md-3 col-sm-6 col-ms-12 text-center">
 					<img src="assets/images/logo-getup-v2_sm-inv.png" alt="">
 				</div>
 				<div class="col col-md-5 col-sm-6 text-left" style="color:white;">
@@ -61,7 +61,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="col col-md-4 col-sm-8 col-sm-offset-2 col-ms-10 col-ms-offset-1 text-center">
+				<div class="col col-md-4 col-md-offset-0 col-sm-8 col-sm-offset-2 col-ms-10 col-ms-offset-1 text-center">
 					<div id="twitter">
 						<h2>Suivez notre aventure !</h2>
 						<a class="twitter-timeline"  href="https://twitter.com/hashtag/GetUpBiz" data-widget-id="641631327851315200" data-chrome="noheader transparent">
