@@ -494,6 +494,9 @@ Sessions
 #footer ul {text-align:left;}
 #footer li{color:#42B9CB;display:block;text-transform:uppercase;}
 #footer li:first-child{color:white;font-weight:bold;}
+#footer li:first-child a{color:white;font-weight:bold;}
+
+#footer li a{color:#44b8ca;}
 
 @media screen and (max-width:479px){
 	#footer ul{padding-left:0px;}
