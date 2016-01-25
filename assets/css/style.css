@@ -423,7 +423,8 @@ onglets page session
 
 .onglet .left{
 	border-top-left-radius:20px;border-bottom-left-radius:20px;background-color:#D0D4D5;padding:10px;display:inline-block;width:60px;
-
+	padding-bottom:5px;
+	margin-bottom:5px;margin-top:5px;
 }
 
 .onglet .right{
@@ -434,6 +435,10 @@ onglets page session
 	display:inline-block;width: calc(100% - 65px);
 	position: relative;
 	left:-5px;
+		padding-bottom:5px;
+
+		margin-bottom:5px;margin-top:5px;
+
 }
 
 .onglet ul{

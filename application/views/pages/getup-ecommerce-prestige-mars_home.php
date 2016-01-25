@@ -7,13 +7,13 @@
 					<p class="chapeau">Nous vous proposons de cristaliser votre model business, 
 					créer votre site, le tester, identifier le profil de vos premiers clients 
 					et se lancer sur le marché, au bout d'une semaine seulement.</p>
-					<div class="button blue"><a href="getup-ecommerce-prestige-mars_detail.html ">Découvrir la session</a></div>
+					<div class="button blue"><a href="getup-ecommerce-prestige-mars_detail.html">Découvrir la session</a></div>
 				</div> 
 	        	<div class="col col-md-3 col col-md-offset-1 col col-sm-4 col-ms-12 text-center">
 					<aside>
 						<h3>Session mars : -20% sur les préventes</h3>
 						Jusqu'au 31 janvier.<br /><del>11 200€</del> 8 920€
-						<div class="button white"><a href="#">J'en profite !</a></div>
+						<div class="button white"><a href="getup-ecommerce-prestige-mars_detail.html#tarifs">J'en profite !</a></div>
 					</aside>
 				</div>
 			</div>
