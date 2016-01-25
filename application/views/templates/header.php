@@ -29,12 +29,12 @@
 	
 	<style>
 		/*.row{border:1px solid black;margin-left:0px;margin-right:0px;}
-		.col{border:1px solid red;}*/		
+		.col{border:1px solid red;}	*/	
 	</style>
 
 </head>
 
-<body data-grid-framework="b3" data-grid-color="gray" data-grid-opacity="0.3" data-grid-zindex="10" data-grid-gutterwidth="30px" data-grid-nbcols="12">
+<body data-grid-framework="b3f" data-grid-color="gray" data-grid-opacity="0.3" data-grid-zindex="10" data-grid-gutterwidth="30px" data-grid-nbcols="12">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col col-md-2 hidden-sm hidden-ms hidden-xs">

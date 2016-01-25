@@ -20,30 +20,30 @@
 				</div>
 				<div class="col col-md-5 col-sm-6 text-left" style="color:white;">
 					<div id="menu" >
-							<ul>
-								<li>A propos</li>
-								<li><a href="wiki/">La méthode</a></li>
-								<li><a href="https://medium.com/@mickaelruau">Suivez notre aventure</a></li>
-								<li><a href="liens.html">Ils parlent de nous</a></li>
-							</ul>
-							<ul>
-								<li>Sessions</li>
-								<li><a href="getup-prix-libre.html">Site vitrine à prix libre</a></li>
-								<li><a href="getup-ecommerce-prestige-mars_home.html">E-commerce prestige</a></li>
-							</ul>
-							<ul>
-								<li><a href="agenda.html">Agenda</a></li>
-							</ul>
-							<ul>
-								<li>Organiser</li>
-								<li><a href="creersession.html">Créer une session</a></li>
-								<li><a href="postuler.html">Intervenir</a></li>
-								<li><a href="suggerersession.html">Suggérer une session</a></li>
-								<li><a href="questionnaire.html">Améliorer GetUP</a></li>
-							</ul>
-							<ul>
-								<li><a href="contact.html">Contact</a></li>
-							</ul>
+						<ul>
+							<li>A propos</li>
+							<li><a href="wiki/">La méthode</a></li>
+							<li><a href="https://medium.com/@mickaelruau">Suivez notre aventure</a></li>
+							<li><a href="liens.html">Ils parlent de nous</a></li>
+						</ul>
+						<ul>
+							<li>Sessions</li>
+							<li><a href="getup-prix-libre.html">Site vitrine à prix libre</a></li>
+							<li><a href="getup-ecommerce-prestige-mars_home.html">E-commerce prestige</a></li>
+						</ul>
+						<ul>
+							<li><a href="agenda.html">Agenda</a></li>
+						</ul>
+						<ul>
+							<li>Organiser</li>
+							<li><a href="creersession.html">Créer une session</a></li>
+							<li><a href="postuler.html">Intervenir</a></li>
+							<li><a href="suggerersession.html">Suggérer une session</a></li>
+							<li><a href="questionnaire.html">Améliorer GetUP</a></li>
+						</ul>
+						<ul>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
 					</div>
 					<div id="reseaux" class="text-center">
 						Rejoignez-nous 
@@ -60,25 +60,27 @@
 							</li>
 						</ul>
 					</div>
-			</div>
-			<div class="col col-md-4 col-sm-12 text-center">
-				<div id="twitter">
-					<h2>Suivez notre aventure !</h2>
-					<a class="twitter-timeline"  href="https://twitter.com/hashtag/GetUpBiz" data-widget-id="641631327851315200" data-chrome="noheader transparent">
-						Tweets sur #GetUpBiz
-					</a>
-					<script>
-						!function(d,s,id){
-							var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
-							if(!d.getElementById(id)){
-								js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";
-								fjs.parentNode.insertBefore(js,fjs);
+				</div>
+				<div class="col col-md-4 col-sm-8 col-sm-offset-2 col-ms-10 col-ms-offset-1 text-center">
+					<div id="twitter">
+						<h2>Suivez notre aventure !</h2>
+						<a class="twitter-timeline"  href="https://twitter.com/hashtag/GetUpBiz" data-widget-id="641631327851315200" data-chrome="noheader transparent">
+							Tweets sur #GetUpBiz
+						</a>
+						<script>
+							!function(d,s,id){
+								var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+								if(!d.getElementById(id)){
+									js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";
+									fjs.parentNode.insertBefore(js,fjs);
+								}
 							}
-						}
-						(document,"script","twitter-wjs");
-					</script>
+							(document,"script","twitter-wjs");
+						</script>
+					</div>
 				</div>
 			</div>
+			
 		</div>
 	</div>
 
