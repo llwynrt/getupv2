@@ -353,6 +353,11 @@ boutons
 
 #commerce{background-image:url(../images/commerce_100.png);
 }
+#commerce2{
+	background-image:url(../images/commerce_55.png);
+	background-repeat:no-repeat;
+	background-position: left center;
+}
 
 #commerce{
 	border-top-right-radius: 0px;
@@ -371,7 +376,16 @@ boutons
 #conclusion p:nth-child(2){font-family: 'Roboto'; font-size:21px;font-weight: :bold;}
 
 
+/*resumé page session*/
 
+.resume{
+	height:75px;display:table;
+}
+
+.resume:nth-child(-n+3){border-right:1px solid #ACAEAD;}
+.resume2{
+display: table-cell; vertical-align: middle;
+}
 /************************************************************
 onglets page session
 ************************************************************/
@@ -383,15 +397,24 @@ onglets page session
 }
 
 .onglet .top h2 {
-	color:white;
+	color:white;margin-top:5px;margin-bottom:5px;font-size:1.5em;
 }
+
+.onglet .inv {
+	background-color:white;
+}
+.onglet .inv h2 {
+	color:#1d3651;
+}
+
+
 
 .onglet .fleche-bas {
 	width:0px;border:15px solid transparent;border-top:15px solid #1d3651;z-index:10;position:relative;top:-20px;
 }
 
 .onglet .fleche-inv {
-	border-top-color:white;float:right;position:relative;top:-35px;left:-10px;
+	border-top-color:white;float:right;position:relative;top:-25px;left:-10px;
 }
 
 .onglet .bottom{
@@ -411,6 +434,16 @@ onglets page session
 	display:inline-block;width: calc(100% - 65px);
 	position: relative;
 	left:-5px;
+}
+
+.onglet ul{
+	list-style-type:none;
+	margin-left:0;
+	padding-left:0;
+}
+
+.onglet li{
+	margin-bottom:10px;
 }
 /************************************************************
 Sessions

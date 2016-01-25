@@ -12,8 +12,9 @@
     <title>GetUP - Run your business</title>
 
     <!-- Bootstrap Core CSS -->
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 	<link href="assets/css/bootstrap_ms.min.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="assets/css/style.css" rel="stylesheet">
@@ -87,21 +88,7 @@
 									</ul>
 								</li>
 								<li><a href="contact.html">Contact</a></li>
-								<!--<li>
-									<a href="#">A Propos</a>
-								</li>
-								<li>
-									<a href="#">Sessions</a>
-								</li>
-								<li>
-									<a href="#">Agenda</a>
-								</li>
-								<li>
-									<a href="#">Organiser</a>
-								</li>
-								<li>
-									<a href="#">Contact</a>
-								</li>-->
+
 					   
 							</ul>
 						</div>
@@ -114,7 +101,7 @@
 			</div>
 			<div class="col col-lg-2 col-md-3 col-sm-3 hidden-ms hidden-xs text-center">         
 				<div id="participer">
-                    <a href="#sessions"><span>Participer</span><br />à une session GetUP</a>
+                    <a href="index.html#sessions"><span>Participer</span><br />à une session GetUP</a>
                 </div>
 			</div>
 		</div>

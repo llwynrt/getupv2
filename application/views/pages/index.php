@@ -13,7 +13,7 @@
 					<aside>
 						<h3>Session mars : -20% sur les préventes</h3>
 						Profitez d'un tarif Early bird pour toute inscription avant le 31 janvier.<br />
-						<div class="button white"><a href="#">J'en profite !</a></div>
+						<div class="button white"><a href="getup-ecommerce-prestige-mars_detail.html#tarifs">J'en profite !</a></div>
 					</aside>
 				</div>
 			</div>
@@ -57,7 +57,7 @@
       		<!-- /.row -->
 		</div>
 	</section>
-	<section>
+	<section id="sessions">
 		<div class="container-fluid">  
 	      	<div class="row">
 	      		<div class="col col-lg-12 text-center">

@@ -103,6 +103,19 @@
 	<script src="assets/js/jquery.js"></script>
     <!-- Bootstrap Core JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+	<script>
+    	function visibilite(divId)
+		{
+		    var statut=document.getElementById(divId);
+		    if(statut.style.display=='block'){
+			   	statut.style.display='none';
+			}
+			else{
+			   	statut.style.display='block';
+	        }
+	    }
+	</script>
 	
 </body>
 </html>
