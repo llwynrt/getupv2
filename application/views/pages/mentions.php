@@ -1,6 +1,10 @@
-<div class="container-fluid" id="main">
+<section>
+</section>
+<section>
+<div class="container-fluid">
   <div class="row">
-    <div class="col-lg-12" id="left">
+    <div class="col-lg-12">
+    	<div style="background-color:white;border-radius:20px;padding:20px;margin-bottom:20px;margin-top:20px;">
 
       <h1>Informations légales</h1>
 <h2>1. Présentation du site.</h2>
@@ -13,7 +17,8 @@
 <tr><td>Tel :</td><td>02 41 34 94 02</td></tr>
 <tr><td>N° de SIRET :</td><td>490 314 887 00038</td>
 <tr><td>Directeur de la publication :</td><td>Mickaël Ruau</td></tr>
-<tr><td>Conception graphique et développement :&nbsp;</td><td>Marie-Lyse Briffaud</td></tr>
+<tr><td>Conception graphique :</td><td><a href="http://lesindiens.fr">Les Indiens</a></td></tr>
+<tr><td>Développement :</td><td>Marie-Lyse Briffaud</td></tr>
 <tr><td>Hébergement :</td><td>Netim, 165 avenue de bretagne, Euratechnologies, 59000 Lille</td></tr>
 </tbody></table>
 
@@ -64,3 +69,6 @@
         </div> 
       </div>
     </div>
+    </div>
+
+</section>

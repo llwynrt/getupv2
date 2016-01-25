@@ -19,13 +19,6 @@
     <link href="assets/css/style.css" rel="stylesheet">
 
     <link rel="icon" type="image/png" href="favicon.png" />
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 	
 	<style>
 		/*.row{border:1px solid black;margin-left:0px;margin-right:0px;}
@@ -58,12 +51,8 @@
 							
 						</div>
 						<!-- Collect the nav links, forms, and other content for toggling -->
-						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="padding-left:0px;">
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav nav-justified">
-
-								<!--                    
-								
-								-->
 								<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Sessions<b class="caret"></b> </a>
 									<ul class="dropdown-menu">
 										<li><a href="getup-ecommerce-prestige-mars_home.html">E-commerce prestige</a></li>
@@ -117,8 +106,8 @@
 				</nav>
 			</div>
 			<div class="col col-lg-2 col-md-3 col-sm-3 hidden-ms hidden-xs text-center">         
-				<div id="participer" style="height:60px;padding-top:10px;">
-                    <a href="#sessions"><span style="text-transform: uppercase;font-family:'Montserrat-Bold';height:200px;">Participer</span><br />à une session GetUP</a>
+				<div id="participer">
+                    <a href="#sessions"><span>Participer</span><br />à une session GetUP</a>
                 </div>
 			</div>
 		</div>

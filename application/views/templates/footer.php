@@ -1,5 +1,5 @@
 
-	<section style="padding-bottom:50px;margin-bottom:-50px;">
+	<section id="partenaires">
 		<div class="container-fluid">  
 	      	<div class="row">
 	      		<div class="col col-lg-12 text-center">
@@ -18,7 +18,7 @@
 				<div class="col col-md-3 col-sm-6 col-ms-12 text-center">
 					<img src="assets/images/logo-getup-v2_sm-inv.png" alt="">
 				</div>
-				<div class="col col-md-5 col-sm-6 text-left" style="color:white;">
+				<div class="col col-md-5 col-sm-6 text-left">
 					<div id="menu" >
 						<ul>
 							<li>A propos</li>

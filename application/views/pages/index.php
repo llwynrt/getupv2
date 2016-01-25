@@ -40,7 +40,8 @@
 						Je réalise mon cahier des charges avec des outils simples.
 					</div>
 				</div>
-				<div class="col col-md-6" style="clear:left;">
+				<div class="clearfix visible-md"></div>  
+				<div class="col col-md-6">
 					<div class=" carre" id="design">
 						<h3>Un design personnalisé</h3>
 						Je réalise une charte graphique adaptée à mes besoins.

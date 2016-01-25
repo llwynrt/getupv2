@@ -49,11 +49,15 @@ header
 
 #participer {
 	background-color:#EB515B;margin-bottom:-1px;
+	height:60px;padding-top:10px;
 }
 
 #participer a {
+	font-size:1.1em;
 	color:#FFFFFF;text-align:center;
 }
+
+#participer a span{text-transform: uppercase;font-family:'Montserrat-Bold';}
 
 	/************************************************************
 	navbar
@@ -81,6 +85,8 @@ header
 	.navbar {
 		margin-bottom: 0px;
 	}
+
+	.navbar-collapse{padding-left:0px;}
 
 	/*sous menu déroulant*/
 	.dropdown-submenu{
@@ -474,32 +480,11 @@ Sessions
 	}
 }
 
-/*******************************************************************************************
-tableau evenium
-*******************************************************************************************/
 
-table, td, th {border-color:#9ED8E0;}
-th{background-color:#9DE3ED;font-family:'Montserrat';}
-td{background-color:#B1E9F1;}
-		
-.btn-perso {
-	color: #fff;
-  	background-color: #43B8CA;
-  	border-color: #9ED8E0;
-}
-.btn-perso:focus,
-.btn-perso.focus {
-  	color: #fff;
-  	background-color: #25a5b7;
-  	border-color: #9ED8E0;
-}
-.btn-perso:hover {
-  	color: #fff;
-  	background-color: #25a5b7;
-  	border-color: #9ED8E0;
-}
 
-#footer{background-color:#173350;padding-top:40px;}
+#partenaires{padding-bottom:70px;margin-bottom:-50px;}
+
+#footer{background-color:#173350;padding-top:40px;color:white;}
 #footer ul {text-align:left;}
 #footer li{color:#42B9CB;display:block;text-transform:uppercase;}
 #footer li:first-child{color:white;font-weight:bold;}
@@ -530,7 +515,7 @@ td{background-color:#B1E9F1;}
 	#twitter{margin-bottom:40px;}
 }
 
-#twitter{background-color:#08192B;border-radius:20px;position:relative;top:-80px;}
+#twitter{background-color:#08192B;border-radius:20px;position:relative;top:-90px;}
 
 @media screen and (max-width:991px){
 	#twitter{position:relative;top:0px;}
