@@ -50,12 +50,12 @@
 						<ul>
 							<li>
 								<a href="https://twitter.com/GetUpBiz">
-									<img src="assets/images/picto1.png" alt="">
+									<img src="assets/images/picto1.png" alt="twitter">
 								</a>
 							</li>
 							<li>
 								<a href="https://www.facebook.com/getupbiz/">
-									<img src="assets/images/picto2.png" alt="">
+									<img src="assets/images/picto2.png" alt="facebook">
 								</a>
 							</li>
 						</ul>

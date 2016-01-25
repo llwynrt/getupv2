@@ -50,7 +50,7 @@
 
 						<!-- Brand and toggle get grouped for better mobile display -->
 						<div class="navbar-header">
-							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 								<span class="sr-only">Toggle navigation</span>
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
@@ -63,7 +63,7 @@
 							<ul class="nav nav-justified">
 								<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Sessions<b class="caret"></b> </a>
 									<ul class="dropdown-menu">
-										<li><a href="getup-ecommerce-prestige-mars_home.html">E-commerce prestige</a></li>
+										<li><a href="getup-ecommerce-prestige-mars.html">E-commerce prestige</a></li>
 										<li><a href="getup-prix-libre.html">Green web à Prix libre</a></li>
 									</ul>
 								</li>

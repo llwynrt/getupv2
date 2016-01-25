@@ -2,14 +2,15 @@
 	<section>
 		<div class="container-fluid">       
 			<div class="row" style="color:#1d3651;font-family: 'Montserrat', sans-serif;">
-				<div id="commerce2" class="col-sm-4 resume" style="background-repeat:no-repeat;padding-left:60px;font-size:1.2em;">
+				<div style="padding-left:15px;padding-right:15px;">
+				<div id="commerce2" class="col-sm-4 col-ms-4 col-ms-offset-4 col-sm-offset-0 resume">
 					<div class="resume2">
 						GetUP e-commerce<br>
 						Session prestige				
 					</div>
 
 				</div>
-				<div class="col-sm-2 resume">
+				<div class="col-sm-2 col-ms-6 resume">
 					<div class="resume2">
 						<i class="fa fa-map-marker" style="font-size:2em;float:left;margin-right:10px;margin-top:7px;"></i>
 						Angers, 49020<br>
@@ -17,7 +18,7 @@
 					</div>
 
 				</div>
-				<div class="col-sm-2 resume">
+				<div class="col-sm-2 col-ms-6 resume">
 					<div class="resume2">
 						<i class="fa fa-calendar-o" style="font-size:2em;float:left;margin-right:10px;margin-top:7px;"></i> Du 7 mars<br>
 						Au 11 mars			
@@ -25,17 +26,18 @@
 
 
 				</div>
-				<div class="col-sm-2 resume">
+				<div class="col-sm-2 col-ms-6 resume">
 					<div class="resume2" style="color:#e7525f;text-align:center;">
 						A partir de<br>8 960 €				
 					</div>
 
 				</div>
-				<div class="col-sm-2 resume" style="background-color:#44b8ca;color:white;text-align:center;">
+				<div class="col-sm-2 col-ms-6 resume" style="background-color:#44b8ca;color:white;text-align:center;">
 					<div class="resume2" style="text-transform:uppercase;">
-						Je m'inscris
+						<a href="getup-prestige-mars-inscription.html">Je m'inscris</a>
 					</div>
 				</div>
+			</div>
 			</div>
 		</div>
 	</section>
@@ -62,7 +64,219 @@
 							</div>
 							<div id="planning" class="bottom" style="display:block;">
 								<p>Bientôt en ligne !</p>
-								
+								<!--<p>Lundi 7 Mars</p>
+								<p>Consolidation du Business Model</p>
+
+								<div class="left">
+									<p>9h30</p>
+								</div>
+								<div class="right">
+									<p>Pitch projet</p>
+								</div>
+								<div class="left">
+									<p>11h</p>
+								</div>
+								<div class="right">
+									<p>Exploration problème utilisateurs</p>
+								</div>
+								<div class="left">
+									<p>13h</p>
+								</div>
+								<div class="right">
+									<p>Déjeuner</p>
+								</div>
+								<div class="left">
+									<p>14h</p>
+								</div>
+								<div class="right">
+									<p>Présentation test driven business / Lean Canvas</p>
+								</div>
+								<div class="left">
+									<p>16h</p>
+								</div>
+								<div class="right">
+									<p>Préparation interview utilisateurs</p>
+								</div>
+								<div class="left">
+									<p>18h</p>
+								</div>
+								<div class="right">
+									<p>Débrief</p>
+								</div>
+								<p>Mardi 8 Mars</p>
+								<p>Consolidation du Business Model et travail sur l'identité graphique</p>
+
+								<div class="left">
+									<p>9h30</p>
+								</div>
+								<div class="right">
+									<p>Métriques sur l'impact souhaité</p>
+								</div>
+								<div class="left">
+									<p>10h30</p>
+								</div>
+								<div class="right">
+									<p>Interviews utilisateurs</p>
+								</div>
+								<div class="left">
+									<p>11h30</p>
+								</div>
+								<div class="right">
+									<p>Ajustements suite aux interviews</p>
+								</div>
+								<div class="left">
+									<p>13h</p>
+								</div>
+								<div class="right">
+									<p>Déjeuner</p>
+								</div>
+								<div class="left">
+									<p>14h</p>
+								</div>
+								<div class="right">
+									<p>Travail sur l'expression de l'identité de l'initiative "unfair advantage"</p>
+								</div>
+								<div class="left">
+									<p>&nbsp;</p>
+								</div>
+								<div class="right">
+									<p>Travail sur l'identité graphique, recherches et mise en place de moodboard</p>
+								</div>
+								<div class="left">
+									<p>16h</p>
+								</div>
+								<div class="right">
+									<p>Proposition de valeur (key feature)</p>
+								</div>
+								<div class="left">
+									<p>&nbsp;</p>
+								</div>
+								<div class="right">
+									<p>Travail sur l'identité graphique, validation d'un axe visuel</p>
+								</div>
+								<div class="left">
+									<p>18h</p>
+								</div>
+								<div class="right">
+									<p>Débrief</p>
+								</div>
+								<p>Lundi 7 Mars</p>
+								<p>Consolidation du Business Model</p>
+
+								<div class="left">
+									<p>9h30</p>
+								</div>
+								<div class="right">
+									<p>Pitch projet</p>
+								</div>
+								<div class="left">
+									<p>11h</p>
+								</div>
+								<div class="right">
+									<p>Exploration problème utilisateurs</p>
+								</div>
+								<div class="left">
+									<p>13h</p>
+								</div>
+								<div class="right">
+									<p>Déjeuner</p>
+								</div>
+								<div class="left">
+									<p>14h</p>
+								</div>
+								<div class="right">
+									<p>Présentation test driven business / Lean Canvas</p>
+								</div>
+								<div class="left">
+									<p>16h</p>
+								</div>
+								<div class="right">
+									<p>Préparation interview utilisateurs</p>
+								</div>
+								<div class="left">
+									<p>18h</p>
+								</div>
+								<div class="right">
+									<p>Débrief</p>
+								</div>
+								<p>Lundi 7 Mars</p>
+								<p>Consolidation du Business Model</p>
+
+								<div class="left">
+									<p>9h30</p>
+								</div>
+								<div class="right">
+									<p>Pitch projet</p>
+								</div>
+								<div class="left">
+									<p>11h</p>
+								</div>
+								<div class="right">
+									<p>Exploration problème utilisateurs</p>
+								</div>
+								<div class="left">
+									<p>13h</p>
+								</div>
+								<div class="right">
+									<p>Déjeuner</p>
+								</div>
+								<div class="left">
+									<p>14h</p>
+								</div>
+								<div class="right">
+									<p>Présentation test driven business / Lean Canvas</p>
+								</div>
+								<div class="left">
+									<p>16h</p>
+								</div>
+								<div class="right">
+									<p>Préparation interview utilisateurs</p>
+								</div>
+								<div class="left">
+									<p>18h</p>
+								</div>
+								<div class="right">
+									<p>Débrief</p>
+								</div>
+								<p>Lundi 7 Mars</p>
+								<p>Consolidation du Business Model</p>
+
+								<div class="left">
+									<p>9h30</p>
+								</div>
+								<div class="right">
+									<p>Pitch projet</p>
+								</div>
+								<div class="left">
+									<p>11h</p>
+								</div>
+								<div class="right">
+									<p>Exploration problème utilisateurs</p>
+								</div>
+								<div class="left">
+									<p>13h</p>
+								</div>
+								<div class="right">
+									<p>Déjeuner</p>
+								</div>
+								<div class="left">
+									<p>14h</p>
+								</div>
+								<div class="right">
+									<p>Présentation test driven business / Lean Canvas</p>
+								</div>
+								<div class="left">
+									<p>16h</p>
+								</div>
+								<div class="right">
+									<p>Préparation interview utilisateurs</p>
+								</div>
+								<div class="left">
+									<p>18h</p>
+								</div>
+								<div class="right">
+									<p>Débrief</p>
+								</div>-->
 
 							</div>
 						</div>
@@ -118,26 +332,26 @@
 							</div>
 							<div id="tarifs" class="bottom" style="display:block;">
 								<div class="row">
-									<div class="col-md-4 onglet">
-										<div class="top" style="background-color:white;border-top:1px solid #D9DCE1;border-left:1px solid #D9DCE1;border-right:1px solid #D9DCE1;">
-											<p>Entrée<br>
-											à partir du 1er février 2016</p>
-											<p>&nbsp;</p>
-											<p>Hébergement en pension complète inclus dans le prix de la session</p>
-											<p>11 200€</p>
+									<div class="col-sm-4 onglet">
+										<div class="top tarif">
+											<h3>Entrée</h3>
+											à partir du 1er février 2016
+											<p>6 places disponibles</p>
+											<p style="font-size:0.9em;">Hébergement en pension complète inclus dans le prix de la session</p><p>&nbsp;</p>
+											<h3 style="color:#efaf42;">11 200€</h3>
 										</div>
 										<div class="bottom" style="background-color:#efaf42;">
 											<div class="button white" style=""><a href="getup-prestige-mars-inscription.html">J'en profite !</a>
 											</div>
 										</div>
 									</div>
-									<div class="col-md-4 onglet">
-										<div class="top" style="background-color:white;border-top:1px solid #D9DCE1;border-left:1px solid #D9DCE1;border-right:1px solid #D9DCE1;">
-											<p>Early bird<br>
-											jusqu'au 31 janvier 2016</pW>
+									<div class="col-sm-4 onglet">
+										<div class="top tarif">
+											<h3>Early bird</h3>
+											jusqu'au 31 janvier 2016
 											<p>4 places disponibles</p>
-											<p>Hébergement en pension complète inclus dans le prix de la session</p>
-											<p>8 960€</p>
+											<p style="font-size:0.9em;">Hébergement en pension complète inclus dans le prix de la session</p><p>&nbsp;</p>
+											<h3 style="color:#44b8ca;">8 960€</h3>
 										</div>
 										<div class="bottom" style="background-color:#44b8ca;">
 											<div class="button white"><a href="getup-prestige-mars-inscription.html">J'en profite !</a>
@@ -145,13 +359,13 @@
 										</div>
 
 									</div>
-									<div class="col-md-4 onglet">
-										<div class="top" style="background-color:white;border-top:1px solid #D9DCE1;border-left:1px solid #D9DCE1;border-right:1px solid #D9DCE1;">
-											<p>Demandeurs d'emploi<br>
-											jusqu'au 31 janvier 2016</p>
+									<div class="col-sm-4 onglet">
+										<div class="top tarif">
+											<h3>Demandeurs d'emploi</h3>
+											jusqu'au 31 janvier 2016
 											<p>2 places disponibles</p>
-											<p>Hébergement en pension complète inclus dans le prix de la session</p>
-											<p>8 245€</p>
+											<p style="font-size:0.9em;">Hébergement en pension complète inclus dans le prix de la session</p>
+											<h3 style="color:#e7525f;">8 245€</h3>
 										</div>
 										<div class="bottom" style="background-color:#e7525f;">
 											<div class="button white"><a href="getup-prestige-mars-inscription.html">J'en profite !</a></div>

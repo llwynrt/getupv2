@@ -26,8 +26,7 @@
 	      	<div class="row">
 	      		<div class="col col-lg-12 text-center">
 					<h2>Ce que j'obtiens avec GetUP</h2>
-					<p class="chapeau">
-					Nous vous proposons de cristaliser votre model business, créer votre site.</p>
+
 				</div>
 				<div class="col col-md-6">
 					<div class="carre" id="business">
@@ -62,17 +61,15 @@
 	      	<div class="row">
 	      		<div class="col col-lg-12 text-center">
 					<h2>Les prochaines sessions GetUP</h2>
-					<p class="chapeau">
-					Nous vous proposons de cristaliser votre model business, créer votre site.</p>
 				</div>
 				<div class="col col-md-6 session">
 					<img src="assets/images/Getup_home.jpg" alt="">
 					<div class="liseret"><p>
-						Du 25 au 29 janvier 2016</p>
+						Du 22 au 26 février 2016</p>
 					</div>
 					<div class="row detail vert">
 						<div class="col col-sm-9 col col-ms-8 description">
-							<h3>GetUP Green web</h3>
+							<h3><a href="getup-prix-libre.html">GetUP Green web</a></h3>
 							<h4>Création de votre site vitrine éco-responsable</h4>
 							<p>Cette session GetUp vous permettra de réaliser votre site web vitrine éco-responsable.
 							Le site sera réalisé en suivant les pratiques d'éco-conception web ("GreenIT").</p>
@@ -91,7 +88,7 @@
 					</div>
 					<div class="row detail rouge">
 						<div class="col col-sm-9 col col-ms-8 description">
-							<h3>GetUP e-commerce</h3>
+							<h3><a href="getup-ecommerce-prestige-mars.html">GetUP e-commerce</a></h3>
 							<h4>Création de votre site avec Prestashop</h4>
 							<p>Venez passer une semaine sur le site exceptionnel du château de Briançon pour réaliser votre site e-commerce avec une équipe d'experts</p>
 						</div>
