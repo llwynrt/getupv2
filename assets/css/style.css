@@ -65,19 +65,19 @@ header
 	.nav{padding-top:10px;}
 	.navbar{border: 0px solid transparent;}
 	.navbar-default{background-color:transparent;}
-	.navbar-default .nav-justified li a {
+	.navbar-default .navbar-nav li a {
 		color:#173350;	
 		text-transform: uppercase;
 		font-family:'Montserrat-Bold';
 	}
-	.navbar-default .nav-justified .dropdown-menu li a {
+	.navbar-default .navbar-nav .dropdown-menu li a {
 		color:#173350;
 		text-transform: none;
 		font-family:'Montserrat-light';
 	}
 
 	@media screen and (min-width:1200px){
-	.navbar-default .nav-justified li a {
+	.navbar-default .navbar-nav li a {
 		letter-spacing: 0.2em;
 		}
 	}
@@ -139,7 +139,7 @@ header
 	}
 
 
-	#bs-example-navbar-collapse-1 {padding-right:0px;}
+	#navbar {padding-left:30px;}
 
 
 
