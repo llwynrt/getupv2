@@ -92,12 +92,15 @@
 				</nav>
 			</div>
 			<div class="col col-lg-2 col-md-3 col-sm-3 hidden-ms hidden-xs text-center">         
-				<div id="participer">
+				<div id="participer" class="bg-red">
 					<a href="index.html#sessions"><span>Participer</span><br />à une session GetUP</a>
 				</div>
 			</div>
 		</div>
 	</div>
 	<div id="main">	
+			<section>
+		<div class="container">
 		<div class="col col-lg-12" id="banniere">
 		</div>
+	</div></section>

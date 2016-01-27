@@ -1,38 +1,55 @@
+/************************************************************
+polices
+************************************************************/
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,300,700);
 
 @font-face { 
-  font-family: 'Montserrat-light'; 
-  src: url('../fonts/Montserrat-UltraLight.otf'); 
+	font-family: 'Montserrat-light'; 
+	src: url('../fonts/Montserrat-UltraLight.otf'); 
 }
 @font-face { 
-  font-family: 'Montserrat'; 
-  src: url('../fonts/Montserrat-Light.otf'); 
+	font-family: 'Montserrat'; 
+	src: url('../fonts/Montserrat-Light.otf'); 
 }
 @font-face { 
-  font-family: 'Montserrat-regular'; 
-  src: url('../fonts/Montserrat-Regular.otf'); 
-}
-
-@font-face { 
-  font-family: 'Montserrat-bold'; 
-  src: url('../fonts/Montserrat-Bold.otf'); 
+	font-family: 'Montserrat-regular'; 
+	src: url('../fonts/Montserrat-Regular.otf'); 
 }
 
 @font-face { 
-  font-family: 'Montserrat-bold'; 
-  src: url('../fonts/Montserrat-Bold.otf'); 
+	font-family: 'Montserrat-bold'; 
+	src: url('../fonts/Montserrat-Bold.otf'); 
 }
 
+@font-face { 
+	font-family: 'Montserrat-bold'; 
+	src: url('../fonts/Montserrat-Bold.otf'); 
+}
 
+/************************************************************
+
+************************************************************/
 body{
-font-family: 'Montserrat-light', serif;color:#565656;
-}
-
-nav .container-fluid{
-	padding:0px 0px;
+	font-family: 'Montserrat-light', serif;color:#565656;
 }
 
 .container-fluid{max-width: 1200px;}
+.container {width:100%;padding-left:0px;padding-right:0px;}
+
+
+/************************************************************
+couleurs
+************************************************************/
+
+.bg-grey{background-color: #f0f0f0;}
+.bg-darkgrey{background-color: #D0D4D5;}
+.bg-red{background-color: #e2575f;}
+.bg-green{background-color: #3da67f;}
+.bg-white{background-color: #ffffff;}
+
+.white{color:white;}
+
 
 
 /************************************************************
@@ -48,7 +65,7 @@ header
 }
 
 #participer {
-	background-color:#EB515B;margin-bottom:-1px;
+	margin-bottom:-1px;
 	height:60px;padding-top:10px;
 }
 
@@ -62,6 +79,9 @@ header
 	/************************************************************
 	navbar
 	************************************************************/
+	nav .container-fluid{
+		padding:0px 0px;
+	}
 	.nav{padding-top:10px;}
 	.navbar{border: 0px solid transparent;}
 	.navbar-default{background-color:transparent;}
@@ -77,13 +97,13 @@ header
 	}
 
 	@media screen and (min-width:1200px){
-	.navbar-default .navbar-nav li a {
-		letter-spacing: 0.2em;
+		.navbar-default .navbar-nav li a {
+			letter-spacing: 0.2em;
 		}
 	}
 	@media screen and (max-width:1115px){
-	.nav li a {
-		padding-left: 5px;padding-right: 5px;
+		.nav li a {
+			padding-left: 5px;padding-right: 5px;
 		}
 	}
 
@@ -143,36 +163,97 @@ header
 
 
 
-#banniere{
-	background: #42b9cb url(../images/logo-getup-v2_sm.png) no-repeat center center;/*bleu clair*/
-	height:350px;
-}
-
-@media screen and (max-width:500px){
-	#banniere{	
-		background-image: url(../images/logo-getup-v2_xs.png);
-		height:200px;
+	#banniere{
+		background: #42b9cb url(../images/logo-getup-v2_sm.png) no-repeat center center;/*bleu clair*/
+		height:350px;
 	}
 
-}
+	@media screen and (max-width:500px){
+		#banniere{	
+			background-image: url(../images/logo-getup-v2_xs.png);
+			height:200px;
+		}
 
-@media screen and (min-width:992px){
-	#main{
-		position:relative;top:-40px;/*logo chevauche la bannière*/
 	}
-}
+
+	@media screen and (min-width:992px){
+		#main{
+			position:relative;top:-40px;/*logo chevauche la bannière*/
+		}
+	}
+
+/************************************************************
+	bas de page
+	************************************************************/
+	#partenaires{padding-bottom:70px;margin-bottom:-50px;}
+
+	#footer{background-color:#173350;padding-top:40px;color:white;}
+	#footer ul {text-align:left;}
+	#footer li{color:#42B9CB;display:block;text-transform:uppercase;}
+	#footer li:first-child{color:white;font-weight:bold;}
+	#footer li:first-child a{color:white;font-weight:bold;}
+
+	#footer li a{color:#44b8ca;}
+
+	@media screen and (max-width:479px){
+		#footer ul{padding-left:0px;}
+	}
+
+	#menu {
+		-moz-column-count: 2;
+		column-count: 2;
+	}
+
+	@supports  (-webkit-column-count:2) {
+		#menu {
+			-webkit-column-count: 2;
+		}
+	}
+	#reseaux {	
+		font-family:'Montserrat-Bold';
+		text-transform:uppercase;color:white;margin-top:20px;
+	}
+
+	#reseaux ul {margin:auto;width:120px;padding:0px;}
+	#reseaux li {margin:15px;display:inline-block;}
+
+	@media screen and (max-width:991px){
+		#twitter{margin-bottom:40px;}
+	}
+
+	#twitter{background-color:#08192B;border-radius:20px;position:relative;top:-90px;}
+
+	@media screen and (max-width:991px){
+		#twitter{position:relative;top:0px;}
+	}
+
+	#twitter h2 {color:#43B8CA;}
+	#liens {background-color:#08192B;padding:20px 0px;}
+	#liens ul{padding-left:0px;}
+	#liens li{display:inline-block;margin:0px 20px;}
+	#liens a{color:white;}
+
+	#liens div:first-child{color:#495462;text-transform:uppercase;font-weight:bold;}
+
+
+
+
 
 /************************************************************
 
 ************************************************************/
+section .row:first-child{margin-top:20px;margin-bottom:20px;}
+
+/*on sélectionne 1 élément sur 2 à partir du 2ème*/
+section:nth-child(2n+1) {
+	background-color: #e0e0e0; /*gris*/	
+}
 h1,h2,h3,h3 a {
 	font-family: 'Montserrat-bold', serif;
 	color:#173350;/*bleu*/
 
 }
 
-
-hr {border-top-color:#1d3651;}
 
 .chapeau{ 
 	font-size: 1.5em;
@@ -195,13 +276,10 @@ hr {border-top-color:#1d3651;}
 
 strong {font-family:'Montserrat';font-weight:400;color:black;}
 
-/*on sélectionne 1 élément sur 2 à partir du 2ème*/
-section:nth-child(2n+1) {
-	background-color: #e0e0e0; /*gris*/	
-}
+
 
 /************************************************************
-aside : early bird
+aside : onglet jaune;
 ************************************************************/
 aside {
 	background-color:#F0B140;/*jaune*/
@@ -221,13 +299,11 @@ aside h3 {
 		top: -50px;
 		margin-left:-30px;
 	}	
-
-
 }
 
 @media screen and (min-width:992px){
-aside{
-	top: -90px;
+	aside{
+		top: -90px;
 	}	
 }
 
@@ -244,115 +320,78 @@ boutons
 	margin:10px;
 	font-size: 1.2em;
 	text-align: center;
-	/*width: 250px;*/
 	display:inline-block;
 }
 
 .button a{
 	display:block;
-  	width:100%;
-  	height:100%;
-  	text-decoration: none;
-  	padding: 10px 30px;
+	width:100%;
+	height:100%;
+	text-decoration: none;
+	padding: 10px 30px;
 }
 
 .button:hover{  background-color: rgba(0, 0, 0, 0.1);
 }
 
-.blue {border:2px solid #173350;}
+.btn-blue {border:2px solid #173350;}
 
-.blue  a{color:#173350;}
+.btn-blue  a{color:#173350;}
 
-.white {border:2px solid white;}
+.btn-white {border:2px solid white;}
 
-.white  a{color:white;}
+.btn-white  a{color:white;}
 
-.red {border:2px solid #E85865;}
+.btn-red {border:2px solid #E85865;}
 
-.red  a{color:#E85865;}
+.btn-red  a{color:#E85865;}
 
-.green {border:2px solid #44AB85;}
+.btn-green {border:2px solid #44AB85;}
 
-.green a{color:#44AB85;}
+.btn-green a{color:#44AB85;}
 
-.yellow {border:2px solid #F0B140;}
+.btn-yellow {border:2px solid #F0B140;}
 
-.yellow a{color:#F0B140;}
+.btn-yellow a{color:#F0B140;}
 
 /************************************************************
-
+icones
 ************************************************************/
-.cadre{
-	background-color:white;
-	border-radius:20px;
-	padding:20px;
-	margin-bottom:20px;
-	margin-top:20px;
+.vignette {
+	padding:30px;
+	min-height:160px;
+	background-repeat:no-repeat;
+	color:#173350;
+	padding-left:160px;
 }
 
 /*image à gauche du texte pour les grandes tailles*/
-.carre {
-	border-radius: 20px;
-	margin :20px 0px;
-	padding:30px;
-	min-height:160px;
-	padding-left:160px;
-	background-color: white;
-	background-repeat:no-repeat;
+.vignette-gauche{
 	background-position: 30px center;
-	color:#173350;/*bleu*/
-  	display:inline-block;
-	width:100%;
 }
 
 /*image au dessus du texte pour les petites tailles*/
 @media screen and (max-width: 500px){
-	.carre {
-		padding:10px;
-		padding-top:140px;
-		background-position: center 30px;
+	.vignette-gauche{
+		padding-left:160px;
+		background-position: 30px center;
 	}
 }
 
-.carre-top{	
+.vignette-haut{
 	background-position: 30px 30px;
 }
 
-.carre-top h3{margin-top: 0px;margin-bottom:20px;padding-bottom:20px;border-bottom: 1px solid #1d3651;}
+.vignette-haut h3{margin-bottom:20px;padding-bottom:20px;border-bottom: 1px solid #1d3651;}
 
-.carre-large-h{background-color:#3da67f;margin:0px;margin-bottom:20px;border-radius:20px;}
-.carre-large-col{padding:0px;}
-.carre-large-h .carre-top{margin:0px;}
+.vignette-haut ul {padding-left:15px;font-family: 'Roboto', sans-serif;font-size:14px;}
+
 
 .carre-large-col-right{
-	margin:0px;
-	margin-bottom:-5px;
-	border-top-left-radius: 0px;
-	border-bottom-left-radius: 0px;
-	padding:0px;
 	background:url('../images/chateau3.jpg'); 
 	background-position: center center;
 	min-height:330px;
 }
-
-@media screen and 
-
-.titre1{
-	text-transform:uppercase;
-	font-family: 'Montserrat-regular', sans-serif;
-}
-
-.titre2{
-	font-family: 'Roboto', sans-serif;
-	font-size:18px;
-}
-
-.carre ul {padding-left:0px;   list-style-type:none;font-family: 'Roboto', sans-serif;font-size:14px;}
-
-#business .titre1{color: #44b8ca;} /*bleu clair*/
-#design .titre1{color:#e7525f;} /*rouge*/
-#cdc .titre1{color:#efaf42;} /*rouge*/
-#commerce .titre1{color:#3da67f;} /*vert*/
 
 #business{
 	background-image:url(../images/bmc_100.png);
@@ -372,6 +411,29 @@ boutons
 
 #commerce{background-image:url(../images/commerce_100.png);
 }
+
+
+/************************************************************
+ce que j'obtiens
+************************************************************/
+.titre1{
+	text-transform:uppercase;
+	font-family: 'Montserrat-regular', sans-serif;
+}
+
+.titre2{
+	font-family: 'Roboto', sans-serif;
+	font-size:18px;
+}
+
+
+#business 	.titre1{color: #44b8ca;} /*bleu clair*/
+#design 	.titre1{color:#e7525f;} /*rouge*/
+#cdc 		.titre1{color:#efaf42;} /*rouge*/
+#commerce 	.titre1{color:#3da67f;} /*vert*/
+
+
+
 #commerce2{
 	font-size:1.2em;
 	background-image:url(../images/commerce_55.png);
@@ -383,17 +445,9 @@ boutons
 
 
 
-#commerce{
-	border-top-right-radius: 0px;
-	border-bottom-right-radius: 0px;
-}
+
 #conclusion{
-	margin:0px;
-	background-color:#3da67f;
 	color:white;
-	border-top-left-radius: 0px;	
-	border-bottom-left-radius: 0px;
-	padding:50px;
 }
 
 #conclusion p:first-child{font-family: 'Roboto'; font-size:18px;}
@@ -414,7 +468,7 @@ boutons
 
 
 .resume2{
-display: table-cell; vertical-align: middle;
+	display: table-cell; vertical-align: middle;
 }
 
 .resume2 a{color:white;}
@@ -422,10 +476,15 @@ display: table-cell; vertical-align: middle;
 onglets page session
 ************************************************************/
 .onglet {
-	margin-top:20px;margin-bottom:20px;
+	margin-top:20px;
+	margin-bottom:20px;
 }
 .onglet .top {
-	border-top-left-radius:20px;border-top-right-radius:20px;background-color:#1d3651;padding:10px;padding-left:20px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	background-color:#1d3651;
+	padding:10px;
+	padding-left:20px;
 }
 
 .onglet .top h2 {
@@ -433,7 +492,10 @@ onglets page session
 }
 
 .onglet .tarif{
-	background-color:white;border-top:1px solid #D9DCE1;border-left:1px solid #D9DCE1;border-right:1px solid #D9DCE1;
+	background-color:white;
+	border-top:1px solid #D9DCE1;
+	border-left:1px solid #D9DCE1;
+	border-right:1px solid #D9DCE1;
 	color:#1d3651;
 }
 .onglet .inv {
@@ -454,7 +516,10 @@ onglets page session
 }
 
 .onglet .bottom{
-	border-bottom-left-radius:20px;border-bottom-right-radius:20px;padding:20px;background-color:white;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	padding:20px;
+	background-color:white;
 }
 
 .onglet .left{
@@ -471,9 +536,9 @@ onglets page session
 	display:inline-block;width: calc(100% - 65px);
 	position: relative;
 	left:-5px;
-		padding-bottom:5px;
+	padding-bottom:5px;
 
-		margin-bottom:5px;margin-top:5px;
+	margin-bottom:5px;margin-top:5px;
 
 }
 
@@ -486,128 +551,89 @@ onglets page session
 .onglet li{
 	margin-bottom:10px;
 }
-/************************************************************
-Sessions
-************************************************************/
-.session{
+
+/*cadres*/
+
+.cadre-arrondi{
 	border-radius:20px;
+	margin:0px;
+	margin-top:10px;
+	margin-bottom:10px;
 }
 
-.session img{
+.cadre-1 {padding:20px;}
+
+.cadre-arrondi h1,.cadre-arrondi h2,.cadre-arrondi h3{
+	margin-top:0px;
+}
+
+.cadre-2 .cadre-arrondi-gauche{
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	padding:20px;
+}
+
+/*placé ici pour surcharger "padding:20px" de la classe au dessus*/
+.cadre-2 .vignette {
+	padding-left:160px;/
+}
+
+.cadre-2 .cadre-arrondi-droit{
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	padding:20px;
+}
+
+.cadre-3 .cadre-arrondi-haut{
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;			
+}
+
+.cadre-3 .cadre-lisere{margin-bottom:-30px;}
+
+.cadre-3 .cadre-img{padding:0px;}
+
+.cadre-3 .cadre-arrondi-gauche{
+	border-bottom-left-radius: 20px;
+	padding:20px;
+}
+
+.cadre-3 .cadre-arrondi-droit{
+	border-bottom-right-radius: 20px;
+	padding:20px;
+}
+
+.cadre-3 .cadre-arrondi-haut img{
 	width:100%;
 	border-top-right-radius:20px;
 	border-top-left-radius:20px;
 }
 
-.session .liseret{
+		/*@media screen and (max-width:1200px){
+			.cadre-2 .lg .cadre-arrondi-gauche{border-bottom-left-radius:0px;border-top-right-radius: 20px;}
+			.cadre-2 .lg .cadre-arrondi-droit{border-top-right-radius: 0px;border-bottom-right-radius: 20px;}
+		}
+
+		@media screen and (max-width:992px){
+			.cadre-2 .md .cadre-arrondi-gauche{border-bottom-left-radius:0px;border-top-right-radius: 20px;}
+			.cadre-2 .md .cadre-arrondi-droit{border-top-right-radius: 0px;border-bottom-right-radius: 20px;}
+		}
+
+		@media screen and (max-width:768px){
+			.cadre-2 .sm .cadre-arrondi-gauche{border-bottom-left-radius:0px;border-top-right-radius: 20px;}
+			.cadre-2 .sm .cadre-arrondi-droit{border-top-right-radius: 0px;border-bottom-right-radius: 20px;}
+			}*/
+
+
+.liseret{
 	background-color: rgba(0, 0, 0, 0.7);
 	color:white;
 	font-family:'Montserrat-Bold';
 	padding:5px 10px;
-	text-align:left;	
-	position:relative;
-	top:-30px;
-	height:30px;
-}
-
-.session .detail {
-	position:relative;
-	top:-30px;
-	margin:0px;
-	border-bottom-left-radius:25px;/*arrondi > à 20px sinon on ça dépasse*/
-	border-bottom-right-radius:20px;
-}
-
-.session .description {
-	background-color:#f0f0f0;
-	border-bottom-left-radius:20px;
 	text-align:left;
-	color:#173350;
-	padding:20px;
-	padding-top:10px;
+	position:relative;
+	top:-30px;
+	height:30px;	
 }
 
-.session .tarif{
-	border-bottom-right-radius:20px;
-	color:white;
-	padding-bottom:15px;	
-	padding-top:25px;
-
-}
-
-
-.session .vert{
-	background-color:#44AB85;
-}
-
-.session .rouge{
-	background-color:#E85865;
-}
-
-.session .prix{
-	font-size:1.8em;
-	font-family:'Montserrat-Bold';
-}
-
-/*sur les petites résolutions des deux div se placent en colonne, il faut donc changer les arrondis*/
-@media screen and (max-width: 479px){
-	.session .description{	
-		border-bottom-left-radius:0px;
-	}
-	.session .tarif{
-		border-bottom-right-radius:20px;
-		border-bottom-left-radius:20px;
-	}
-}
-
-
-
-#partenaires{padding-bottom:70px;margin-bottom:-50px;}
-
-#footer{background-color:#173350;padding-top:40px;color:white;}
-#footer ul {text-align:left;}
-#footer li{color:#42B9CB;display:block;text-transform:uppercase;}
-#footer li:first-child{color:white;font-weight:bold;}
-#footer li:first-child a{color:white;font-weight:bold;}
-
-#footer li a{color:#44b8ca;}
-
-@media screen and (max-width:479px){
-	#footer ul{padding-left:0px;}
-}
-
-#menu {
-	-moz-column-count: 2;
-	column-count: 2;
-}
-
-@supports  (-webkit-column-count:2) {
-  #menu {
-		-webkit-column-count: 2;
-  }
-}
-#reseaux {	
-	font-family:'Montserrat-Bold';
-	text-transform:uppercase;color:white;margin-top:20px;
-}
-
-#reseaux ul {margin:auto;width:120px;padding:0px;}
-#reseaux li {margin:15px;display:inline-block;}
-
-@media screen and (max-width:991px){
-	#twitter{margin-bottom:40px;}
-}
-
-#twitter{background-color:#08192B;border-radius:20px;position:relative;top:-90px;}
-
-@media screen and (max-width:991px){
-	#twitter{position:relative;top:0px;}
-}
-
-#twitter h2 {color:#43B8CA;}
-#liens {background-color:#08192B;padding:20px 0px;}
-#liens ul{padding-left:0px;}
-#liens li{display:inline-block;margin:0px 20px;}
-#liens a{color:white;}
-
-#liens div:first-child{color:#495462;text-transform:uppercase;font-weight:bold;}
+.cadre-arrondi .horaire{padding:10px;}

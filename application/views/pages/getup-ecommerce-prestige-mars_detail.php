@@ -1,7 +1,7 @@
 	<!-- Page Content -->
 	<section>
 		<div class="container-fluid">       
-			<div class="row" style="color:#1d3651;font-family: 'Montserrat', sans-serif;">
+			<div class="row" style="color:#1d3651;font-family: 'Montserrat', sans-serif;margin-top:0px;margin-bottom:0px;">
 				<div style="padding-left:15px;padding-right:15px;">
 				<div id="commerce2" class="col-sm-4 col-ms-4 col-ms-offset-4 col-sm-offset-0 resume">
 					<div class="resume2">
@@ -63,11 +63,31 @@
 								<a href="javascript:visibilite('planning');"><div class="fleche-bas fleche-inv"></div></a>
 							</div>
 							<div id="planning" class="bottom" style="display:block;">
-								<p>Bientôt en ligne !</p>
-								<!--<p>Lundi 7 Mars</p>
+								<p>Lundi 7 Mars</p>
 								<p>Consolidation du Business Model</p>
 
-								<div class="left">
+					<div class="row cadre-arrondi cadre-2 bg-darkgrey">
+						<div class="col col-sm-1 col-ms-2 cadre-arrondi-gauche horaire">
+							<p>9h30</p>
+						</div>
+						<div class="col col-sm-11 col-ms-10 cadre-arrondi-droit bg-grey horaire">
+							<p>Pitch projet</p>
+						</div>
+					</div>
+				<div class="row cadre-arrondi cadre-2 bg-darkgrey">
+						<div class="col col-sm-1 col-ms-2 cadre-arrondi-gauche horaire">
+							<p>9h30</p>
+						</div>
+						<div class="col col-sm-11 col-ms-10 cadre-arrondi-droit bg-grey horaire">
+							<p>Travail sur l'identité graphique, recherches et mise en place de moodboard</p>
+						</div>
+					</div>
+
+
+
+
+
+								<!--<div class="left">
 									<p>9h30</p>
 								</div>
 								<div class="right">
@@ -341,7 +361,7 @@
 											<h3 style="color:#efaf42;">11 200€</h3>
 										</div>
 										<div class="bottom" style="background-color:#efaf42;">
-											<div class="button white" style=""><a href="getup-prestige-mars-inscription.html">J'en profite !</a>
+											<div class="button btn-white" style=""><a href="getup-prestige-mars-inscription.html">J'en profite !</a>
 											</div>
 										</div>
 									</div>
@@ -354,7 +374,7 @@
 											<h3 style="color:#44b8ca;">8 960€</h3>
 										</div>
 										<div class="bottom" style="background-color:#44b8ca;">
-											<div class="button white"><a href="getup-prestige-mars-inscription.html">J'en profite !</a>
+											<div class="button btn-white"><a href="getup-prestige-mars-inscription.html">J'en profite !</a>
 											</div>
 										</div>
 
@@ -368,7 +388,7 @@
 											<h3 style="color:#e7525f;">8 245€</h3>
 										</div>
 										<div class="bottom" style="background-color:#e7525f;">
-											<div class="button white"><a href="getup-prestige-mars-inscription.html">J'en profite !</a></div>
+											<div class="button btn-white"><a href="getup-prestige-mars-inscription.html">J'en profite !</a></div>
 										</div>
 									</div>
 								</div>
