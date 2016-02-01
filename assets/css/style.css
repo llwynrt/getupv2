@@ -4,34 +4,14 @@ polices
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,300,700);
 
-@font-face { 
-	font-family: 'Montserrat-light'; 
-	src: url('../fonts/Montserrat-UltraLight.otf'); 
-}
-@font-face { 
-	font-family: 'Montserrat'; 
-	src: url('../fonts/Montserrat-Light.otf'); 
-}
-@font-face { 
-	font-family: 'Montserrat-regular'; 
-	src: url('../fonts/Montserrat-Regular.otf'); 
-}
 
-@font-face { 
-	font-family: 'Montserrat-bold'; 
-	src: url('../fonts/Montserrat-Bold.otf'); 
-}
-
-@font-face { 
-	font-family: 'Montserrat-bold'; 
-	src: url('../fonts/Montserrat-Bold.otf'); 
-}
 
 /************************************************************
 
 ************************************************************/
 body{
-	font-family: 'Montserrat-light', serif;color:#565656;
+	font-family: 'Montserrat', serif;
+	color:#565656;
 }
 
 .container-fluid{max-width: 1200px;}
@@ -47,11 +27,19 @@ couleurs
 .bg-red{background-color: #e2575f;}
 .bg-green{background-color: #3da67f;}
 .bg-white{background-color: #ffffff;}
+.bg-darkblue{background-color: #1d3651;}
+.bg-lightblue{background-color: #44b8ca;}
+.bg-yellow{background-color: #efaf42;}
+
 
 .white{color:white;}
+.lightblue {color: #44b8ca;} /*bleu clair*/
+.red{color:#e7525f;} /*rouge*/
+.green{color:#3da67f;} /*vert*/
+.yellow{color:#efaf42;}
 
 
-
+a{color: #1d3651;}
 /************************************************************
 header
 ************************************************************/
@@ -74,7 +62,7 @@ header
 	color:#FFFFFF;text-align:center;
 }
 
-#participer a span{text-transform: uppercase;font-family:'Montserrat-Bold';}
+#participer a span{text-transform: uppercase;font-family:'Montserrat';font-weight:bold;}
 
 	/************************************************************
 	navbar
@@ -82,18 +70,23 @@ header
 	nav .container-fluid{
 		padding:0px 0px;
 	}
+
 	.nav{padding-top:10px;}
 	.navbar{border: 0px solid transparent;}
 	.navbar-default{background-color:transparent;}
+	.navbar-default .navbar-brand {
+		padding-top: 25px;
+    	color:#173350;
+	}
 	.navbar-default .navbar-nav li a {
 		color:#173350;	
 		text-transform: uppercase;
-		font-family:'Montserrat-Bold';
+		font-family:'Montserrat';font-weight:bold;
 	}
 	.navbar-default .navbar-nav .dropdown-menu li a {
 		color:#173350;
 		text-transform: none;
-		font-family:'Montserrat-light';
+		font-family:'Montserrat';font-weight:lighter;
 	}
 
 	@media screen and (min-width:1200px){
@@ -164,13 +157,13 @@ header
 
 
 	#banniere{
-		background: #42b9cb url(../images/logo-getup-v2_sm.png) no-repeat center center;/*bleu clair*/
+		background: #42b9cb url(../images/logo-getup-v2.png) no-repeat center center;/*bleu clair*/
 		height:350px;
 	}
 
 	@media screen and (max-width:500px){
 		#banniere{	
-			background-image: url(../images/logo-getup-v2_xs.png);
+			background-image: url(../images/logo-getup-v2_sm.png);
 			height:200px;
 		}
 
@@ -210,7 +203,7 @@ header
 		}
 	}
 	#reseaux {	
-		font-family:'Montserrat-Bold';
+		font-family:'Montserrat';font-weight:bold;
 		text-transform:uppercase;color:white;margin-top:20px;
 	}
 
@@ -221,13 +214,13 @@ header
 		#twitter{margin-bottom:40px;}
 	}
 
-	#twitter{background-color:#08192B;border-radius:20px;position:relative;top:-90px;}
+	#twitter{background-color:#08192B;border-radius:20px;position:relative;top:-90px;padding-left:10px;}
 
 	@media screen and (max-width:991px){
 		#twitter{position:relative;top:0px;}
 	}
 
-	#twitter h2 {color:#43B8CA;}
+	#twitter h3 {color:#44b8ca;}
 	#liens {background-color:#08192B;padding:20px 0px;}
 	#liens ul{padding-left:0px;}
 	#liens li{display:inline-block;margin:0px 20px;}
@@ -248,16 +241,37 @@ section .row:first-child{margin-top:20px;margin-bottom:20px;}
 section:nth-child(2n+1) {
 	background-color: #e0e0e0; /*gris*/	
 }
+
+h2{
+	font-size:43px;font-weight: bold;
+
+}
 h1,h2,h3,h3 a {
-	font-family: 'Montserrat-bold', serif;
 	color:#173350;/*bleu*/
 
 }
 
 
 .chapeau{ 
-	font-size: 1.5em;
-	margin-bottom:20px;
+	font-family: 'Roboto', serif;font-size:21px;font-weight: lighter;
+}
+
+.chapeau-bold{
+	font-weight: bold;
+}
+
+#next h3, #next .prix {
+	font-family: 'Montserrat', serif;font-size:22px;font-weight: bold;
+
+}
+
+#next .chapeau{
+		font-family: 'Roboto', serif;font-size:17px;font-weight: lighter;
+
+}
+#next {
+		font-family: 'Roboto', serif;font-size:13px;font-weight: lighter;
+
 }
 
 .chapo{
@@ -286,6 +300,7 @@ aside {
 	border-radius: 20px;
 	padding:10px;
 	color:white;
+	box-shadow:1px 1px 12px #555;
 }
 
 aside h3 { 
@@ -316,7 +331,7 @@ boutons
 	border-radius: 20px;
 	text-transform: uppercase;
 	background-color:transparent;
-	font-family:'Montserrat-Bold';
+	font-family:'Montserrat';font-weight :bold;
 	margin:10px;
 	font-size: 1.2em;
 	text-align: center;
@@ -329,6 +344,13 @@ boutons
 	height:100%;
 	text-decoration: none;
 	padding: 10px 30px;
+}
+
+.button2 a{
+	display:block;
+	width:100%;
+	height:100%;
+	text-decoration: none;	
 }
 
 .button:hover{  background-color: rgba(0, 0, 0, 0.1);
@@ -370,17 +392,13 @@ icones
 	background-position: 30px center;
 }
 
-/*image au dessus du texte pour les petites tailles*/
-@media screen and (max-width: 500px){
-	.vignette-gauche{
-		padding-left:160px;
-		background-position: 30px center;
-	}
-}
-
 .vignette-haut{
 	background-position: 30px 30px;
 }
+
+
+
+
 
 .vignette-haut h3{margin-bottom:20px;padding-bottom:20px;border-bottom: 1px solid #1d3651;}
 
@@ -418,7 +436,6 @@ ce que j'obtiens
 ************************************************************/
 .titre1{
 	text-transform:uppercase;
-	font-family: 'Montserrat-regular', sans-serif;
 }
 
 .titre2{
@@ -426,11 +443,8 @@ ce que j'obtiens
 	font-size:18px;
 }
 
-
-#business 	.titre1{color: #44b8ca;} /*bleu clair*/
-#design 	.titre1{color:#e7525f;} /*rouge*/
-#cdc 		.titre1{color:#efaf42;} /*rouge*/
-#commerce 	.titre1{color:#3da67f;} /*vert*/
+h3 {	font-family: 'Montserrat', sans-serif;font-weight:bold;font-size:23px;
+}
 
 
 
@@ -450,11 +464,23 @@ ce que j'obtiens
 	color:white;
 }
 
-#conclusion p:first-child{font-family: 'Roboto'; font-size:18px;}
+#conclusion p:first-child{font-family: 'Roboto'; font-size:17px;}
 #conclusion p:nth-child(2){font-family: 'Roboto'; font-size:21px;font-weight: :bold;}
 
 
+.description{font-family:'Roboto';font-size:16px;}
+#intervenants .description p:first-child:first-line{font-size:18px;font-weight:bold;}
+#intervenants .description p:nth-child(2){font-size:14px;}
+
+
+#lieu .description {font-weight:lighter;}
+#lieu .description p:nth-child(2){font-size:18px;}
+#lieu .description p:nth-child(3){font-size:14px;}
+#lieu .description p:nth-child(4){font-weight: bold;}
+
+
 /*resumé page session*/
+
 
 .resume{
 	height:75px;display:table;
@@ -464,6 +490,9 @@ ce que j'obtiens
 
 @media screen and (max-width:768px){
 	.resume:first-child{border-right:1px solid transparent;}
+	.resume:nth-child(2), .resume:nth-child(3), .resume:nth-child(4){border-top:1px solid #ACAEAD;}
+	.resume:nth-child(3){border-right:1px solid transparent;}
+
 }
 
 
@@ -482,13 +511,12 @@ onglets page session
 .onglet .top {
 	border-top-left-radius:20px;
 	border-top-right-radius:20px;
-	background-color:#1d3651;
 	padding:10px;
 	padding-left:20px;
 }
 
 .onglet .top h2 {
-	color:white;margin-top:5px;margin-bottom:5px;font-size:1.5em;
+	color:white;margin-top:5px;margin-bottom:5px;font-size:23px;
 }
 
 .onglet .tarif{
@@ -519,26 +547,24 @@ onglets page session
 	border-bottom-left-radius:20px;
 	border-bottom-right-radius:20px;
 	padding:20px;
-	background-color:white;
 }
 
+.onglet .bottom p{font-family: 'Roboto';font-size: 18px;font-weight:lighter;}
+
 .onglet .left{
-	border-top-left-radius:20px;border-bottom-left-radius:20px;background-color:#D0D4D5;padding:10px;display:inline-block;width:60px;
+	background-color:#D0D4D5;padding:10px;display:inline-block;width:80px;
 	padding-bottom:5px;
-	margin-bottom:5px;margin-top:5px;
 }
 
 .onglet .right{
-	border-top-right-radius:20px;
-	border-bottom-right-radius:20px;
+
 	background-color:#EBEFF0;
 	padding:10px;
-	display:inline-block;width: calc(100% - 65px);
-	position: relative;
-	left:-5px;
+	display:inline-block;
+	width: calc(100% - 84px);
+
 	padding-bottom:5px;
 
-	margin-bottom:5px;margin-top:5px;
 
 }
 
@@ -612,23 +638,34 @@ onglets page session
 		/*@media screen and (max-width:1200px){
 			.cadre-2 .lg .cadre-arrondi-gauche{border-bottom-left-radius:0px;border-top-right-radius: 20px;}
 			.cadre-2 .lg .cadre-arrondi-droit{border-top-right-radius: 0px;border-bottom-right-radius: 20px;}
-		}
+		}*/
 
 		@media screen and (max-width:992px){
-			.cadre-2 .md .cadre-arrondi-gauche{border-bottom-left-radius:0px;border-top-right-radius: 20px;}
-			.cadre-2 .md .cadre-arrondi-droit{border-top-right-radius: 0px;border-bottom-right-radius: 20px;}
+			.col-md .cadre-2 .cadre-arrondi-gauche{border-bottom-left-radius:0px;border-top-right-radius: 20px;}
+			.col-md .cadre-2 .cadre-arrondi-droit{border-top-right-radius: 0px;border-bottom-left-radius: 20px;border-bottom-right-radius: 20px;}
 		}
 
-		@media screen and (max-width:768px){
+		/*@media screen and (max-width:768px){
 			.cadre-2 .sm .cadre-arrondi-gauche{border-bottom-left-radius:0px;border-top-right-radius: 20px;}
 			.cadre-2 .sm .cadre-arrondi-droit{border-top-right-radius: 0px;border-bottom-right-radius: 20px;}
 			}*/
+
+		@media screen and (max-width:480px){
+			.col-xs .cadre-3 .cadre-arrondi-gauche{
+				border-radius: 0px;
+			}
+			.col-xs .cadre-2 .cadre-arrondi-gauche{border-bottom-left-radius:0px;border-top-right-radius: 20px;}
+			.col-xs .cadre-2 .cadre-arrondi-droit{border-top-right-radius: 0px;border-bottom-left-radius: 20px;border-bottom-right-radius: 20px;}
+
+		}
 
 
 .liseret{
 	background-color: rgba(0, 0, 0, 0.7);
 	color:white;
-	font-family:'Montserrat-Bold';
+	font-family:'Montserrat';
+	font-weight:bold;
+	font-size: 13px;
 	padding:5px 10px;
 	text-align:left;
 	position:relative;
@@ -636,4 +673,13 @@ onglets page session
 	height:30px;	
 }
 
-.cadre-arrondi .horaire{padding:10px;}
+/*image au dessus du texte pour les petites tailles*/
+@media screen and (max-width: 500px){
+	.vignette-gauche, .vignette-haut, .cadre-2 .vignette{
+		padding-left:30px;
+		padding-top:160px;
+		background-position: center 30px;
+	}
+	
+
+}

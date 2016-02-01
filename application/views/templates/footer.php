@@ -46,7 +46,7 @@
 						</ul>
 					</div>
 					<div id="reseaux" class="text-center">
-						Rejoignez-nous 
+						Rejoignez-nous :
 						<ul>
 							<li>
 								<a href="https://twitter.com/GetUpBiz">
@@ -63,7 +63,7 @@
 				</div>
 				<div class="col col-md-4 col-md-offset-0 col-sm-8 col-sm-offset-2 col-ms-10 col-ms-offset-1 text-center">
 					<div id="twitter">
-						<h2>Suivez notre aventure !</h2>
+						<h3>Suivez notre aventure !</h3>
 						<a class="twitter-timeline"  href="https://twitter.com/hashtag/GetUpBiz" data-widget-id="641631327851315200" data-chrome="noheader transparent">
 							Tweets sur #GetUpBiz
 						</a>

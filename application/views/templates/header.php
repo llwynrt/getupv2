@@ -54,23 +54,26 @@
 									<span class="icon-bar"></span>
 									<span class="icon-bar"></span>
 								</button>
+								<a class="navbar-brand hidden-lg hidden-md" href="index.html">GetUP</a>
 							</div>
 							<div id="navbar" class="navbar-collapse collapse">
 								<ul class="nav navbar-nav ">
 									<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Sessions<b class="caret"></b> </a>
 										<ul class="dropdown-menu">
-											<li><a href="getup-ecommerce-prestige-mars.html">E-commerce prestige</a></li>
+											<li><a href="getup-ecommerce-prestige-mars.html">E-commerce</a></li>
 											<li><a href="getup-prix-libre.html">Green web à Prix libre</a></li>
 										</ul>
 									</li>
-									<li><a href="agenda.html">Agenda</a></li><li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Organiser<b class="caret"></b> </a>
+									<li><a href="agenda.html">Agenda</a></li>
+									<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Organiser<b class="caret"></b> </a>
 									<ul class="dropdown-menu">
 										<li><a href="creersession.html">Créer une session</a></li>
 										<li><a href="postuler.html">Intervenir sur une session</a></li>
 										<li><a href="suggerersession.html">Suggérer une session</a></li>
 									</ul>
 								</li>
-								<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">A propos<b class="caret"></b> </a>
+								<li><a href="apropos.html">A propos</a></li>
+								<!--<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">A propos<b class="caret"></b> </a>
 									<ul class="dropdown-menu">
 										<li><a href="wiki/">La méthode GetUP!</a></li>
 										<li><a href="https://medium.com/@mickaelruau">Suivez notre aventure</a></li>
@@ -81,7 +84,7 @@
 												<li><a href="http://startupeers.co/1-semaine-donner-vie-a-projet-getup/">Startupeers</a></li>
 											</ul>
 										</li>
-									</ul>
+									</ul>-->
 								</li>
 								<li><a href="contact.html">Contact</a></li>
 
@@ -92,7 +95,7 @@
 				</nav>
 			</div>
 			<div class="col col-lg-2 col-md-3 col-sm-3 hidden-ms hidden-xs text-center">         
-				<div id="participer" class="bg-red">
+				<div id="participer" class="bg-red button2">
 					<a href="index.html#sessions"><span>Participer</span><br />à une session GetUP</a>
 				</div>
 			</div>

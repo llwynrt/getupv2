@@ -30,7 +30,7 @@
 						<div class="row">
 							<div class="col-xs-12">
 								<div class="cadre-arrondi bg-white vignette vignette-haut" id="business">
-									<h3><span class="titre1">L'agilité d'entreprise</span><br><span class="titre2">Avec un professionnel du lean startup</span></h3>
+									<h3><span class="titre1 lightblue">L'agilité d'entreprise</span><br><span class="titre2">Avec un professionnel du lean startup</span></h3>
 									<ul>
 										<li>Je découvre comment dépenser moins pour tester rapidement mon business model sans me mettre en danger financièrement.</li>
 										<li>Je réalise avec le groupe mon business model canvas. </li>
@@ -39,7 +39,7 @@
 							</div>
 							<div class="col-xs-12">
 								<div class="cadre-arrondi bg-white vignette vignette-haut" id="design">
-									<h3><span class="titre1">Une charte graphique adaptée à mes besoins</span><br><span class="titre2">Avec un professionnel du graphisme</span></h3>
+									<h3><span class="titre1 red">Une charte graphique adaptée à mes besoins</span><br><span class="titre2">Avec un professionnel du graphisme</span></h3>
 									<ul><li>Le web designer réalise ma charte graphique incluant un logo simple, mes couleurs et mes typographies.</li>
 										<li>Il m'apprend les règles de base de la communication graphique, les erreurs à éviter. </li>
 									</ul>
@@ -51,7 +51,7 @@
 						<div class="row">
 							<div class="col-xs-12">
 								<div class="cadre-arrondi bg-white vignette vignette-haut" id="cdc">
-									<h3><span class="titre1">Mon cahier des charges et un site e-commerce</span><br><span class="titre2">Avec un professionnel des projets web</span></h3>
+									<h3><span class="titre1 yellow">Mon cahier des charges et un site e-commerce</span><br><span class="titre2">Avec un professionnel des projets web</span></h3>
 									<ul>
 										<li>Comment exprimer mes besoins et, grâce aux méthodes agiles, comment éviter les principaux écueils qui font échouer les projet. </li>
 										<li>Je réalise mon cahier des charges avec des outils simples.</li>
@@ -64,13 +64,12 @@
 							</div>					
 						</div>
 					</div>
-					<div class="col-md-12">
-
+					<div class="col-md-12 col-md">
 
 						<div class="row cadre-arrondi cadre-2 bg-green">
 							<div  id="commerce" class="col col-md-6 cadre-arrondi-gauche bg-white vignette vignette-haut">
 
-								<h3><span class="titre1">Résultat</span><br><span class="titre2">Mon site e-commerce simple est en ligne !</span></h3>
+								<h3><span class="titre1 green">Résultat</span><br><span class="titre2">Mon site e-commerce simple est en ligne !</span></h3>
 								<ul>
 									<li>Le prix inclut le nom de domaine et l'hébergement de mon site pour un an. Je n'ai rien d'autre à payer.</li>
 									<li>Je suis autonome : je sais ajouter du contenu et réaliser des modifications simples. En cas de besoin, je peux faire appel à des professionnels parmi les meilleurs du secteur pour m'aider à perfectionner mon site.</li>
@@ -89,7 +88,7 @@
 				<!-- /.row -->
 			</div>
 		</section>
-		<section>
+		<section id="intervenants">
 			<div class="container-fluid">       	
 				<div class="row">
 					<div class="col col-lg-12 text-center">
@@ -102,7 +101,7 @@
 								<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 									<img class="img-circle img-responsive img-center" src="assets/img/oana.jpg" alt="">
 								</div>
-								<div class="col-lg-12 text-center">
+								<div class="col-lg-12 text-center description">
 									<p>Oana Juncu<br>coach en agilité & lean startup</p>
 									<p>Oana est un DJ Business qui mixe toutes les pratiques - du Lean Startup Agile et Design Thnking aux sciences cognitives et storytelling - afin de rendre les entreprises fières de leurs produits et leurs clients ravis.
 									</div>
@@ -113,8 +112,8 @@
 									<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 										<img class="img-circle img-responsive img-center" src="assets/img/mickael.jpg" alt="">
 									</div>
-									<div class="col-lg-12 text-center">
-										Mickaël Ruau<br>gestionnaire de projets web
+									<div class="col-lg-12 text-center description">
+										<p>Mickaël Ruau<br>gestionnaire de projets web</p>
 									</div>
 								</div>
 							</div>
@@ -123,39 +122,38 @@
 									<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 										<img class="img-circle img-responsive img-center" src="assets/img/indiens.jpg" alt="">
 									</div>
-									<div class="col-lg-12 text-center">
-										<p>Alice & Angélique<br>
-											Les Indiens, design graphique</p>
-											<p>Le studio crée des identités graphiques, des sites internet, des applications, des supports imprimés ainsi que des contenus illustrés.</p>
-										</div>
+									<div class="col-lg-12 text-center description">
+										<p>Alice & Angélique<br>Les Indiens, design graphique</p>
+										<p>Le studio crée des identités graphiques, des sites internet, des applications, des supports imprimés ainsi que des contenus illustrés.</p>
 									</div>
 								</div>
-								<!--</div>-->
 							</div>
-							<!-- /.row -->
+							<!--</div>-->
 						</div>
-					</section>
-					<section>
-						<div class="container-fluid">       	
-							<div class="row">
-								<div class="col col-lg-12 text-center">
-									<h2>Un lieu exceptionnel</h2>
-									<p class="chapeau">L'hébergement en pension complète est compris dans le prix de la session.</p>
-								</div>
+						<!-- /.row -->
+					</div>
+				</section>
+				<section id="lieu">
+					<div class="container-fluid">       	
+						<div class="row">
+							<div class="col col-lg-12 text-center">
+								<h2>Un lieu exceptionnel</h2>
+								<p class="chapeau">L'hébergement en pension complète est compris dans le prix de la session.</p>
+							</div>
 
-								<div class="col-md-12">
-									<div class="row cadre-arrondi cadre-2 bg-white">
-										<div class="col col-md-6 cadre-arrondi-gauche">
-											<h3>Le château de Briançon</h3>
-												<p style="font-family:'Roboto';font-weight:lighter;font-size:18px;">en Maine et Loire, à 2h30 de Paris</p>
-												<p style="font-family:'Roboto';font-weight:lighter">Venez passer une semaine sur le site exceptionnel du château de Briançon pour réaliser votre site e-commerce avec une équipe d'experts.</p>
-												<p style="font-family:'Roboto';font-weight:bold">Château de Briançon, (départementale 116)<br>49140 Beauné, France<br>
-													<a href="http://www.chateau-de-briancon.com/fr/">http://www.chateau-de-briancon.com</a></p>
-													<div class="button btn-blue">
-														<a href="getup-ecommerce-prestige-mars_detail.html">
-															Découvrir la session
-														</a>
-													</div>
+							<div class="col-md-12 col-md">
+								<div class="row cadre-arrondi cadre-2 bg-white">
+									<div class="col col-md-6 cadre-arrondi-gauche description">
+										<h3>Le château de Briançon</h3>
+										<p>en Maine et Loire, à 2h30 de Paris</p>
+										<p>Venez passer une semaine sur le site exceptionnel du château de Briançon pour réaliser votre site e-commerce avec une équipe d'experts.</p>
+										<p>Château de Briançon, (départementale 116)<br>49140 Beauné, France<br>
+											<a href="http://www.chateau-de-briancon.com/fr/">http://www.chateau-de-briancon.com</a></p>
+											<div class="button btn-blue">
+												<a href="getup-ecommerce-prestige-mars_detail.html">
+													Découvrir la session
+												</a>
+											</div>
 										</div>
 										<div class="col col-md-6 cadre-arrondi-droit carre-large-col-right">
 										</div>
