@@ -72,7 +72,7 @@
 										<li><a href="suggerersession.html">Suggérer une session</a></li>
 									</ul>
 								</li>
-								<li><a href="apropos.html">A propos</a></li>
+								<li><a href="apropos.html">À propos</a></li>
 								<!--<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">A propos<b class="caret"></b> </a>
 									<ul class="dropdown-menu">
 										<li><a href="wiki/">La méthode GetUP!</a></li>
@@ -85,7 +85,7 @@
 											</ul>
 										</li>
 									</ul>-->
-								</li>
+								
 								<li><a href="contact.html">Contact</a></li>
 
 

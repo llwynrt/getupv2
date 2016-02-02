@@ -114,6 +114,7 @@
 									</div>
 									<div class="col-lg-12 text-center description">
 										<p>Mickaël Ruau<br>gestionnaire de projets web</p>
+										<p>Consultant en qualité logicielle, il aide les développeurs informatiques et web à travailler mieux et plus vite. Surtout, à être fiers de leur travail.</p>
 									</div>
 								</div>
 							</div>

@@ -673,6 +673,8 @@ onglets page session
 	height:30px;	
 }
 
+#apropos .top{text-transform: uppercase;color:white;font-size:1.2em;}
+
 /*image au dessus du texte pour les petites tailles*/
 @media screen and (max-width: 500px){
 	.vignette-gauche, .vignette-haut, .cadre-2 .vignette{

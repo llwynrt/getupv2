@@ -1,5 +1,5 @@
 	<!-- Page Content -->
-	<section>
+	<section id="apropos">
 		<div class="container-fluid">       
 			<div class="row">
 				<div class="col col-xs-12">
@@ -9,24 +9,24 @@
 						et se lancer sur le marché, au bout d'une semaine seulement !
 					</p>
 				</div> 
-				<div class="col col-sm-4 onglet">
-					<div class="top bg-yellow white">
+				<div class="col col-sm-4 text-center onglet">
+					<div class="top bg-yellow">
 						Comment ?
 					</div>
 					<div class="bottom bg-grey">
 						<p>En vous accompagnant</p>
 					</div>
 				</div>
-				<div class="col col-sm-4 onglet">
-					<div class="top bg-red white">
+				<div class="col col-sm-4 text-center onglet">
+					<div class="top bg-red">
 						Qui ?
 					</div>
 					<div class="bottom bg-grey">
 						<p>Des passionnés du numérique</p>
 					</div>
 				</div>
-				<div class="col col-sm-4 onglet">
-					<div class="top bg-lightblue white">
+				<div class="col col-sm-4 text-center onglet">
+					<div class="top bg-lightblue">
 						Pourquoi ?
 					</div>
 					<div class="bottom bg-grey">
@@ -58,10 +58,6 @@
 			<div class="row">
 				<div class="col col-xs-12">
 					<h2>Ils parlent de nous</h2>
-					<p class="chapeau">Nous vous proposons de cristaliser votre model business, 
-						créer votre site, le tester, identifier le profil de vos premiers clients 
-						et se lancer sur le marché, au bout d'une semaine seulement !
-					</p>
 				</div> 
 				<div class="col col-sm-4 onglet">
 					<div class="top">

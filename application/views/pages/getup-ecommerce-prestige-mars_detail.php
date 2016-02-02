@@ -98,7 +98,7 @@
 											<img class="img-circle img-responsive img-center" src="assets/img/oana.jpg" alt="">
 										</div>
 										<div class="col-lg-12 text-center">
-											Oana Juncu<br>coach en agilité & lean startup
+											Oana Juncu<br>coach en agilité & lean startup<br><a href="https://twitter.com/ojuncu"><i class="fa fa-twitter"></i></a>
 										</div>
 									</div>
 								</div>
@@ -108,7 +108,7 @@
 											<img class="img-circle img-responsive img-center" src="assets/img/mickael.jpg" alt="">
 										</div>
 										<div class="col-lg-12 text-center">
-											Mickaël Ruau<br>gestionnaire de projets web
+											Mickaël Ruau<br>gestionnaire de projets web<br><a href="https://twitter.com/mickaelruau"><i class="fa fa-twitter"></i></a>
 										</div>
 									</div>
 								</div>
@@ -119,7 +119,7 @@
 										</div>
 										<div class="col-lg-12 text-center">
 											Alice & Angélique<br>
-											Les Indiens, design graphique
+											Les Indiens, design graphique<br><a href="https://twitter.com/LesIndiens"><i class="fa fa-twitter"></i></a>
 										</div>
 									</div>
 								</div>
@@ -201,10 +201,12 @@
 							<script async defer
 							src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxC0NzZSbf4W7-H3LX7v6bzEQ8nNiKY3Q&signed_in=true&callback=initMap">
 							</script>
-							Le site d'exception du château de Briançon, à 2h30 de Paris, en Maine et Loire, vous accueille.<br>
-							Château de Briançon, (départementale 116)<br>
+							<p>Le site d'exception du château de Briançon, à 2h30 de Paris, en Maine et Loire, vous accueille.</p>
+							<p>
+							Château de Briançon, départementale 116<br>
 							49140 Beauné, France<br>
 							<a href="http://www.chateau-de-briancon.com/fr/">http://chateau-de-briancon.com</a>
+						</p>
 						</div>
 					</div>
 					<!--<div class="onglet">
@@ -227,10 +229,10 @@
 							<h2>Besoin d'aide ?</h2>
 						</div>
 						<div class="bottom bg-white" style="border:1px solid #C9D1D4;">
-							07 68 010 456<br>
+							<p>07 68 010 456<br>
 							Infos et réservations<br>
 							du lundi au samedi de 9h à 21h<br>
-							contact@getup-startup.com
+							contact@getup-startup.com</p>
 						</div>
 					</div>
 					<div class="onglet">
