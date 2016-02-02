@@ -29,7 +29,7 @@
 						<ul>
 							<li>Sessions</li>
 							<li><a href="getup-prix-libre.html">Site vitrine à prix libre</a></li>
-							<li><a href="getup-ecommerce-prestige-mars_home.html">E-commerce prestige</a></li>
+							<li><a href="getup-ecommerce-prestige-mars.html">E-commerce</a></li>
 						</ul>
 						<ul>
 							<li><a href="agenda.html">Agenda</a></li>

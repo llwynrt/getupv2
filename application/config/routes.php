@@ -54,7 +54,7 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 
-$route['tracker/(:any)/(:num)'] = 'tracker/view/$1/$2';
+$route['tracker/(:any)/(:any)'] = 'tracker/view/$1/$2';
 $route['tracker/(:any)'] = 'tracker/view/$1';
 
 $route['edit/(:any)'] = 'pages/edit/$1';

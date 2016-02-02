@@ -72,20 +72,7 @@
 										<li><a href="suggerersession.html">Suggérer une session</a></li>
 									</ul>
 								</li>
-								<li><a href="apropos.html">À propos</a></li>
-								<!--<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">A propos<b class="caret"></b> </a>
-									<ul class="dropdown-menu">
-										<li><a href="wiki/">La méthode GetUP!</a></li>
-										<li><a href="https://medium.com/@mickaelruau">Suivez notre aventure</a></li>
-										<li class="dropdown-submenu"><a tabindex="-1" href="liens.html">Ils parlent de nous</a>
-											<ul class="dropdown-menu">
-												<li><a href="http://reussir-son-entreprise.fr/1-semaine-pour-donner-vie-a-votre-projet-avec-getup/">Réussir son entreprise</a></li>
-												<li><a href="http://www.coupdepouce49.fr/blog/2015/09/14/lancez-votre-entreprise-avec-getup/">Coup de Pouce 49</a></li>
-												<li><a href="http://startupeers.co/1-semaine-donner-vie-a-projet-getup/">Startupeers</a></li>
-											</ul>
-										</li>
-									</ul>-->
-								
+								<li><a href="apropos.html">À propos</a></li>								
 								<li><a href="contact.html">Contact</a></li>
 
 
