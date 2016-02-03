@@ -407,7 +407,7 @@ icones
 
 .carre-large-col-right{
 	background:url('../images/chateau3.jpg'); 
-	background-position: center center;
+	background-position: center 30%;
 	min-height:330px;
 }
 
