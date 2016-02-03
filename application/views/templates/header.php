@@ -39,7 +39,7 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col col-md-2 hidden-sm hidden-ms hidden-xs">
-					<a id="home" href="index.html"><img src="assets/images/logo-getup-v2_xs.png" alt="">
+					<a id="home" href="index.html"><img src="assets/images/logo-getup-v2_xs.png" alt="" height="83px" width="160px">
 						<h1 style="display:none;">GetUP : Run your business</h1>
 					</a>
 				</div>
