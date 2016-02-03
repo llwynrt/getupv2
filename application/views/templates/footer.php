@@ -7,7 +7,6 @@
 					<img src="assets/images/partenaires/agilumens.png" alt="logo agilumens"><img src="assets/images/partenaires/shaker.png" alt="logo shaker">
 				</div>
 			</div>
-			<!-- /.row -->
 		</div>
 	</section>
 </div>
@@ -100,7 +99,7 @@
 </div>
 
  	<!-- CDN jQuery -->
-	<script src="assets/js/jquery.js"></script>
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
     <!-- Bootstrap Core JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
