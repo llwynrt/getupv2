@@ -95,7 +95,7 @@
 											<div class="col-md-12 cadre-arrondi-haut cadre-img cadre-lisere">	
 												<img src="assets/images/chateau.jpg" alt="">
 												<div class="liseret">
-													<p>Du 7 au 11 mars 2016</p>
+													<p>Du 14 au 18 mars 2016</p>
 												</div>
 											</div>
 											<div class="col col-sm-9 col col-ms-8 cadre-arrondi-gauche bg-grey">

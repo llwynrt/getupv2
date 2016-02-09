@@ -20,8 +20,8 @@
 					</div>
 					<div class="col-sm-2 col-xs-6 resume">
 						<div class="resume2">
-							<i class="fa fa-calendar-o" style="font-size:2em;float:left;margin-right:10px;margin-top:7px;"></i> Du 7 mars<br>
-							Au 11 mars			
+							<i class="fa fa-calendar-o" style="font-size:2em;float:left;margin-right:10px;margin-top:7px;"></i> Du 14 mars<br>
+							Au 18 mars			
 						</div>
 
 
