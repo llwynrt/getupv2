@@ -9,7 +9,7 @@
 						et se lancer sur le marché, au bout d'une semaine seulement !
 					</p>
 				</div> 
-				<div class="col col-sm-4 text-center onglet">
+				<div class="col col-sm-4 col-xs-12 text-center onglet">
 					<div class="top bg-yellow">
 						Comment ?
 					</div>
@@ -17,7 +17,7 @@
 						<p>En vous accompagnant</p>
 					</div>
 				</div>
-				<div class="col col-sm-4 text-center onglet">
+				<div class="col col-sm-4 col-xs-12 text-center onglet">
 					<div class="top bg-red">
 						Qui ?
 					</div>
@@ -25,7 +25,7 @@
 						<p>Des passionnés du numérique</p>
 					</div>
 				</div>
-				<div class="col col-sm-4 text-center onglet">
+				<div class="col col-sm-4 col-xs-12 text-center onglet">
 					<div class="top bg-lightblue">
 						Pourquoi ?
 					</div>
@@ -61,7 +61,7 @@
 				</div> 
 				<div class="col col-sm-4 onglet">
 					<div class="top">
-						<img src="assets/images/reussir.jpg" class="img-responsive">	
+						<img src="assets/images/reussir.jpg" class="img-responsive" alt="logo réussir son entreprise">	
 					</div>
 					<div class="bottom bg-grey">
 						<p>"L'investissement en vaut la chandelle. C'est peut-être l'ocassion de changer 
@@ -71,7 +71,7 @@
 				</div>
 				<div class="col col-sm-4 onglet">
 					<div class="top">
-						<img src="assets/images/cdp49.png" class="img-responsive">	
+						<img src="assets/images/cdp49.png" class="img-responsive" alt="logo cdp49">	
 					</div>
 					<div class="bottom bg-grey">
 						<p>"Shaker Technologies lance un nouveau concept. Destiné aux créateurs d'entreprise, l'objectif est de former chacun à la mise en place d'un site web."</p>
@@ -80,7 +80,7 @@
 				</div>
 				<div class="col col-sm-4 onglet">
 					<div class="top">
-						<img src="assets/images/startupeers.png" class="img-responsive">	
+						<img src="assets/images/startupeers.png" class="img-responsive" alt="logo startupeers">	
 					</div>
 					<div class="bottom bg-grey">
 						<p>"#CoupsDeCoeur / 1 semaine pour donner vie à votre projet avec GetUP !"</p>

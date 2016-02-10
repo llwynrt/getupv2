@@ -39,7 +39,7 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col col-md-2 hidden-sm hidden-ms hidden-xs">
-					<a id="home" href="index.html"><img src="assets/images/logo-getup-v2_xs.png" alt="" height="83px" width="160px">
+					<a id="home" href="index.html"><img src="assets/images/logo-getup-v2_xs.png" alt="" height="83" width="160">
 						<h1 style="display:none;">GetUP : Run your business</h1>
 					</a>
 				</div>
@@ -66,31 +66,32 @@
 									</li>
 									<li><a href="agenda.html">Agenda</a></li>
 									<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Organiser<b class="caret"></b> </a>
-									<ul class="dropdown-menu">
-										<li><a href="creersession.html">Créer une session</a></li>
-										<li><a href="postuler.html">Intervenir sur une session</a></li>
-										<li><a href="suggerersession.html">Suggérer une session</a></li>
-									</ul>
-								</li>
-								<li><a href="apropos.html">À propos</a></li>								
-								<li><a href="contact.html">Contact</a></li>
+										<ul class="dropdown-menu">
+											<li><a href="creersession.html">Créer une session</a></li>
+											<li><a href="postuler.html">Intervenir sur une session</a></li>
+											<li><a href="suggerersession.html">Suggérer une session</a></li>
+										</ul>
+									</li>
+									<li><a href="apropos.html">À propos</a></li>								
+									<li><a href="contact.html">Contact</a></li>
 
 
-							</ul>
-						</div><!--/.nav-collapse -->
-					</div><!--/.container-fluid -->
-				</nav>
-			</div>
-			<div class="col col-lg-2 col-md-3 col-sm-3 hidden-ms hidden-xs text-center">         
-				<div id="participer" class="bg-red button2">
-					<a href="index.html#sessions"><span>Participer</span><br />à une session GetUP</a>
+								</ul>
+							</div><!--/.nav-collapse -->
+						</div><!--/.container-fluid -->
+					</nav>
+				</div>
+				<div class="col col-lg-2 col-md-3 col-sm-3 hidden-ms hidden-xs text-center">         
+					<div id="participer" class="bg-red button2">
+						<a href="index.html#sessions"><span>Participer</span><br />à une session GetUP</a>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<div id="main">	
+		<div id="main">	
 			<section>
-		<div class="container">
-		<div class="col col-lg-12" id="banniere">
-		</div>
-	</div></section>
+				<div class="container">
+					<div class="col col-lg-12" id="banniere">
+					</div>
+				</div>
+			</section>

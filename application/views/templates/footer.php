@@ -4,8 +4,8 @@
 	      	<div class="row">
 	      		<div class="col col-lg-12 text-center">
 					<h2>Partenaires</h2>
-					<img src="assets/images/partenaires/agilumens.png" alt="logo agilumens" height="75px" width="132px">
-					<img src="assets/images/partenaires/shaker.png" alt="logo shaker" height="75px" width="272px">
+					<img src="assets/images/partenaires/agilumens.png" alt="logo agilumens" height="75" width="132">
+					<img src="assets/images/partenaires/shaker.png" alt="logo shaker" height="75" width="272">
 				</div>
 			</div>
 		</div>
@@ -16,7 +16,7 @@
 		<div class="container-fluid">  
 			<div class="row">
 				<div class="col col-md-3 col-sm-6 col-ms-12 text-center">
-					<img src="assets/images/logo-getup-v2_sm-inv.png" alt="" height="156px" width="300px">
+					<img src="assets/images/logo-getup-v2_sm-inv.png" alt="" height="156" width="300">
 				</div>
 				<div class="col col-md-5 col-sm-6 text-left">
 					<div id="menu" >
@@ -50,12 +50,12 @@
 						<ul>
 							<li>
 								<a href="https://twitter.com/GetUpBiz">
-									<img src="assets/images/picto1.png" alt="twitter" height="36px" width="36px">
+									<img src="assets/images/picto1.png" alt="twitter" height="36" width="36">
 								</a>
 							</li>
 							<li>
 								<a href="https://www.facebook.com/getupbiz/">
-									<img src="assets/images/picto2.png" alt="facebook" height="36px" width="19px">
+									<img src="assets/images/picto2.png" alt="facebook" height="36" width="19">
 								</a>
 							</li>
 						</ul>

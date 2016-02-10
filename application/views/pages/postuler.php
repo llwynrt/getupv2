@@ -1,3 +1,3 @@
-					<iframe src="http://goo.gl/forms/2a7hlWr7yg" frameborder="0" marginheight="0" marginwidth="0" style="width:100%;height:1500px;">
+					<iframe src="http://goo.gl/forms/2a7hlWr7yg" style="height:1500px;">
 						Professionels, postulez pour intervenir sur une session GetUP
 					</iframe>

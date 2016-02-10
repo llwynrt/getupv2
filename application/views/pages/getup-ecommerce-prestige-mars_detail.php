@@ -258,7 +258,7 @@
 						<div class="bottom bg-white" style="border:1px solid #C9D1D4;">
 							<iframe 
 							src="https://www.google.com/calendar/embed?showTitle=0&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=k8sog225cbf3afui8h1k72lf58%40group.calendar.google.com&amp;ctz=Europe%2FParis&dates=20160307/20160311" 
-							style=" border-width:0 " width="100%" height="300" frameborder="0" scrolling="no">
+							style="height:300px">
 						</iframe>
 					</div>
 				</div>

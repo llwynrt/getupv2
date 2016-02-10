@@ -149,17 +149,18 @@
 										<p>en Maine et Loire, à 2h30 de Paris</p>
 										<p>Venez passer une semaine sur le site exceptionnel du château de Briançon pour réaliser votre site e-commerce avec une équipe d'experts.</p>
 										<p>Château de Briançon, (départementale 116)<br>49140 Beauné, France<br>
-											<a href="http://www.chateau-de-briancon.com/fr/">http://www.chateau-de-briancon.com</a></p>
-											<div class="button btn-blue">
-												<a href="getup-ecommerce-prestige-mars_detail.html">
-													Découvrir la session
-												</a>
-											</div>
-										</div>
-										<div class="col col-md-6 cadre-arrondi-droit carre-large-col-right">
+											<a href="http://www.chateau-de-briancon.com/fr/">http://www.chateau-de-briancon.com</a>
+										</p>
+										<div class="button btn-blue">
+											<a href="getup-ecommerce-prestige-mars_detail.html">
+												Découvrir la session
+											</a>
 										</div>
 									</div>
-
+									<div class="col col-md-6 cadre-arrondi-droit carre-large-col-right">
+									</div>
 								</div>
 							</div>
-						</section>
+						</div>
+					</div>
+				</section>
