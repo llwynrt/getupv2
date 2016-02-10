@@ -12,7 +12,7 @@
 					<div class="col col-md-3 col col-md-offset-1 col col-sm-4 col-ms-12 text-center">
 						<aside>
 							<h3>Session mars : -20% sur les préventes</h3>
-							Profitez d'un tarif Early bird pour toute inscription avant le 31 janvier.<br />
+							Profitez d'un tarif Early bird pour toute inscription avant le 17 février.<br />
 							<div class="button btn-white"><a href="getup-ecommerce-prestige-mars_detail.html#tarifs">J'en profite !</a></div>
 						</aside>
 					</div>

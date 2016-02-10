@@ -12,7 +12,7 @@
 					<div class="col col-md-3 col col-md-offset-1 col col-sm-4 col-ms-12 text-center">
 						<aside>
 							<h3>Session mars : -20% sur les préventes</h3>
-							Jusqu'au 31 janvier.<br />
+							Jusqu'au 17 février.<br />
 							<del>11 200€</del> 8 920€<br>
 							<div class="button btn-white"><a href="getup-ecommerce-prestige-mars_detail.html#tarifs">J'en profite !</a></div>
 						</aside>

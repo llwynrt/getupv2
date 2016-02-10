@@ -152,7 +152,7 @@
 								<div class="col-sm-4 onglet">
 									<div class="top tarif">
 										<h3>Entrée</h3>
-										à partir du 1er février 2016
+										à partir du 18 février 2016
 										<p>6 places disponibles</p>
 										<p style="font-size:0.9em;">Hébergement en pension complète inclus dans le prix de la session</p><p>&nbsp;</p>
 										<h3 style="color:#efaf42;">11 200€</h3>
@@ -165,7 +165,7 @@
 								<div class="col-sm-4 onglet">
 									<div class="top tarif">
 										<h3>Early bird</h3>
-										jusqu'au 31 janvier 2016
+										jusqu'au 17 février 2016
 										<p>4 places disponibles</p>
 										<p style="font-size:0.9em;">Hébergement en pension complète inclus dans le prix de la session</p><p>&nbsp;</p>
 										<h3 style="color:#44b8ca;">8 960€</h3>
@@ -179,7 +179,7 @@
 								<div class="col-sm-4 onglet">
 									<div class="top tarif">
 										<h3>Demandeurs d'emploi</h3>
-										jusqu'au 31 janvier 2016
+										jusqu'au 17 février 2016
 										<p>2 places disponibles</p>
 										<p style="font-size:0.9em;">Hébergement en pension complète inclus dans le prix de la session</p>
 										<h3 style="color:#e7525f;">8 245€</h3>
@@ -225,7 +225,7 @@
 						</p>
 						</div>
 					</div>
-					<div class="onglet">
+					<!--<div class="onglet">
 						<div class="top inv">
 							<h2>Comment venir ?</h2>
 						</div>
@@ -239,6 +239,7 @@
 								</li>
 							</ul>
 						</div>
+					-->
 					<div class="onglet">
 						<div class="top" style="background-color:#e7525f;">
 							<h2>Besoin d'aide ?</h2>
