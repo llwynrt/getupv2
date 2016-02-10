@@ -50,6 +50,18 @@ class Pages extends CI_Controller {
 			$data['css'] = 'styleSectionUnique';
 		}
 
+		/*programme de la session ecommerce de mars géré sous la forme de tableau => évite la recopie de code dans le html
+		todo : un fichier json qu'on récupère ici*/
+		$data['programme'] = [
+			'Lundi 14 Mars' => 		['titre' => "Consolidation du Business Model", '9h30' => "Pitch projet", '11h' => "Exploration problème utilisateurs", '13h' => "Déjeuner", '14h' => "Présentation test driven business / Lean Canvas", '16h' => "Préparation interview utilisateurs", '18h' => "Débrief"],
+		 	'Mardi 15 Mars' => 		['titre' => "Consolidation du Business Model et travail sur l'identité graphique", '9h30' => "Métriques sur l'impact souhaité", '10h30' => "Interviews utilisateurs", '11h30' => "Ajustement suite aux interviews", '13h' => "Déjeuner", '14h' => "travail sur l'expression de l'identité de l'initiative unfair advantage", '' => "Travail sur l'identité graphique, recherches & mise en place de moodboard", '16h' => "Proposition de valeur (key feature)", ' ' => "Travail sur l'identité graphique, validation d'un axe visuel", '18h' => "Débrief"],
+		 	'Mercredi 16 Mars' => 	['titre' => "Consolidation du Business Model et travail sur l'identité graphique", '9h30' => "Graphisme, création d'une identité de marque et charte graphique", '' => "Métriques sur le site (service concierge, A/B testing...) views utilisateurs", '13h' => "Déjeuner", '14h' => "Graphisme, création d'une identité de marque et charte graphique", ' ' => "Métriques sur le site (service concierge, A/B testing...) views utilisateurs", '18h' => "Débrief"],
+		 	'Jeudi 17 Mars' => 		['titre' => "Consolidation du Business Model et travail sur l'identité graphique", '9h30' => "Travail de préparation Interviews / utilisateurs", '10h30' => "Interviews utilisateurs", '12h' => "Débrief", '13h' => "Déjeuner", '14h' => "Nouvelles métriques, impacts souhaités", '18h' => "Débrief intégrateur"],
+		 	'Venderdi 18 Mars' => 	['titre' => "Intégration sous Prestashop", '9h30' => "à venir", '10h30' => "à venir", '11h30' => "à venir", '13h' => "Déjeuner", '16h' => "Présentation et mise en ligne du site", '18h' => "Rétrospective de la semaine", '20h' => "Fiesta"]
+		
+
+		];
+
         $this->load->view('templates/header',$data);
         if($isUnique){
         	$this->load->view('templates/header_form',$data);

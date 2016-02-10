@@ -63,26 +63,42 @@
 							<a href="javascript:visibilite('planning');"><div class="fleche-bas fleche-inv"></div></a>
 						</div>
 						<div id="planning" class="bottom bg-white" style="display:block;">
-							<p>Bientôt en ligne !</p>
-							<!--<p>Lundi 7 Mars</p>
-							<p>Consolidation du Business Model</p>
+							<article>
+							<?php
+								foreach ($programme as $jour => $deroule){
+									print ("<details open><summary>".$jour."</summary>");
+									foreach ($deroule as $heure => $detail){
+										if ($heure == 'titre'){
+											print("<p>".$detail."</p>");
+										}
+										else{
+											$bgColor = 'grey';$color = '';
+											if ($detail == 'Déjeuner'){
+												$bgColor = 'yellow';
+												$color = 'white';
+											}
+											
 
-							<div class="cadre-arrondi cadre-2 onglet  bg-darkgrey">
-								<div class="cadre-arrondi-gauche left">
-									<p>9h30</p>
-								</div>
-								<div class="cadre-arrondi-droit right">
-									<p>Pitch projet</p>
-								</div>
-							</div>
-							<div class="cadre-arrondi cadre-2 onglet bg-darkgrey">
-								<div class="cadre-arrondi-gauche left">
-									<p>9h30</p>
-								</div>
-								<div class="cadre-arrondi-droit right">
-									<p>Travail sur l'identité graphique, recherches et mise en place de moodboard</p>
-								</div>
-							</div>-->
+											print( '
+													<div class="cadre-arrondi cadre-2 bg-dark'.$bgColor.' '.$color.'">
+														<div class="cadre-arrondi-gauche left">
+															<p>'.$heure.'</p>
+														</div>
+														<div class="cadre-arrondi-droit right bg-'.$bgColor.'">
+															<p>'.$detail.'</p>
+														</div>
+													</div>'
+											);
+
+										}
+									}
+									print("</details>");
+
+								}
+
+
+							?>
+							</article>
 						</div>
 					</div>
 					<div class="onglet">
@@ -209,7 +225,7 @@
 						</p>
 						</div>
 					</div>
-					<!--<div class="onglet">
+					<div class="onglet">
 						<div class="top inv">
 							<h2>Comment venir ?</h2>
 						</div>
@@ -223,7 +239,6 @@
 								</li>
 							</ul>
 						</div>
-					</div>-->
 					<div class="onglet">
 						<div class="top" style="background-color:#e7525f;">
 							<h2>Besoin d'aide ?</h2>

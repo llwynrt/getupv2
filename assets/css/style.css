@@ -30,6 +30,7 @@ couleurs
 .bg-darkblue{background-color: #1d3651;}
 .bg-lightblue{background-color: #44b8ca;}
 .bg-yellow{background-color: #efaf42;}
+.bg-darkyellow{background-color: #c28e38;}
 
 
 .white{color:white;}
@@ -526,10 +527,10 @@ onglets page session
 	border-right:1px solid #D9DCE1;
 	color:#1d3651;
 }
-.onglet .inv {
+.inv {
 	background-color:white;
 }
-.onglet .inv h2 {
+.inv h2 {
 	color:#1d3651;
 }
 
@@ -552,18 +553,20 @@ onglets page session
 .onglet .bottom p{font-family: 'Roboto';font-size: 18px;font-weight:lighter;}
 
 .onglet .left{
-	background-color:#D0D4D5;padding:10px;display:inline-block;width:80px;
-	padding-bottom:5px;
+	padding:10px;display:inline-block;width:80px;
+	padding-top:5px;
+	padding-bottom:0px;
 }
 
 .onglet .right{
 
-	background-color:#EBEFF0;
+	
 	padding:10px;
 	display:inline-block;
 	width: calc(100% - 84px);
 
-	padding-bottom:5px;
+	padding-top:5px;
+	padding-bottom:0px;
 
 
 }
@@ -635,31 +638,37 @@ onglets page session
 	border-top-left-radius:20px;
 }
 
-		/*@media screen and (max-width:1200px){
-			.cadre-2 .lg .cadre-arrondi-gauche{border-bottom-left-radius:0px;border-top-right-radius: 20px;}
-			.cadre-2 .lg .cadre-arrondi-droit{border-top-right-radius: 0px;border-bottom-right-radius: 20px;}
-		}*/
+.onglet .left{
+	padding:10px;display:inline-block;width:80px;
+	padding-bottom:0px;
+}
+
+.onglet .right{
+
+	
+	padding:10px;
+	display:inline-block;
+	padding-bottom:0px;
+
+
+}
 
 		@media screen and (max-width:992px){
 			.col-md .cadre-2 .cadre-arrondi-gauche{border-bottom-left-radius:0px;border-top-right-radius: 20px;}
 			.col-md .cadre-2 .cadre-arrondi-droit{border-top-right-radius: 0px;border-bottom-left-radius: 20px;border-bottom-right-radius: 20px;}
 		}
 
-		/*@media screen and (max-width:768px){
-			.cadre-2 .sm .cadre-arrondi-gauche{border-bottom-left-radius:0px;border-top-right-radius: 20px;}
-			.cadre-2 .sm .cadre-arrondi-droit{border-top-right-radius: 0px;border-bottom-right-radius: 20px;}
-			}*/
 
 		@media screen and (max-width:480px){
 			.col-xs .cadre-3 .cadre-arrondi-gauche{
 				border-radius: 0px;
 			}
-			.col-xs .cadre-2 .cadre-arrondi-gauche{border-bottom-left-radius:0px;border-top-right-radius: 20px;}
-			.col-xs .cadre-2 .cadre-arrondi-droit{border-top-right-radius: 0px;border-bottom-left-radius: 20px;border-bottom-right-radius: 20px;}
+			.col-xs .cadre-2 .cadre-arrondi-gauche{border-bottom-left-radius:0px;border-top-right-radius: 20px;width:100%;}
+			.col-xs .cadre-2 .cadre-arrondi-droit{border-top-right-radius: 0px;border-bottom-left-radius: 20px;border-bottom-right-radius: 20px;width:100%;}
 
 		}
 
-
+#planning summary {color:#44b8ca;font-family: 'Montserrat'; font-size:23px;font-weight: bold;}
 .liseret{
 	background-color: rgba(0, 0, 0, 0.7);
 	color:white;
