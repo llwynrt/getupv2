@@ -14,7 +14,7 @@ $payment = Payplug\Payment::create(array(
             'return_url'        => 'https://www.example.com/thank_you_for_your_payment.html',
             'cancel_url'        => 'https://www.example.com/so_bad_it_didnt_make_it.html'
         ),
-        'notification_url'      => 'http://www.example.com/callbackURL'
+        'notification_url'      => 'http://marie-alex.fr/getupv2/notification.php'
 ));
 
 // You will be able to find how the payment object is built in the documentation.

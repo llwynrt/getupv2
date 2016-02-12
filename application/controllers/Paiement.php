@@ -11,8 +11,12 @@ class Paiement extends CI_Controller {
      */    
 	public function view($page){
   
-
-        $data['prix'] = $page;
+        switch($page){
+            case "green-web" : $data['prix'] = 1500;break;
+            case "ecommerce-chateau" : $data['prix'] = 11200;break;
+            case "ecommerce-chateau_early-bird" : $data['prix'] = 8960;break;
+            case "ecommerce-chateau_chomeur" : $data['prix'] = 8245;break;
+        }
         $this->load->view('templates/acheter',$data);
        
 	

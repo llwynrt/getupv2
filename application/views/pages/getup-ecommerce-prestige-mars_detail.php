@@ -158,7 +158,7 @@
 										<h3 style="color:#efaf42;">11 200€</h3>
 									</div>
 									<div class="bottom" style="background-color:#efaf42;">
-										<div class="button btn-white" style=""><a href="getup-prestige-mars-inscription.html">J'en profite !</a>
+										<div class="button btn-white" style=""><a href="paiement/ecommerce-chateau">J'en profite !</a>
 										</div>
 									</div>
 								</div>
@@ -171,7 +171,7 @@
 										<h3 style="color:#44b8ca;">8 960€</h3>
 									</div>
 									<div class="bottom" style="background-color:#44b8ca;">
-										<div class="button btn-white"><a href="getup-prestige-mars-inscription.html">J'en profite !</a>
+										<div class="button btn-white"><a href="paiement/ecommerce-chateau_early-bird">J'en profite !</a>
 										</div>
 									</div>
 
@@ -185,7 +185,7 @@
 										<h3 style="color:#e7525f;">8 245€</h3>
 									</div>
 									<div class="bottom" style="background-color:#e7525f;">
-										<div class="button btn-white"><a href="getup-prestige-mars-inscription.html">J'en profite !</a></div>
+										<div class="button btn-white"><a href="paiement/ecommerce-chateau_chomeur">J'en profite !</a></div>
 									</div>
 								</div>
 							</div>
