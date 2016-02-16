@@ -109,7 +109,7 @@
 					© GetUP 2016
 				</div>
 				<div class="col col-sm-6 col-ms-8 text-center">
-					<a href="mentions.html">Mentions Légales</a>
+					<a href="mentions.html">Mentions Légales</a> | <a href="cgv.html">CGV</a>
 				</div>
 			</div>
 			<!-- /.row -->

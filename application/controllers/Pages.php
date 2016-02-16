@@ -42,7 +42,7 @@ class Pages extends CI_Controller {
 		}
 
 		/* les pages contenant une seule section ont toutes la même structure, on leur ajoute donc un header et footer supplémentaire, plutôt que de dupliquer du code*/
-		$pageSectionUnique = ['creersession','contact','getup-prix-libre','liens','mentions','postuler','postuler','carte','suggerersession', 'agenda','sondage','questionnaire', 'plan','liens','getup-prestige-mars-inscription'];
+		$pageSectionUnique = ['creersession','contact','getup-prix-libre','liens','mentions','postuler','postuler','carte','suggerersession', 'agenda','sondage','questionnaire', 'plan','liens','getup-prestige-mars-inscription','cgv'];
 		
 		$isUnique = false;
 		if (in_array ($page , $pageSectionUnique)){
